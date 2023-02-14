@@ -2,7 +2,15 @@
 
 > &#128679; Placeholder for future project &#128679;
 
-![](docs/vr98-layout.svg)
+### Encoder Variant
+
+![](docs/vr98-knob.svg)
+![](docs/kchron-q5-knob.jpg)
+
+### 1800 Variant
+
+![](docs/vr98-1800.svg)
+![](docs/kchron-q5-1800.jpg)
 
 ## Intent
 

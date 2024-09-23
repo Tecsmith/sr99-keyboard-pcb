@@ -1,13 +1,26 @@
 # VR99-Keyboard-PCB
 
-> &#128679; Placeholder for future project &#128679;
+> &#128679; Product under development &#128679;
 
-![](docs/vr99-layout.png)
-![](docs/vr99-render.png)
+> &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
+> &#9888; ***DO NOT BUILD*** &#9888; <br>
+> &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;
 
 ## Intent
 
 A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-Key RGB and a top-right corner rotary encoder
+
+### Pre-beta PCB renders
+
+![](docs/vr99-pcb-top.png)
+![](docs/vr99-pcb-btm.png)
+
+### Layout ideation renders
+
+![](docs/vr99-render.png)
+![](docs/vr99-layout.png)
+![](docs/vr99-matrix.png)
+
 
 ## Planned Features
 

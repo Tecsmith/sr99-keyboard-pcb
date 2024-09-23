@@ -6,6 +6,7 @@
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
 > &#128679; `_________________________` &#128679;
 
+
 ## Intent
 
 A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB and a top-right corner rotary encoder
@@ -21,13 +22,13 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 ### Layout ideation renders
 
 #### Render
-![](docs/vr99-render.png)
+![Render](docs/vr99-render.png)
 
 #### Layout
-![](docs/vr99-layout.png)
+![Layout](docs/vr99-layout.png)
 
 #### Matrix coordinates *(QMK & VIA)*
-![](docs/vr99-matrix.png)
+![Matrix](docs/vr99-matrix.png)
 
 
 ## Planned Features
@@ -41,12 +42,18 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 - [ ] 2x SKYLONG rotary encoder/swich posiotions *(wired for only one in use)*
 - [ ] C3/4 UDB Usb-C 
 
+
 ## Wishlist
 
 - [ ] Drop in replacement PCB *(e.g. compatable standoff positions)* for:
-    - Brutal 1800
+    - Brutal v2 1800
     - Monsgeek M2
+
 
 ## Possible BIG issues
 
 - [ ] SPI variant for the IS31FL3745***B*** has no driver in QMK, may need to code one up
+
+
+---
+Made with &#9829; by Vino Rodrigues

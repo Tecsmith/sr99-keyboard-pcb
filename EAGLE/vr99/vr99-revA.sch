@@ -27107,13 +27107,14 @@ Board (C4) Conn.</text>
 <text x="83.82" y="73.66" size="1.778" layer="91" rot="R90">Column Scanner
 Shift Registers</text>
 <text x="25.4" y="66.04" size="1.778" layer="91">BOOT1</text>
-<text x="27.178" y="52.578" size="1.778" layer="91">Status LED</text>
+<text x="26.162" y="54.102" size="1.778" layer="91">Status LED</text>
 <text x="218.44" y="104.14" size="1.778" layer="91">Shift/Reg Decoupling</text>
 <text x="187.96" y="165.1" size="1.778" layer="91">Shift/Reg / Col-scan Pulldowns</text>
 <text x="182.88" y="12.7" size="1.778" layer="91">Monsgeek M2 Drop-In
 Mounting Holes (marked with Triangle)
 and JST connector pinout need to
 be confirmed still.</text>
+<circle x="41.91" y="45.72" radius="4.572" width="0.1524" layer="104"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-3.81" y="-3.81" smashed="yes">
@@ -27397,8 +27398,8 @@ be confirmed still.</text>
 <attribute name="VALUE" x="226.695" y="113.665" size="1.778" layer="96"/>
 </instance>
 <instance part="D107" gate="G$1" x="40.64" y="45.72" smashed="yes">
-<attribute name="NAME" x="38.1" y="49.53" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="38.1" y="43.18" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="39.37" y="50.8" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="39.37" y="40.64" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>

@@ -604,15 +604,14 @@ DIN A5, landscape with doc field</description>
 <parts>
 <part name="JDIP1" library="molex-pico-ezmate" deviceset="MOLEX_0781710006" device=""/>
 <part name="SUPPLY67" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$7" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="F1" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 <part name="D1" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA5_L" device=""/>
-<part name="U$1" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 <part name="D2" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D3" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D4" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="DIP-SWITCH" library="untitled" deviceset="DIP004" device=""/>
-<part name="U$2" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="F2" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -626,7 +625,7 @@ DIN A5, landscape with doc field</description>
 <instance part="SUPPLY67" gate="GND" x="78.74" y="66.04" smashed="yes">
 <attribute name="VALUE" x="76.835" y="62.865" size="1.778" layer="96"/>
 </instance>
-<instance part="U$7" gate="G$1" x="134.62" y="20.32" smashed="yes"/>
+<instance part="F1" gate="G$1" x="134.62" y="20.32" smashed="yes"/>
 <instance part="D1" gate="G$1" x="104.14" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.045" y="73.406" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="100.711" y="73.406" size="1.778" layer="96" rot="R270"/>
@@ -636,7 +635,6 @@ DIN A5, landscape with doc field</description>
 <attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="134.62" y="15.24" smashed="yes"/>
 <instance part="D2" gate="G$1" x="111.76" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.665" y="73.406" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="108.331" y="73.406" size="1.778" layer="96" rot="R270"/>
@@ -653,7 +651,7 @@ DIN A5, landscape with doc field</description>
 <attribute name="NAME" x="91.44" y="86.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.44" y="71.755" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="134.62" y="10.16" smashed="yes"/>
+<instance part="F2" gate="G$1" x="134.62" y="10.16" smashed="yes"/>
 </instances>
 <busses>
 </busses>

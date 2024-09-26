@@ -26925,7 +26925,7 @@ Switches electronic signals</description>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
-<part name="EEP" library="ts_kb_mcu" deviceset="M25C" device=""/>
+<part name="EEPROM" library="ts_kb_mcu" deviceset="M25C" device=""/>
 <part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
 <part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
 <part name="C27" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
@@ -26966,8 +26966,8 @@ Switches electronic signals</description>
 <part name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="SUPPLY57" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
 <part name="SUPPLY60" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U_LED1" library="ts_kb_mcu" deviceset="IS31FL3743B" device=""/>
-<part name="U_LED2" library="ts_kb_mcu" deviceset="IS31FL3743B" device=""/>
+<part name="U5" library="ts_kb_mcu" deviceset="IS31FL3743B" device=""/>
+<part name="U6" library="ts_kb_mcu" deviceset="IS31FL3743B" device=""/>
 <part name="Z101" library="ts_keyboards" deviceset="156120M173000" device="MILL"/>
 <part name="Z56" library="ts_keyboards" deviceset="156120M173000" device="MILL"/>
 <part name="Z103" library="ts_keyboards" deviceset="156120M173000" device="MILL"/>
@@ -26983,12 +26983,11 @@ Switches electronic signals</description>
 <part name="H_NP" library="ts_keyboards" deviceset="MX-STABS-200U" device=""/>
 <part name="H_SPC" library="ts_keyboards" deviceset="MX-STABS-625U" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="UDB2" library="ts_keyboards" deviceset="UBD-C3" device=""/>
 <part name="UDB1" library="ts_keyboards" deviceset="UBD-S1_C4" device=""/>
 <part name="RST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="U1" library="st" deviceset="STM32F411CEU7" device="THERM"/>
-<part name="U5" library="__untitled" deviceset="TPS22995H-Q1" device=""/>
+<part name="U7" library="__untitled" deviceset="TPS22995H-Q1" device=""/>
 <part name="R1" library="ts_keyboards" deviceset="R-EU-4" device="" value="10K"/>
 <part name="R2" library="ts_keyboards" deviceset="R-EU-4" device="" value="10K"/>
 <part name="R3" library="ts_keyboards" deviceset="R-EU-4" device="" value="10K"/>
@@ -27014,8 +27013,8 @@ Switches electronic signals</description>
 <part name="Z18" library="ts_keyboards" deviceset="156120M173000" device="MILL"/>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
-<part name="T3" library="__untitled" deviceset="AO3401A" device=""/>
-<part name="T2" library="__untitled" deviceset="AO3401A" device=""/>
+<part name="Q5" library="__untitled" deviceset="AO3401A" device=""/>
+<part name="Q4" library="__untitled" deviceset="AO3401A" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R0" library="ts_keyboards" deviceset="R-EU-4" device="" value="10K"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330K"/>
@@ -27039,8 +27038,8 @@ Switches electronic signals</description>
 <part name="U$3" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q1" library="ts_custom_nick_nacks" deviceset="2N7002" device="-BSS138" value="2N7002"/>
 <part name="Q2" library="ts_custom_nick_nacks" deviceset="2N7002" device="-BSS138" value="2N7002"/>
+<part name="Q3" library="ts_custom_nick_nacks" deviceset="2N7002" device="-BSS138" value="2N7002"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100R"/>
@@ -27050,7 +27049,7 @@ Switches electronic signals</description>
 <part name="SUPPLY51" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY52" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q0" library="ts_custom_nick_nacks" deviceset="2N7002" device="-BSS138" value="2N7002"/>
+<part name="Q1" library="ts_custom_nick_nacks" deviceset="2N7002" device="-BSS138" value="2N7002"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LOGO1" library="random_logos" deviceset="OSHW-LOGO" device="L"/>
 <part name="U$4" library="random_logos" deviceset="QMK_LOGO" device=""/>
@@ -27076,7 +27075,7 @@ Switches electronic signals</description>
 <part name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V"/>
 <part name="SUPPLY63" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U6" library="__untitled" deviceset="TPS22995H-Q1" device=""/>
+<part name="U8" library="__untitled" deviceset="TPS22995H-Q1" device=""/>
 <part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D107" library="untitled" deviceset="LED-REVERSE-MOUNT" device="" value="BLUE"/>
@@ -27244,7 +27243,7 @@ be confirmed still.</text>
 <instance part="SUPPLY26" gate="G$2" x="218.44" y="50.8" smashed="yes">
 <attribute name="VALUE" x="218.44" y="53.594" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="EEP" gate="G$1" x="116.84" y="17.78" smashed="yes">
+<instance part="EEPROM" gate="G$1" x="116.84" y="17.78" smashed="yes">
 <attribute name="NAME" x="109.22" y="23.114" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="109.22" y="9.906" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
@@ -27390,7 +27389,7 @@ be confirmed still.</text>
 <attribute name="NAME" x="87.63" y="134.62" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.394" y="122.682" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q0" gate="NMOS" x="109.22" y="48.26" smashed="yes">
+<instance part="Q1" gate="NMOS" x="109.22" y="48.26" smashed="yes">
 <attribute name="NAME" x="107.696" y="52.832" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="112.776" y="42.672" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -27420,7 +27419,7 @@ be confirmed still.</text>
 <wire x1="93.98" y1="68.58" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="DO"/>
+<pinref part="EEPROM" gate="G$1" pin="DO"/>
 <wire x1="106.68" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="101.6" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -27432,7 +27431,7 @@ be confirmed still.</text>
 <pinref part="U1" gate="A" pin="PA7"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="DIO"/>
+<pinref part="EEPROM" gate="G$1" pin="DIO"/>
 <wire x1="127" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <label x="129.54" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -27555,7 +27554,7 @@ be confirmed still.</text>
 <junction x="193.04" y="63.5"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="!WP"/>
+<pinref part="EEPROM" gate="G$1" pin="!WP"/>
 <pinref part="SUPPLY44" gate="G$1" pin="VCC_2"/>
 <wire x1="96.52" y1="10.16" x2="96.52" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
@@ -27584,9 +27583,9 @@ be confirmed still.</text>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC_2"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="VCC"/>
+<pinref part="EEPROM" gate="G$1" pin="VCC"/>
 <wire x1="127" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="EEP" gate="G$1" pin="!HLD"/>
+<pinref part="EEPROM" gate="G$1" pin="!HLD"/>
 <wire x1="127" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="17.78" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="129.54" y="20.32"/>
@@ -27743,7 +27742,7 @@ be confirmed still.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
-<pinref part="EEP" gate="G$1" pin="GND"/>
+<pinref part="EEPROM" gate="G$1" pin="GND"/>
 <wire x1="106.68" y1="12.7" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="12.7" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 </segment>
@@ -27808,7 +27807,7 @@ be confirmed still.</text>
 <segment>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
 <wire x1="111.76" y1="40.64" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q0" gate="NMOS" pin="S"/>
+<pinref part="Q1" gate="NMOS" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
@@ -28342,7 +28341,7 @@ be confirmed still.</text>
 <junction x="106.68" y="60.96"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="CLK"/>
+<pinref part="EEPROM" gate="G$1" pin="CLK"/>
 <wire x1="127" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <label x="129.54" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -28372,7 +28371,7 @@ be confirmed still.</text>
 <label x="96.52" y="43.18" size="1.27" layer="95"/>
 <wire x1="88.9" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <junction x="96.52" y="50.8"/>
-<pinref part="Q0" gate="NMOS" pin="G"/>
+<pinref part="Q1" gate="NMOS" pin="G"/>
 </segment>
 <segment>
 <label x="33.02" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -28413,12 +28412,12 @@ be confirmed still.</text>
 <label x="119.38" y="53.34" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="119.38" y1="53.34" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <junction x="119.38" y="55.88"/>
-<pinref part="Q0" gate="NMOS" pin="D"/>
+<pinref part="Q1" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="EE_CS" class="0">
 <segment>
-<pinref part="EEP" gate="G$1" pin="!CS"/>
+<pinref part="EEPROM" gate="G$1" pin="!CS"/>
 <wire x1="106.68" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 <label x="101.6" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29464,9 +29463,6 @@ DIP SWITCH 4</text>
 <instance part="SUPPLY14" gate="GND" x="40.64" y="33.02" smashed="yes">
 <attribute name="VALUE" x="38.735" y="29.845" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="48.26" y="10.16" smashed="yes">
-<attribute name="VALUE" x="46.355" y="6.985" size="1.778" layer="96"/>
-</instance>
 <instance part="RST" gate="G$1" x="314.96" y="104.14" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="310.134" y="101.6" size="1.778" layer="96" font="vector" rot="MR90"/>
 <attribute name="NAME" x="320.548" y="101.6" size="1.778" layer="95" font="vector" rot="MR90"/>
@@ -29511,11 +29507,11 @@ DIP SWITCH 4</text>
 <attribute name="NAME" x="336.804" y="180.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="336.804" y="175.641" size="1.778" layer="96"/>
 </instance>
-<instance part="T3" gate="A" x="363.22" y="195.58" smashed="yes" rot="MR180">
+<instance part="Q5" gate="A" x="363.22" y="195.58" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="365.76" y="195.58" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="365.76" y="193.04" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="T2" gate="A" x="363.22" y="215.9" smashed="yes" rot="MR180">
+<instance part="Q4" gate="A" x="363.22" y="215.9" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="365.76" y="215.9" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="365.76" y="213.36" size="1.778" layer="95" rot="MR180"/>
 </instance>
@@ -29569,11 +29565,11 @@ DIP SWITCH 4</text>
 <instance part="U$1" gate="G$1" x="335.28" y="17.78" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="335.28" y="12.7" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="335.28" y="7.62" smashed="yes"/>
-<instance part="Q1" gate="NMOS" x="330.2" y="83.82" smashed="yes">
+<instance part="Q2" gate="NMOS" x="330.2" y="83.82" smashed="yes">
 <attribute name="NAME" x="337.82" y="83.82" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="337.82" y="81.28" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="355.6" y="116.84" smashed="yes">
+<instance part="Q3" gate="NMOS" x="355.6" y="116.84" smashed="yes">
 <attribute name="NAME" x="363.22" y="116.84" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="363.22" y="114.3" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -29790,13 +29786,13 @@ DIP SWITCH 4</text>
 <wire x1="284.48" y1="233.68" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="T2" gate="A" pin="S"/>
+<pinref part="Q4" gate="A" pin="S"/>
 <label x="365.76" y="223.52" size="1.27" layer="95" xref="yes"/>
 <wire x1="365.76" y1="223.52" x2="363.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="223.52" x2="363.22" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="T3" gate="A" pin="S"/>
+<pinref part="Q5" gate="A" pin="S"/>
 <label x="365.76" y="203.2" size="1.27" layer="95" xref="yes"/>
 <wire x1="365.76" y1="203.2" x2="363.22" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="203.2" x2="363.22" y2="200.66" width="0.1524" layer="91"/>
@@ -30722,7 +30718,7 @@ DIP SWITCH 4</text>
 <label x="228.6" y="223.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T2" gate="A" pin="D"/>
+<pinref part="Q4" gate="A" pin="D"/>
 <label x="365.76" y="208.28" size="1.27" layer="95" xref="yes"/>
 <wire x1="363.22" y1="208.28" x2="363.22" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="208.28" x2="365.76" y2="208.28" width="0.1524" layer="91"/>
@@ -31453,7 +31449,7 @@ DIP SWITCH 4</text>
 <wire x1="347.98" y1="101.6" x2="347.98" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="NMOS" pin="S"/>
+<pinref part="Q3" gate="NMOS" pin="S"/>
 <pinref part="SUPPLY51" gate="GND" pin="GND"/>
 <wire x1="358.14" y1="111.76" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -31464,7 +31460,7 @@ DIP SWITCH 4</text>
 </segment>
 <segment>
 <pinref part="SUPPLY52" gate="GND" pin="GND"/>
-<pinref part="Q1" gate="NMOS" pin="S"/>
+<pinref part="Q2" gate="NMOS" pin="S"/>
 <wire x1="332.74" y1="76.2" x2="332.74" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -31722,7 +31718,7 @@ DIP SWITCH 4</text>
 <label x="292.1" y="223.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T3" gate="A" pin="D"/>
+<pinref part="Q5" gate="A" pin="D"/>
 <label x="365.76" y="187.96" size="1.27" layer="95" xref="yes"/>
 <wire x1="363.22" y1="187.96" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="187.96" x2="365.76" y2="187.96" width="0.1524" layer="91"/>
@@ -31817,7 +31813,7 @@ DIP SWITCH 4</text>
 <wire x1="360.68" y1="228.6" x2="360.68" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="226.06" x2="355.6" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="SW_F17" gate="G$1" pin="S"/>
-<pinref part="T3" gate="A" pin="G"/>
+<pinref part="Q5" gate="A" pin="G"/>
 <wire x1="350.52" y1="198.12" x2="355.6" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="198.12" x2="358.14" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="226.06" x2="355.6" y2="198.12" width="0.1524" layer="91"/>
@@ -31828,7 +31824,7 @@ DIP SWITCH 4</text>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="SW_F13" gate="G$1" pin="S"/>
-<pinref part="T2" gate="A" pin="G"/>
+<pinref part="Q4" gate="A" pin="G"/>
 <wire x1="350.52" y1="218.44" x2="353.06" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="218.44" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 <junction x="353.06" y="218.44"/>
@@ -31874,7 +31870,7 @@ DIP SWITCH 4</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="Q2" gate="NMOS" pin="D"/>
+<pinref part="Q3" gate="NMOS" pin="D"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="358.14" y1="121.92" x2="358.14" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -31882,7 +31878,7 @@ DIP SWITCH 4</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="NMOS" pin="G"/>
+<pinref part="Q3" gate="NMOS" pin="G"/>
 <wire x1="345.44" y1="114.3" x2="347.98" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="114.3" x2="350.52" y2="114.3" width="0.1524" layer="91"/>
@@ -31894,7 +31890,7 @@ DIP SWITCH 4</text>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="335.28" y1="114.3" x2="332.74" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="NMOS" pin="D"/>
+<pinref part="Q2" gate="NMOS" pin="D"/>
 <wire x1="332.74" y1="114.3" x2="332.74" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="91.44" x2="332.74" y2="88.9" width="0.1524" layer="91"/>
@@ -31904,7 +31900,7 @@ DIP SWITCH 4</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="Q1" gate="NMOS" pin="G"/>
+<pinref part="Q2" gate="NMOS" pin="G"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="81.28" x2="322.58" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
@@ -31934,14 +31930,6 @@ DIP SWITCH 4</text>
 <wire x1="327.66" y1="116.84" x2="327.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="114.3" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
 <junction x="325.12" y="116.84"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="48.26" y1="12.7" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="JDIP" gate="G$1" pin="M"/>
-<wire x1="48.26" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -32353,11 +32341,11 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <instance part="SUPPLY60" gate="GND" x="365.76" y="58.42" smashed="yes">
 <attribute name="VALUE" x="363.855" y="55.245" size="1.778" layer="96"/>
 </instance>
-<instance part="U_LED1" gate="G$1" x="134.62" y="48.26" smashed="yes" rot="R90">
+<instance part="U5" gate="G$1" x="134.62" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="98.298" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="180.34" y="38.354" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="U_LED2" gate="G$1" x="236.22" y="48.26" smashed="yes" rot="R90">
+<instance part="U6" gate="G$1" x="236.22" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.898" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="281.94" y="38.354" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
@@ -32385,7 +32373,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <instance part="Z107" gate="G$1" x="147.32" y="106.68" smashed="yes">
 <attribute name="NAME" x="142.748" y="115.189" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U5" gate="A" x="337.82" y="68.58" smashed="yes">
+<instance part="U7" gate="A" x="337.82" y="68.58" smashed="yes">
 <attribute name="NAME" x="332.74" y="77.47" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="332.74" y="74.93" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
@@ -32449,7 +32437,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <instance part="SUPPLY63" gate="GND" x="365.76" y="30.48" smashed="yes">
 <attribute name="VALUE" x="363.855" y="27.305" size="1.778" layer="96"/>
 </instance>
-<instance part="U6" gate="A" x="337.82" y="40.64" smashed="yes">
+<instance part="U8" gate="A" x="337.82" y="40.64" smashed="yes">
 <attribute name="NAME" x="332.74" y="49.53" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="332.74" y="46.99" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
@@ -32650,7 +32638,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <label x="101.6" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW11"/>
+<pinref part="U5" gate="G$1" pin="SW11"/>
 </segment>
 </net>
 <net name="GRN2" class="0">
@@ -33419,7 +33407,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="106.68" y1="63.5" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <label x="106.68" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW9"/>
+<pinref part="U5" gate="G$1" pin="SW9"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -33449,7 +33437,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="111.76" y1="63.5" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <label x="111.76" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW7"/>
+<pinref part="U5" gate="G$1" pin="SW7"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -33479,7 +33467,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="116.84" y1="63.5" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <label x="116.84" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW5"/>
+<pinref part="U5" gate="G$1" pin="SW5"/>
 </segment>
 </net>
 <net name="LED5" class="0">
@@ -33509,7 +33497,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="121.92" y1="63.5" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <label x="121.92" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW3"/>
+<pinref part="U5" gate="G$1" pin="SW3"/>
 </segment>
 </net>
 <net name="LED6" class="0">
@@ -33539,7 +33527,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="127" y1="63.5" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <label x="127" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW1"/>
+<pinref part="U5" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="LED7" class="0">
@@ -33569,7 +33557,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="124.46" y1="63.5" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <label x="124.46" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW2"/>
+<pinref part="U5" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="LED8" class="0">
@@ -33599,7 +33587,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
 <label x="119.38" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW4"/>
+<pinref part="U5" gate="G$1" pin="SW4"/>
 </segment>
 </net>
 <net name="LED9" class="0">
@@ -33626,7 +33614,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="114.3" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW6"/>
+<pinref part="U5" gate="G$1" pin="SW6"/>
 </segment>
 </net>
 <net name="LED10" class="0">
@@ -33647,7 +33635,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="109.22" y1="63.5" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <label x="109.22" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SW8"/>
+<pinref part="U5" gate="G$1" pin="SW8"/>
 </segment>
 </net>
 <net name="LED11" class="0">
@@ -33677,7 +33665,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="203.2" y1="63.5" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="203.2" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW11"/>
+<pinref part="U6" gate="G$1" pin="SW11"/>
 </segment>
 </net>
 <net name="LED12" class="0">
@@ -33707,7 +33695,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="208.28" y1="63.5" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="208.28" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW9"/>
+<pinref part="U6" gate="G$1" pin="SW9"/>
 </segment>
 </net>
 <net name="LED13" class="0">
@@ -33737,7 +33725,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="213.36" y1="63.5" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <label x="213.36" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW7"/>
+<pinref part="U6" gate="G$1" pin="SW7"/>
 </segment>
 </net>
 <net name="LED14" class="0">
@@ -33764,7 +33752,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="218.44" y1="63.5" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="218.44" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW5"/>
+<pinref part="U6" gate="G$1" pin="SW5"/>
 </segment>
 </net>
 <net name="LED16" class="0">
@@ -33793,7 +33781,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="228.6" y1="63.5" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
 <label x="228.6" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW1"/>
+<pinref part="U6" gate="G$1" pin="SW1"/>
 </segment>
 </net>
 <net name="LED17" class="0">
@@ -33820,7 +33808,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="226.06" y1="63.5" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 <label x="226.06" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW2"/>
+<pinref part="U6" gate="G$1" pin="SW2"/>
 </segment>
 </net>
 <net name="LED18" class="0">
@@ -33850,7 +33838,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="220.98" y1="63.5" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
 <label x="220.98" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW4"/>
+<pinref part="U6" gate="G$1" pin="SW4"/>
 </segment>
 </net>
 <net name="LED19" class="0">
@@ -33880,7 +33868,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="215.9" y1="63.5" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="215.9" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW6"/>
+<pinref part="U6" gate="G$1" pin="SW6"/>
 </segment>
 </net>
 <net name="LED15" class="0">
@@ -33905,7 +33893,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="223.52" y1="63.5" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
 <label x="223.52" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW3"/>
+<pinref part="U6" gate="G$1" pin="SW3"/>
 </segment>
 </net>
 <net name="LED20" class="0">
@@ -33929,7 +33917,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <wire x1="210.82" y1="63.5" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
 <label x="210.82" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SW8"/>
+<pinref part="U6" gate="G$1" pin="SW8"/>
 </segment>
 </net>
 <net name="GRN7" class="0">
@@ -34839,7 +34827,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB7" class="0">
 <segment>
 <wire x1="276.86" y1="66.04" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS1"/>
+<pinref part="U6" gate="G$1" pin="CS1"/>
 <label x="276.86" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34851,7 +34839,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG7" class="0">
 <segment>
 <wire x1="274.32" y1="66.04" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS2"/>
+<pinref part="U6" gate="G$1" pin="CS2"/>
 <label x="274.32" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34863,7 +34851,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR7" class="0">
 <segment>
 <wire x1="271.78" y1="66.04" x2="271.78" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS3"/>
+<pinref part="U6" gate="G$1" pin="CS3"/>
 <label x="271.78" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34875,7 +34863,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB8" class="0">
 <segment>
 <wire x1="269.24" y1="63.5" x2="269.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS4"/>
+<pinref part="U6" gate="G$1" pin="CS4"/>
 <label x="269.24" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34887,7 +34875,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG8" class="0">
 <segment>
 <wire x1="266.7" y1="63.5" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS5"/>
+<pinref part="U6" gate="G$1" pin="CS5"/>
 <label x="266.7" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34899,7 +34887,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR8" class="0">
 <segment>
 <wire x1="264.16" y1="66.04" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS6"/>
+<pinref part="U6" gate="G$1" pin="CS6"/>
 <label x="264.16" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34911,7 +34899,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB9" class="0">
 <segment>
 <wire x1="261.62" y1="63.5" x2="261.62" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS7"/>
+<pinref part="U6" gate="G$1" pin="CS7"/>
 <label x="261.62" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34923,7 +34911,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG9" class="0">
 <segment>
 <wire x1="259.08" y1="66.04" x2="259.08" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS8"/>
+<pinref part="U6" gate="G$1" pin="CS8"/>
 <label x="259.08" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34935,7 +34923,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR9" class="0">
 <segment>
 <wire x1="256.54" y1="63.5" x2="256.54" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS9"/>
+<pinref part="U6" gate="G$1" pin="CS9"/>
 <label x="256.54" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34947,7 +34935,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB10" class="0">
 <segment>
 <wire x1="254" y1="66.04" x2="254" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS10"/>
+<pinref part="U6" gate="G$1" pin="CS10"/>
 <label x="254" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34959,7 +34947,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG10" class="0">
 <segment>
 <wire x1="251.46" y1="63.5" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS11"/>
+<pinref part="U6" gate="G$1" pin="CS11"/>
 <label x="251.46" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34971,7 +34959,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR10" class="0">
 <segment>
 <wire x1="248.92" y1="66.04" x2="248.92" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS12"/>
+<pinref part="U6" gate="G$1" pin="CS12"/>
 <label x="248.92" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34983,7 +34971,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG11" class="0">
 <segment>
 <wire x1="243.84" y1="63.5" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS14"/>
+<pinref part="U6" gate="G$1" pin="CS14"/>
 <label x="243.84" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -34995,7 +34983,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR11" class="0">
 <segment>
 <wire x1="241.3" y1="66.04" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS15"/>
+<pinref part="U6" gate="G$1" pin="CS15"/>
 <label x="241.3" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -35007,7 +34995,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB12" class="0">
 <segment>
 <wire x1="238.76" y1="63.5" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS16"/>
+<pinref part="U6" gate="G$1" pin="CS16"/>
 <label x="238.76" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -35019,7 +35007,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XG12" class="0">
 <segment>
 <wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS17"/>
+<pinref part="U6" gate="G$1" pin="CS17"/>
 <label x="236.22" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -35031,7 +35019,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XR12" class="0">
 <segment>
 <wire x1="233.68" y1="66.04" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS18"/>
+<pinref part="U6" gate="G$1" pin="CS18"/>
 <label x="233.68" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -35043,7 +35031,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="XB11" class="0">
 <segment>
 <wire x1="246.38" y1="63.5" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="CS13"/>
+<pinref part="U6" gate="G$1" pin="CS13"/>
 <label x="246.38" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -35088,7 +35076,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="175.26" y1="33.02" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U_LED1" gate="G$1" pin="EPAD"/>
+<pinref part="U5" gate="G$1" pin="EPAD"/>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="30.48" x2="175.26" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="12.7" x2="175.26" y2="10.16" width="0.1524" layer="91"/>
@@ -35103,11 +35091,11 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="12.7" x2="149.86" y2="17.78" width="0.1524" layer="91"/>
 <junction x="167.64" y="12.7"/>
-<pinref part="U_LED1" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="170.18" y1="33.02" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="30.48" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
 <junction x="175.26" y="30.48"/>
-<pinref part="U_LED1" gate="G$1" pin="PGND"/>
+<pinref part="U5" gate="G$1" pin="PGND"/>
 <wire x1="172.72" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="33.02" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
 <junction x="172.72" y="30.48"/>
@@ -35139,12 +35127,12 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="269.24" y1="20.32" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="12.7" x2="276.86" y2="12.7" width="0.1524" layer="91"/>
 <junction x="276.86" y="12.7"/>
-<pinref part="U_LED2" gate="G$1" pin="EPAD"/>
-<pinref part="U_LED2" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="EPAD"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="271.78" y1="33.02" x2="271.78" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="30.48" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="276.86" y="30.48"/>
-<pinref part="U_LED2" gate="G$1" pin="PGND"/>
+<pinref part="U6" gate="G$1" pin="PGND"/>
 <wire x1="274.32" y1="30.48" x2="276.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="33.02" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="274.32" y="30.48"/>
@@ -35158,7 +35146,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <junction x="269.24" y="12.7"/>
 </segment>
 <segment>
-<pinref part="U5" gate="A" pin="G"/>
+<pinref part="U7" gate="A" pin="G"/>
 <wire x1="350.52" y1="66.04" x2="353.06" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY60" gate="GND" pin="GND"/>
 <wire x1="353.06" y1="66.04" x2="353.06" y2="63.5" width="0.1524" layer="91"/>
@@ -35176,7 +35164,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="309.88" y1="71.12" x2="309.88" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U6" gate="A" pin="G"/>
+<pinref part="U8" gate="A" pin="G"/>
 <wire x1="350.52" y1="38.1" x2="353.06" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY63" gate="GND" pin="GND"/>
 <wire x1="353.06" y1="38.1" x2="353.06" y2="35.56" width="0.1524" layer="91"/>
@@ -35240,10 +35228,10 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <pinref part="SUPPLY57" gate="G$2" pin="VCC_1"/>
 <wire x1="325.12" y1="68.58" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="IN"/>
+<pinref part="U7" gate="A" pin="IN"/>
 <wire x1="327.66" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
 <junction x="325.12" y="71.12"/>
-<pinref part="U5" gate="A" pin="BI"/>
+<pinref part="U7" gate="A" pin="BI"/>
 <wire x1="327.66" y1="68.58" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
@@ -35254,10 +35242,10 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <segment>
 <pinref part="SUPPLY27" gate="G$2" pin="VCC_1"/>
 <wire x1="325.12" y1="40.64" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="IN"/>
+<pinref part="U8" gate="A" pin="IN"/>
 <wire x1="327.66" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
 <junction x="325.12" y="43.18"/>
-<pinref part="U6" gate="A" pin="BI"/>
+<pinref part="U8" gate="A" pin="BI"/>
 <wire x1="327.66" y1="40.64" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
@@ -35271,13 +35259,13 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="154.94" y1="33.02" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="157.48" y="30.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="U_LED1" gate="G$1" pin="SYNC"/>
+<pinref part="U5" gate="G$1" pin="SYNC"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="33.02" x2="256.54" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="31.75" x2="257.81" y2="31.75" width="0.1524" layer="91"/>
 <label x="257.81" y="31.75" size="1.27" layer="95" xref="yes"/>
-<pinref part="U_LED2" gate="G$1" pin="SYNC"/>
+<pinref part="U6" gate="G$1" pin="SYNC"/>
 </segment>
 </net>
 <net name="VCC_2" class="0">
@@ -35295,14 +35283,14 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="LED_PWR_EN" class="0">
 <segment>
 <label x="322.58" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U5" gate="A" pin="ON"/>
+<pinref part="U7" gate="A" pin="ON"/>
 <wire x1="322.58" y1="58.42" x2="325.12" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="58.42" x2="325.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="322.58" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U6" gate="A" pin="ON"/>
+<pinref part="U8" gate="A" pin="ON"/>
 <wire x1="322.58" y1="30.48" x2="325.12" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="30.48" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
@@ -35313,7 +35301,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="251.46" y1="27.94" x2="259.08" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="27.94" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="SDB"/>
+<pinref part="U6" gate="G$1" pin="SDB"/>
 <wire x1="241.3" y1="33.02" x2="241.3" y2="27.94" width="0.1524" layer="91"/>
 <label x="241.3" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="241.3" y1="27.94" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
@@ -35327,7 +35315,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="149.86" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="27.94" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U_LED1" gate="G$1" pin="SDB"/>
+<pinref part="U5" gate="G$1" pin="SDB"/>
 <wire x1="139.7" y1="33.02" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <label x="139.7" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="139.7" y1="27.94" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
@@ -35347,80 +35335,80 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <net name="N$151" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
-<pinref part="U_LED2" gate="G$1" pin="ISET"/>
+<pinref part="U6" gate="G$1" pin="ISET"/>
 <wire x1="269.24" y1="30.48" x2="269.24" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$136" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
-<pinref part="U_LED1" gate="G$1" pin="ISET"/>
+<pinref part="U5" gate="G$1" pin="ISET"/>
 <wire x1="167.64" y1="30.48" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="MISO"/>
+<pinref part="U5" gate="G$1" pin="MISO"/>
 <wire x1="137.16" y1="33.02" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
 <label x="137.16" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U_LED2" gate="G$1" pin="MISO"/>
+<pinref part="U6" gate="G$1" pin="MISO"/>
 <wire x1="238.76" y1="33.02" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
 <label x="238.76" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LED1_CS" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS"/>
+<pinref part="U5" gate="G$1" pin="CS"/>
 <wire x1="134.62" y1="33.02" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
 <label x="134.62" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="SCK"/>
+<pinref part="U5" gate="G$1" pin="SCK"/>
 <wire x1="132.08" y1="33.02" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="132.08" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U_LED2" gate="G$1" pin="SCK"/>
+<pinref part="U6" gate="G$1" pin="SCK"/>
 <wire x1="233.68" y1="33.02" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="233.68" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="MOSI"/>
+<pinref part="U5" gate="G$1" pin="MOSI"/>
 <wire x1="129.54" y1="33.02" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="129.54" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U_LED2" gate="G$1" pin="MOSI"/>
+<pinref part="U6" gate="G$1" pin="MOSI"/>
 <wire x1="231.14" y1="33.02" x2="231.14" y2="22.86" width="0.1524" layer="91"/>
 <label x="231.14" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LED2_CS" class="0">
 <segment>
-<pinref part="U_LED2" gate="G$1" pin="CS"/>
+<pinref part="U6" gate="G$1" pin="CS"/>
 <wire x1="236.22" y1="33.02" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
 <label x="236.22" y="22.86" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$135" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="RT"/>
+<pinref part="U7" gate="A" pin="RT"/>
 <wire x1="350.52" y1="68.58" x2="353.06" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R71" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC_LED_1" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="VCC"/>
+<pinref part="U5" gate="G$1" pin="VCC"/>
 <wire x1="114.3" y1="33.02" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U_LED1" gate="G$1" pin="PVCC"/>
+<pinref part="U5" gate="G$1" pin="PVCC"/>
 <wire x1="111.76" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <junction x="99.06" y="30.48"/>
@@ -35444,7 +35432,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </segment>
 <segment>
 <label x="360.68" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="A" pin="OUT"/>
+<pinref part="U7" gate="A" pin="OUT"/>
 <wire x1="350.52" y1="71.12" x2="355.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="71.12" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
@@ -35452,7 +35440,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR6" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS18"/>
+<pinref part="U5" gate="G$1" pin="CS18"/>
 <wire x1="132.08" y1="63.5" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <label x="132.08" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35464,7 +35452,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG6" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS17"/>
+<pinref part="U5" gate="G$1" pin="CS17"/>
 <wire x1="134.62" y1="63.5" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
 <label x="134.62" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35476,7 +35464,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB6" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS16"/>
+<pinref part="U5" gate="G$1" pin="CS16"/>
 <wire x1="137.16" y1="63.5" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <label x="137.16" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35488,7 +35476,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR5" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS15"/>
+<pinref part="U5" gate="G$1" pin="CS15"/>
 <wire x1="139.7" y1="63.5" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <label x="139.7" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35500,7 +35488,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG5" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS14"/>
+<pinref part="U5" gate="G$1" pin="CS14"/>
 <wire x1="142.24" y1="63.5" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 <label x="142.24" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35512,7 +35500,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB5" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS13"/>
+<pinref part="U5" gate="G$1" pin="CS13"/>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="144.78" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35524,7 +35512,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR4" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS12"/>
+<pinref part="U5" gate="G$1" pin="CS12"/>
 <wire x1="147.32" y1="63.5" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 <label x="147.32" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35536,7 +35524,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG4" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS11"/>
+<pinref part="U5" gate="G$1" pin="CS11"/>
 <wire x1="149.86" y1="63.5" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <label x="149.86" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35548,7 +35536,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB4" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS10"/>
+<pinref part="U5" gate="G$1" pin="CS10"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="152.4" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35560,7 +35548,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR3" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS9"/>
+<pinref part="U5" gate="G$1" pin="CS9"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <label x="154.94" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35572,7 +35560,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG3" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS8"/>
+<pinref part="U5" gate="G$1" pin="CS8"/>
 <wire x1="157.48" y1="63.5" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <label x="157.48" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35584,7 +35572,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB3" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS7"/>
+<pinref part="U5" gate="G$1" pin="CS7"/>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
 <label x="160.02" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35596,7 +35584,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR2" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS6"/>
+<pinref part="U5" gate="G$1" pin="CS6"/>
 <wire x1="162.56" y1="63.5" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <label x="162.56" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35608,7 +35596,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG2" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS5"/>
+<pinref part="U5" gate="G$1" pin="CS5"/>
 <wire x1="165.1" y1="63.5" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
 <label x="165.1" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35620,7 +35608,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB2" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS4"/>
+<pinref part="U5" gate="G$1" pin="CS4"/>
 <wire x1="167.64" y1="63.5" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
 <label x="167.64" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35632,7 +35620,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XR1" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS3"/>
+<pinref part="U5" gate="G$1" pin="CS3"/>
 <wire x1="170.18" y1="63.5" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="170.18" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35644,7 +35632,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XG1" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS2"/>
+<pinref part="U5" gate="G$1" pin="CS2"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
 <label x="172.72" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35656,7 +35644,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="XB1" class="0">
 <segment>
-<pinref part="U_LED1" gate="G$1" pin="CS1"/>
+<pinref part="U5" gate="G$1" pin="CS1"/>
 <wire x1="175.26" y1="63.5" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 <label x="175.26" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -35668,7 +35656,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="VCC_LED_2" class="0">
 <segment>
-<pinref part="U_LED2" gate="G$1" pin="VCC"/>
+<pinref part="U6" gate="G$1" pin="VCC"/>
 <wire x1="215.9" y1="33.02" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="30.48" x2="223.52" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -35682,7 +35670,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="30.48" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U_LED2" gate="G$1" pin="PVCC"/>
+<pinref part="U6" gate="G$1" pin="PVCC"/>
 <junction x="200.66" y="30.48"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="30.48" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
@@ -35695,7 +35683,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </segment>
 <segment>
 <label x="360.68" y="45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="U6" gate="A" pin="OUT"/>
+<pinref part="U8" gate="A" pin="OUT"/>
 <wire x1="350.52" y1="43.18" x2="355.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="43.18" x2="355.6" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="45.72" x2="360.68" y2="45.72" width="0.1524" layer="91"/>
@@ -35703,7 +35691,7 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U6" gate="A" pin="RT"/>
+<pinref part="U8" gate="A" pin="RT"/>
 <wire x1="350.52" y1="40.64" x2="353.06" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R72" gate="G$1" pin="2"/>
 </segment>
@@ -35711,6 +35699,169 @@ Replace this with the IS31FL3743A I2C variant.</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,2,48.26,12.7,GND,N$10,,,,"/>
+<approved hash="201,2,48.26,12.7,GND,GND\, N$10,,,,"/>
+<approved hash="104,1,243.84,48.26,UDB2,VCC,VCC_1,,,"/>
+<approved hash="104,1,218.44,48.26,UDB1,VCC,VCC_1,,,"/>
+<approved hash="104,1,129.54,160.02,U1B,VSS_2,GND,,,"/>
+<approved hash="104,1,129.54,157.48,U1B,VSS_3,GND,,,"/>
+<approved hash="104,1,129.54,154.94,U1B,VSS,GND,,,"/>
+<approved hash="104,1,129.54,149.86,U1B,VSSA,GND,,,"/>
+<approved hash="104,1,129.54,142.24,U1B,VBAT,GND,,,"/>
+<approved hash="104,1,160.02,160.02,U1B,VDD_2,VCC_2,,,"/>
+<approved hash="104,1,160.02,157.48,U1B,VDD_3,VCC_2,,,"/>
+<approved hash="104,1,160.02,154.94,U1B,VDD,VCC_2,,,"/>
+<approved hash="104,1,160.02,142.24,U1B,VCAP1,N$75,,,"/>
+<approved hash="104,3,327.66,68.58,U5,BI,VCC_1,,,"/>
+<approved hash="104,3,327.66,71.12,U5,IN,VCC_1,,,"/>
+<approved hash="104,3,350.52,71.12,U5,OUT,VCC_LED_1,,,"/>
+<approved hash="104,3,327.66,40.64,U6,BI,VCC_1,,,"/>
+<approved hash="104,3,327.66,43.18,U6,IN,VCC_1,,,"/>
+<approved hash="104,3,350.52,43.18,U6,OUT,VCC_LED_2,,,"/>
+<approved hash="104,2,48.26,30.48,JDIP,1,GND,,,"/>
+<approved hash="104,2,48.26,22.86,JDIP,4,COL4,,,"/>
+<approved hash="104,2,48.26,20.32,JDIP,5,COL6,,,"/>
+<approved hash="104,2,48.26,17.78,JDIP,6,COL7,,,"/>
+<approved hash="104,2,99.06,27.94,JTAG,VTREF,VCC_2,,,"/>
+<approved hash="206,3,327.66,66.04,LED_PWR_EN,,,,,"/>
+<approved hash="206,3,327.66,38.1,LED_PWR_EN,,,,,"/>
+<approved hash="105,2,341.63,50.8,N$3,,,,,"/>
+<approved hash="106,2,48.26,12.7,N$10,,,,,"/>
+<approved hash="106,2,50.8,15.24,N$10,,,,,"/>
+<approved hash="105,3,378.46,55.88,TECSMITH,,,,,"/>
+<approved hash="206,1,35.56,25.4,VCC_2,,,,,"/>
+<approved hash="206,1,35.56,22.86,VCC_2,,,,,"/>
+<approved hash="208,1,170.18,162.56,VCC_2,sup,,,,"/>
+<approved hash="208,1,114.3,120.65,VCC_2,sup,,,,"/>
+<approved hash="208,1,35.56,25.4,VCC_2,out,,,,"/>
+<approved hash="208,1,71.12,29.21,VCC_2,sup,,,,"/>
+<approved hash="208,1,35.56,22.86,VCC_2,out,,,,"/>
+<approved hash="208,1,116.84,66.04,VCC_2,sup,,,,"/>
+<approved hash="208,1,154.94,66.04,VCC_2,sup,,,,"/>
+<approved hash="208,1,215.9,104.14,VCC_2,sup,,,,"/>
+<approved hash="208,1,193.04,66.04,VCC_2,sup,,,,"/>
+<approved hash="208,1,96.52,10.16,VCC_2,sup,,,,"/>
+<approved hash="208,1,22.86,48.26,VCC_2,sup,,,,"/>
+<approved hash="208,1,157.48,130.81,VCC_2,sup,,,,"/>
+<approved hash="208,1,134.62,25.4,VCC_2,sup,,,,"/>
+<approved hash="208,2,218.44,15.24,VCC_2,sup,,,,"/>
+<approved hash="208,2,182.88,27.94,VCC_2,sup,,,,"/>
+<approved hash="208,2,345.44,243.84,VCC_2,sup,,,,"/>
+<approved hash="208,2,259.08,27.94,VCC_2,sup,,,,"/>
+<approved hash="208,2,309.88,121.92,VCC_2,sup,,,,"/>
+<approved hash="208,2,96.52,30.48,VCC_2,sup,,,,"/>
+<approved hash="208,3,309.88,15.24,VCC_2,sup,,,,"/>
+<approved hash="113,1,126.261,85.621,FRAME1,,,,,"/>
+<approved hash="113,2,189.761,126.261,FRAME2,,,,,"/>
+<approved hash="113,2,31.7729,215.9,D1,,,,,"/>
+<approved hash="113,2,47.0129,215.9,D2,,,,,"/>
+<approved hash="113,2,62.2529,215.9,D3,,,,,"/>
+<approved hash="113,2,77.4929,215.9,D4,,,,,"/>
+<approved hash="113,2,92.7329,215.9,D5,,,,,"/>
+<approved hash="113,2,107.973,215.9,D6,,,,,"/>
+<approved hash="113,2,123.213,215.9,D7,,,,,"/>
+<approved hash="113,2,138.453,215.9,D8,,,,,"/>
+<approved hash="113,2,153.693,215.9,D9,,,,,"/>
+<approved hash="113,2,168.933,215.9,D10,,,,,"/>
+<approved hash="113,2,184.173,215.9,D11,,,,,"/>
+<approved hash="113,2,199.413,215.9,D12,,,,,"/>
+<approved hash="113,2,214.653,215.9,D13,,,,,"/>
+<approved hash="113,2,229.893,215.9,D14,,,,,"/>
+<approved hash="113,2,247.673,215.9,D15,,,,,"/>
+<approved hash="113,2,262.913,215.9,D16,,,,,"/>
+<approved hash="113,2,278.153,215.9,D17,,,,,"/>
+<approved hash="113,2,293.393,215.9,D18,,,,,"/>
+<approved hash="113,2,31.7729,185.42,D19,,,,,"/>
+<approved hash="113,2,47.0129,185.42,D20,,,,,"/>
+<approved hash="113,2,62.2529,185.42,D21,,,,,"/>
+<approved hash="113,2,77.4929,185.42,D22,,,,,"/>
+<approved hash="113,2,92.7329,185.42,D23,,,,,"/>
+<approved hash="113,2,107.973,185.42,D24,,,,,"/>
+<approved hash="113,2,123.213,185.42,D25,,,,,"/>
+<approved hash="113,2,138.453,185.42,D26,,,,,"/>
+<approved hash="113,2,153.693,185.42,D27,,,,,"/>
+<approved hash="113,2,168.933,185.42,D28,,,,,"/>
+<approved hash="113,2,184.173,185.42,D29,,,,,"/>
+<approved hash="113,2,199.413,185.42,D30,,,,,"/>
+<approved hash="113,2,214.653,185.42,D31,,,,,"/>
+<approved hash="113,2,229.893,185.42,D32,,,,,"/>
+<approved hash="113,2,247.673,185.42,D33,,,,,"/>
+<approved hash="113,2,262.913,185.42,D34,,,,,"/>
+<approved hash="113,2,278.153,185.42,D35,,,,,"/>
+<approved hash="113,2,293.393,185.42,D36,,,,,"/>
+<approved hash="113,2,31.7729,154.94,D37,,,,,"/>
+<approved hash="113,2,47.0129,154.94,D38,,,,,"/>
+<approved hash="113,2,62.2529,154.94,D39,,,,,"/>
+<approved hash="113,2,77.4929,154.94,D40,,,,,"/>
+<approved hash="113,2,92.7329,154.94,D41,,,,,"/>
+<approved hash="113,2,107.973,154.94,D42,,,,,"/>
+<approved hash="113,2,123.213,154.94,D43,,,,,"/>
+<approved hash="113,2,138.453,154.94,D44,,,,,"/>
+<approved hash="113,2,153.693,154.94,D45,,,,,"/>
+<approved hash="113,2,168.933,154.94,D46,,,,,"/>
+<approved hash="113,2,184.173,154.94,D47,,,,,"/>
+<approved hash="113,2,199.413,154.94,D48,,,,,"/>
+<approved hash="113,2,214.653,154.94,D49,,,,,"/>
+<approved hash="113,2,229.893,154.94,D50,,,,,"/>
+<approved hash="113,2,247.673,154.94,D51,,,,,"/>
+<approved hash="113,2,262.913,154.94,D52,,,,,"/>
+<approved hash="113,2,278.153,154.94,D53,,,,,"/>
+<approved hash="113,2,293.393,154.94,D54,,,,,"/>
+<approved hash="113,2,31.7729,124.46,D55,,,,,"/>
+<approved hash="113,2,47.0129,124.46,D56,,,,,"/>
+<approved hash="113,2,62.2529,124.46,D57,,,,,"/>
+<approved hash="113,2,77.4929,124.46,D58,,,,,"/>
+<approved hash="113,2,92.7329,124.46,D59,,,,,"/>
+<approved hash="113,2,107.973,124.46,D60,,,,,"/>
+<approved hash="113,2,123.213,124.46,D61,,,,,"/>
+<approved hash="113,2,138.453,124.46,D62,,,,,"/>
+<approved hash="113,2,153.693,124.46,D63,,,,,"/>
+<approved hash="113,2,168.933,124.46,D64,,,,,"/>
+<approved hash="113,2,184.173,124.46,D65,,,,,"/>
+<approved hash="113,2,199.413,124.46,D66,,,,,"/>
+<approved hash="113,2,229.893,124.46,D67,,,,,"/>
+<approved hash="113,2,247.673,124.46,D68,,,,,"/>
+<approved hash="113,2,262.913,124.46,D69,,,,,"/>
+<approved hash="113,2,278.153,124.46,D70,,,,,"/>
+<approved hash="113,2,31.7729,93.98,D71,,,,,"/>
+<approved hash="113,2,62.2529,93.98,D72,,,,,"/>
+<approved hash="113,2,77.4929,93.98,D73,,,,,"/>
+<approved hash="113,2,92.7329,93.98,D74,,,,,"/>
+<approved hash="113,2,107.973,93.98,D75,,,,,"/>
+<approved hash="113,2,123.213,93.98,D76,,,,,"/>
+<approved hash="113,2,138.453,93.98,D77,,,,,"/>
+<approved hash="113,2,153.693,93.98,D78,,,,,"/>
+<approved hash="113,2,168.933,93.98,D79,,,,,"/>
+<approved hash="113,2,184.173,93.98,D80,,,,,"/>
+<approved hash="113,2,199.413,93.98,D81,,,,,"/>
+<approved hash="113,2,214.653,93.98,D82,,,,,"/>
+<approved hash="113,2,229.893,93.98,D83,,,,,"/>
+<approved hash="113,2,247.673,93.98,D84,,,,,"/>
+<approved hash="113,2,262.913,93.98,D85,,,,,"/>
+<approved hash="113,2,278.153,93.98,D86,,,,,"/>
+<approved hash="113,2,293.393,93.98,D87,,,,,"/>
+<approved hash="113,2,31.7729,63.5,D88,,,,,"/>
+<approved hash="113,2,47.0129,63.5,D89,,,,,"/>
+<approved hash="113,2,62.2529,63.5,D90,,,,,"/>
+<approved hash="113,2,107.973,63.5,D91,,,,,"/>
+<approved hash="113,2,153.693,63.5,D92,,,,,"/>
+<approved hash="113,2,168.933,63.5,D93,,,,,"/>
+<approved hash="113,2,184.173,63.5,D94,,,,,"/>
+<approved hash="113,2,199.413,63.5,D95,,,,,"/>
+<approved hash="113,2,214.653,63.5,D96,,,,,"/>
+<approved hash="113,2,229.893,63.5,D97,,,,,"/>
+<approved hash="113,2,262.913,63.5,D98,,,,,"/>
+<approved hash="113,2,278.153,63.5,D99,,,,,"/>
+<approved hash="113,3,189.761,126.261,FRAME3,,,,,"/>
+<approved hash="113,2,229.277,20.1879,JI2C,,,,,"/>
+<approved hash="113,2,165.777,11.2979,JSPI@2,,,,,"/>
+<approved hash="113,1,240.497,43.7727,UDB2,,,,,"/>
+<approved hash="113,1,215.097,43.7727,UDB1,,,,,"/>
+<approved hash="113,2,317.632,108.543,RST,,,,,"/>
+<approved hash="113,2,264.837,18.9179,JPWM,,,,,"/>
+<approved hash="113,2,341.037,32.8879,5V,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -4,14 +4,29 @@
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888; ***DO NOT BUILD*** &#9888; <br>
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
-> &#128679; `_________________________` &#128679;
+> &#128679; `-------------------------` &#128679;
 
 
 ## Intent
 
 A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB and a top-right corner rotary encoder
 
-### Pre-beta PCB renders
+
+## Progression
+
+- **27 Sep 2024**: Beta 1 done
+  - WARNING: Not manufactured *(yet)*
+  - WARNING: Not tested *(yet)*
+- See [CHANGELOG.md](CHANGELOG.md)
+
+#### Resources
+
+ - Schematic PDF [here](docs/vr99-revA.pdf)
+ - EAGLE BRD *(PCB)* [here](EAGLE/vr99/vr99-revA.brd)
+ - EAGLE SCH *(Schematic)* [here](EAGLE/vr99/vr99-revA.sch)
+
+
+### Beta PCB renders
 
 #### Top
 ![](docs/vr99-pcb-top.png)
@@ -42,18 +57,24 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 - [ ] 2x SKYLONG rotary encoder/swich posiotions *(wired for only one in use)*
 - [ ] C3/4 UDB Usb-C 
 
+#### Addons
+
+- [ ] DIP Switch daughter board *(4-position)*
+- [ ] ~~Case slide switch daughter board *(Win/Mac 2-state, + USB+BT+2.4GHz 3-state)*~~ *(To do)*
 
 ## Wishlist
 
 - [ ] Drop in replacement PCB *(e.g. compatable standoff positions)* for:
     - Brutal v2 1800
     - Monsgeek M2
+    - ~~Skyloong GK980~~ *(To do)*
 
 
 ## Possible BIG issues
 
-- [ ] SPI variant for the IS31FL3745***B*** has no driver in QMK, may need to code one up
+- [ ] SPI variant for the **`IS31FL3745B`** *(`A` is I2C, `B` is SPI)* has no driver in QMK, may need to code one up
 
+&nbsp;<br>&nbsp;
 
 ---
 Made with &#9829; by Vino Rodrigues

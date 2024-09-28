@@ -19,7 +19,17 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
   - WARNING: Not tested *(yet)*
 - See [CHANGELOG.md](CHANGELOG.md)
 
-#### Resources
+#### Rev A
+
+> I'm not happy with the optics on this revision.  Looks like **Via Chicken Pox**!  Serves me right for self constraining to a 2-layer PCB.  I will re-do Rev B in 4-layer, however will proto. mnf. this rev. to test my theories on the:
+>  - SPI Input Shift Registers
+>  - SPI LED Matrix Drivers
+>  - SKYLOONG rotary encoder
+>
+> This is more about writing the code after all.
+
+
+### Resources
 
  - Schematic PDF [here](docs/vr99-revA.pdf)
  - EAGLE BRD *(PCB)* [here](EAGLE/vr99/vr99-revA.brd)
@@ -54,7 +64,7 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 - [ ] 3x `MC74HC589A` SPI Input Shift Registers *- possibly faster scan rates*
 - [ ] 2x `IS31FL3745` SPI LED Matrix Drivers
     - 102x RGB LED's
-- [ ] 2x SKYLONG rotary encoder/swich posiotions *(wired for only one in use)*
+- [ ] 2x SKYLOONG rotary encoder/switch positions *(wired for only one in use)*
 - [ ] C3/4 UDB Usb-C 
 
 #### Addons
@@ -64,7 +74,7 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 
 ## Wishlist
 
-- [ ] Drop in replacement PCB *(e.g. compatable standoff positions)* for:
+- [ ] Drop in replacement PCB *(e.g. compatible standoff positions)* for:
     - Brutal v2 1800
     - Monsgeek M2
     - ~~Skyloong GK980~~ *(To do)*
@@ -72,9 +82,9 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 
 ## Possible BIG issues
 
-- [ ] SPI variant for the **`IS31FL3745B`** *(`A` is I2C, `B` is SPI)* has no driver in QMK, may need to code one up
+- [ ] SPI variant for the **`IS31FL3745B`** *(`A` is I2C, `B` is SPI)* has no driver in QMK, will need to code one up!!
+
 
 &nbsp;<br>&nbsp;
-
 ---
-Made with &#9829; by Vino Rodrigues
+Made with &#9829; by **Vino Rodrigues**

@@ -1,10 +1,11 @@
 # VR99-Keyboard-PCB
 
-> &#128679; `Product under development` &#128679; <br>
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888; ***DO NOT BUILD*** &#9888; <br>
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
-> &#128679; `-------------------------` &#128679;
+> :bangbang: `Product under development` :bangbang: :construction_worker:
+
+> :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: <br>
+> :warning: ***DO NOT BUILD*** :warning: <br>
+> :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:  <br>
+
 
 
 ## Intent
@@ -77,7 +78,7 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 - [ ] Drop in replacement PCB *(e.g. compatible standoff positions)* for:
     - Brutal v2 1800
     - Monsgeek M2
-    - ~~Skyloong GK980~~ *(To do)*
+    - ~~Skyloong GK980~~ *(The GK980 has a 0.5U gap between Esc and F1, making it not the same footprint as the B1k8 and M2.)*
 
 
 ## Possible BIG issues

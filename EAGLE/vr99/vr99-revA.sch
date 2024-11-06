@@ -29714,9 +29714,9 @@ DIP SWITCH 4</text>
 <instance part="SUPPLY5" gate="G$2" x="317.5" y="15.24" smashed="yes">
 <attribute name="VALUE" x="317.5" y="18.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="S1" gate="G$1" x="330.2" y="127" smashed="yes">
-<attribute name="NAME" x="330.2" y="128.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="330.2" y="126.492" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="S1" gate="G$1" x="327.66" y="127" smashed="yes">
+<attribute name="NAME" x="327.66" y="128.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="327.66" y="126.492" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C30" gate="G$1" x="353.06" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="351.536" y="47.879" size="1.778" layer="95" rot="R180"/>
@@ -29773,9 +29773,9 @@ DIP SWITCH 4</text>
 <instance part="SUPPLY14" gate="GND" x="25.4" y="25.4" smashed="yes">
 <attribute name="VALUE" x="23.495" y="22.225" size="1.778" layer="96"/>
 </instance>
-<instance part="RST" gate="G$1" x="327.66" y="114.3" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="322.834" y="111.76" size="1.778" layer="96" font="vector" rot="MR90"/>
-<attribute name="NAME" x="333.248" y="111.76" size="1.778" layer="95" font="vector" rot="MR90"/>
+<instance part="RST" gate="G$1" x="325.12" y="114.3" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="320.294" y="111.76" size="1.778" layer="96" font="vector" rot="MR90"/>
+<attribute name="NAME" x="330.708" y="111.76" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="325.12" y="238.76" smashed="yes">
 <attribute name="VALUE" x="325.12" y="241.554" size="1.778" layer="96" align="bottom-center"/>
@@ -29831,7 +29831,7 @@ DIP SWITCH 4</text>
 </instance>
 <instance part="R20" gate="G$1" x="325.12" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="328.93" y="102.6414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="328.93" y="107.442" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="326.39" y="107.442" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R21" gate="G$1" x="345.44" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="343.9414" y="92.71" size="1.778" layer="95" rot="R90"/>
@@ -29962,8 +29962,8 @@ DIP SWITCH 4</text>
 <attribute name="NAME" x="351.028" y="125.73" size="1.778" layer="95" font="vector" ratio="10" rot="SMR180"/>
 <attribute name="VALUE" x="351.028" y="128.778" size="1.778" layer="96" font="vector" ratio="10" rot="SMR180"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="320.04" y="119.38" smashed="yes">
-<attribute name="VALUE" x="318.135" y="116.205" size="1.778" layer="96"/>
+<instance part="SUPPLY16" gate="GND" x="317.5" y="119.38" smashed="yes">
+<attribute name="VALUE" x="315.595" y="116.205" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY70" gate="G$1" x="350.52" y="144.78" smashed="yes">
 <attribute name="VALUE" x="350.52" y="147.574" size="1.778" layer="96" align="bottom-center"/>
@@ -31867,15 +31867,15 @@ DIP SWITCH 4</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="322.58" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="127" x2="322.58" y2="127" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="121.92" x2="327.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="124.46" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="124.46" x2="322.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
-<junction x="322.58" y="124.46"/>
+<wire x1="325.12" y1="121.92" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="124.46" x2="320.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="124.46" x2="317.5" y2="124.46" width="0.1524" layer="91"/>
+<junction x="320.04" y="124.46"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="320.04" y1="124.46" x2="320.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="124.46" x2="317.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
@@ -32390,21 +32390,21 @@ DIP SWITCH 4</text>
 <net name="!BOOT" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="127" x2="337.82" y2="127" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="124.46" x2="337.82" y2="127" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="124.46" x2="337.82" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="124.46" x2="335.28" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="121.92" x2="330.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
-<junction x="337.82" y="127"/>
+<wire x1="327.66" y1="121.92" x2="327.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="127" x2="335.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="127" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
 <junction x="340.36" y="127"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="127" x2="332.74" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="134.62" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
-<label x="330.2" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="340.36" y1="127" x2="353.06" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="139.7" x2="355.6" y2="139.7" width="0.1524" layer="91"/>
+<label x="355.6" y="139.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="342.9" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
+<junction x="335.28" y="127"/>
+<wire x1="335.28" y1="127" x2="335.28" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENC_C" class="0">

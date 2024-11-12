@@ -1,12 +1,6 @@
 # VR99-Keyboard-PCB
 
-> :bangbang: `Product under development` :bangbang: :construction_worker:
-
-> :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: <br>
-> :warning: ***DO NOT BUILD*** :warning: <br>
-> :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:  <br>
-
-
+<p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
 
 ## Intent
 

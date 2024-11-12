@@ -26815,6 +26815,144 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="tecsmith_keyboards">
+<description>&lt;h1&gt;Keyboard Library&lt;/h1&gt;
+
+&lt;p&gt;Collection of components  needed to produce mechnical keyboards.&lt;/p&gt;</description>
+<packages>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes">
+<pad name="1" x="0" y="0" drill="0.7366" diameter="1.1"/>
+<text x="0" y="1" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<circle x="0" y="0" radius="0.7" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.7" width="0.127" layer="22"/>
+<text x="0" y="-1" size="0.8128" layer="26" ratio="20" rot="MR0" align="top-center">&gt;NAME</text>
+</package>
+<package name="1X0.015_POGO" urn="urn:adsk.eagle:footprint:37963/2" locally_modified="yes" library_version="2">
+<description>Used as test point connection for pogo pins.</description>
+<pad name="1" x="0" y="0" drill="0.381" diameter="0.6096" first="yes"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+<text x="0" y="0.5" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.5" size="0.8128" layer="26" ratio="20" rot="MR0" align="top-center">&gt;NAME</text>
+</package>
+<package name="1X01_NO_SILK" urn="urn:adsk.eagle:footprint:37651/2" locally_modified="yes" library_version="2">
+<pad name="1" x="0" y="0" drill="0.95" diameter="1.6" rot="R180"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="PAD.02X.02-SQ" urn="urn:adsk.eagle:footprint:37959/2" locally_modified="yes" library_version="2">
+<smd name="1" x="0" y="0" dx="0.508" dy="0.508" layer="1" roundness="5" cream="no"/>
+<text x="0" y="0.5" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="37"/>
+</package>
+<package name="PAD.03X.03-RN" urn="urn:adsk.eagle:footprint:37960/2" locally_modified="yes" library_version="2">
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+<text x="0" y="0.6" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.1905" width="0.381" layer="37"/>
+</package>
+<package name="PAD.03X.03-SQ">
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="5" cream="no"/>
+<text x="0" y="0.6" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.381" y1="-0.381" x2="0.381" y2="0.381" layer="37"/>
+</package>
+<package name="PAD.04X.04-RN" urn="urn:adsk.eagle:footprint:37962/2" locally_modified="yes" library_version="2">
+<smd name="1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+<text x="0" y="0.7" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.254" width="0.508" layer="37"/>
+</package>
+<package name="PAD.05X.05-RN" urn="urn:adsk.eagle:footprint:37961/2" locally_modified="yes" library_version="2">
+<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<text x="0" y="0.9" size="0.8128" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.3175" width="0.635" layer="37"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TEST-PAD">
+<pin name="1" x="0" y="0" visible="off" length="point" direction="pas"/>
+<wire x1="-1.016" y1="1.27" x2="1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.016" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="104">&gt;NAME</text>
+<wire x1="-1.27" y1="-1.016" x2="-1.27" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="-1.27" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TEST-POINT" prefix="TP">
+<gates>
+<gate name="G$1" symbol="TEST-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X1" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POGO" package="1X0.015_POGO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X1-NS" package="1X01_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".2SQ" package="PAD.02X.02-SQ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3RN" package="PAD.03X.03-RN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3SQ" package="PAD.03X.03-SQ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".4RN" package="PAD.04X.04-RN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".5RN" package="PAD.05X.05-RN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -27359,6 +27497,14 @@ Switches electronic signals</description>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805W" package3d_urn="urn:adsk.eagle:package:23537/2" value="0R-DNP"/>
 <part name="R33@1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805W" package3d_urn="urn:adsk.eagle:package:23537/2" value="0R"/>
 <part name="U$7" library="tecsmith_jlcpcb_ordering" deviceset="JLC_ORDER_NUMBER_QR" device="QR_8X8" value="??"/>
+<part name="TP-5V" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-3V3" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-USB+" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-USB-" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-LED-EN" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-V-LED-1" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-V-LED-2" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
+<part name="TP-GND" library="tecsmith_keyboards" deviceset="TEST-POINT" device=".3SQ"/>
 </parts>
 <sheets>
 <sheet>
@@ -27676,6 +27822,21 @@ pinout stil need to be confirmed.</text>
 <attribute name="NAME" x="54.61" y="50.8" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="54.61" y="40.64" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
+<instance part="TP-5V" gate="G$1" x="10.16" y="27.94" smashed="yes">
+<attribute name="NAME" x="11.938" y="27.178" size="1.27" layer="104"/>
+</instance>
+<instance part="TP-3V3" gate="G$1" x="45.72" y="27.94" smashed="yes">
+<attribute name="NAME" x="47.498" y="27.432" size="1.27" layer="104"/>
+</instance>
+<instance part="TP-USB+" gate="G$1" x="210.82" y="58.42" smashed="yes">
+<attribute name="NAME" x="209.042" y="58.928" size="1.27" layer="104" rot="R180"/>
+</instance>
+<instance part="TP-USB-" gate="G$1" x="218.44" y="58.42" smashed="yes">
+<attribute name="NAME" x="220.218" y="57.912" size="1.27" layer="104"/>
+</instance>
+<instance part="TP-GND" gate="G$1" x="45.72" y="7.62" smashed="yes">
+<attribute name="NAME" x="47.498" y="7.112" size="1.27" layer="104"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27777,7 +27938,8 @@ pinout stil need to be confirmed.</text>
 <wire x1="35.56" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="D00" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="33.02" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <junction x="38.1" y="25.4"/>
@@ -27788,6 +27950,9 @@ pinout stil need to be confirmed.</text>
 <wire x1="35.56" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="40.64" y="25.4"/>
+<pinref part="TP-3V3" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<junction x="45.72" y="25.4"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCC"/>
@@ -27963,7 +28128,8 @@ pinout stil need to be confirmed.</text>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="10.16" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <junction x="27.94" y="10.16"/>
 <pinref part="C20" gate="G$1" pin="2"/>
@@ -27982,6 +28148,9 @@ pinout stil need to be confirmed.</text>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
 <junction x="71.12" y="10.16"/>
+<pinref part="TP-GND" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="10.16" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
+<junction x="45.72" y="10.16"/>
 </segment>
 <segment>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
@@ -28278,9 +28447,13 @@ pinout stil need to be confirmed.</text>
 <pinref part="UDB2" gate="J1" pin="DN"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="48.26" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
-<label x="215.9" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="215.9" y1="48.26" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="215.9" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="UDB1" gate="J1" pin="DN"/>
+<pinref part="TP-USB-" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="58.42" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<junction x="215.9" y="58.42"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="15.24" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
@@ -28290,9 +28463,10 @@ pinout stil need to be confirmed.</text>
 </net>
 <net name="VCC_1" class="0">
 <segment>
-<wire x1="15.24" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
 <junction x="15.24" y="25.4"/>
 <pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="20.32" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="20.32" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
@@ -28306,6 +28480,9 @@ pinout stil need to be confirmed.</text>
 <pinref part="SUPPLY8" gate="G$2" pin="VCC_1"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <junction x="5.08" y="25.4"/>
+<pinref part="TP-5V" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="10.16" y="25.4"/>
 </segment>
 <segment>
 <wire x1="243.84" y1="48.26" x2="243.84" y2="50.8" width="0.1524" layer="91"/>
@@ -28330,9 +28507,13 @@ pinout stil need to be confirmed.</text>
 <pinref part="UDB2" gate="J1" pin="DP"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="48.26" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="213.36" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="213.36" y1="48.26" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<label x="213.36" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="UDB1" gate="J1" pin="DP"/>
+<pinref part="TP-USB+" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="58.42" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<junction x="213.36" y="58.42"/>
 </segment>
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
@@ -32973,6 +33154,15 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <instance part="U$7" gate="G$1" x="339.852" y="16.51" smashed="yes">
 <attribute name="VALUE" x="355.092" y="16.51" size="2.54" layer="96"/>
 </instance>
+<instance part="TP-LED-EN" gate="G$1" x="327.66" y="58.42" smashed="yes">
+<attribute name="NAME" x="329.438" y="57.912" size="1.27" layer="104"/>
+</instance>
+<instance part="TP-V-LED-1" gate="G$1" x="355.6" y="76.2" smashed="yes">
+<attribute name="NAME" x="357.378" y="75.692" size="1.27" layer="104"/>
+</instance>
+<instance part="TP-V-LED-2" gate="G$1" x="355.6" y="48.26" smashed="yes">
+<attribute name="NAME" x="357.378" y="47.752" size="1.27" layer="104"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -35806,6 +35996,9 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="322.58" y1="58.42" x2="325.12" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="58.42" x2="325.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="TP-LED-EN" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="58.42" x2="327.66" y2="58.42" width="0.1524" layer="91"/>
+<junction x="325.12" y="58.42"/>
 </segment>
 <segment>
 <label x="322.58" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -35947,6 +36140,9 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="350.52" y1="71.12" x2="355.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="71.12" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="TP-V-LED-1" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="76.2" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
+<junction x="355.6" y="73.66"/>
 </segment>
 </net>
 <net name="XR6" class="0">
@@ -36198,6 +36394,9 @@ Replace this with the IS31FL3743A I2C variant.</text>
 <wire x1="350.52" y1="43.18" x2="355.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="43.18" x2="355.6" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="45.72" x2="360.68" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="TP-V-LED-2" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="48.26" x2="355.6" y2="45.72" width="0.1524" layer="91"/>
+<junction x="355.6" y="45.72"/>
 </segment>
 </net>
 <net name="N$1" class="0">

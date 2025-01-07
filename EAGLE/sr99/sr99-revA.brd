@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="10" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="10" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -278,9 +278,9 @@ UDB</text>
 <text x="301.3456" y="18.4912" size="1.27" layer="22" rot="MR90" align="center-right">CS</text>
 <text x="303.8856" y="18.4912" size="1.27" layer="22" rot="MR90" align="center-right">DC</text>
 <text x="361" y="43" size="1.778" layer="22" rot="MR180" align="bottom-center">Open Hardware</text>
-<text x="149.214" y="18.148" size="1.778" layer="22" rot="MR180" align="top-left">VR99 Keyboard</text>
-<text x="176.784" y="12.192" size="1.778" layer="22" rot="MR0" align="bottom-center">(c) 2024 Vino Rodrigues
-https://c1k.it/vr99</text>
+<text x="149.214" y="18.148" size="1.778" layer="22" rot="MR180" align="top-left">SR99 Keyboard</text>
+<text x="176.284" y="12.692" size="1.778" layer="22" rot="MR0" align="bottom-center">(c) 2024 Silvino Rodrigues
+https://c1k.it/sr99</text>
 <text x="149.225" y="15.55" size="1.778" layer="22" rot="MR180" align="top-left">Rev A</text>
 <hole x="333.375" y="122.8" drill="6.5"/>
 <hole x="242.8875" y="122.8" drill="6.5"/>
@@ -300,8 +300,8 @@ https://c1k.it/vr99</text>
 <wire x1="304.1" y1="5.1" x2="304.5" y2="5.5" width="0.254" layer="22"/>
 <wire x1="299" y1="24" x2="299" y2="24.5" width="0.127" layer="22"/>
 <wire x1="299" y1="24.5" x2="299.9" y2="25.4" width="0.127" layer="22"/>
-<text x="191.6" y="20.3" size="1.778" layer="21" rot="R180">2024 Vino Rodrigues</text>
-<text x="191.6" y="12" size="1.778" layer="21" rot="R180">VR99</text>
+<text x="191.6" y="20.3" size="1.778" layer="21" rot="R180">2024 Silvino Rodrigues</text>
+<text x="191.6" y="12" size="1.778" layer="21" rot="R180">SR99</text>
 <hole x="333.375" y="5.7875" drill="6.5"/>
 <hole x="242.8875" y="5.7875" drill="6.5"/>
 <hole x="114.71875" y="5.7875" drill="6.5"/>

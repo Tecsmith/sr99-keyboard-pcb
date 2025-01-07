@@ -1,6 +1,8 @@
-# VR99-Keyboard-PCB
+# SR99-Keyboard-PCB
 
 <p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
+
+> :warning: Design is done bot not tested.  Please hold-off on building until the design can be verified and the software is written.
 
 ## Intent
 
@@ -26,29 +28,29 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 
 ### Resources
 
- - Schematic PDF [here](docs/vr99-revA.pdf)
- - EAGLE BRD *(PCB)* [here](EAGLE/vr99/vr99-revA.brd)
- - EAGLE SCH *(Schematic)* [here](EAGLE/vr99/vr99-revA.sch)
+ - Schematic PDF [here](docs/sr99-revA.pdf)
+ - EAGLE BRD *(PCB)* [here](EAGLE/sr99/sr99-revA.brd)
+ - EAGLE SCH *(Schematic)* [here](EAGLE/sr99/sr99-revA.sch)
 
 
 ### Beta PCB renders
 
 #### Top
-![](docs/vr99-pcb-top.png)
+![](docs/sr99-pcb-top.png)
 
 #### Bottom *(Component side)*
-![](docs/vr99-pcb-btm.png)
+![](docs/sr99-pcb-btm.png)
 
 ### Layout ideation renders
 
 #### Render
-![Render](docs/vr99-render.png)
+![Render](docs/sr99-render.png)
 
 #### Layout
-![Layout](docs/vr99-layout.png)
+![Layout](docs/sr99-layout.png)
 
 #### Matrix coordinates *(QMK & VIA)*
-![Matrix](docs/vr99-matrix.png)
+![Matrix](docs/sr99-matrix.png)
 
 
 ## Planned Features
@@ -82,4 +84,4 @@ A 980-layout (99-key) compact near-full size keyboard for QMK feat. per-key RGB 
 
 &nbsp;<br>&nbsp;
 ---
-Made with &#9829; by **Vino Rodrigues**
+Made with :heart: by [**Silvino Rodrigues**](https://github.com/silvinor)

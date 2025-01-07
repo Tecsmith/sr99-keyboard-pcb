@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
 
-> :warning: Design is done bot not tested.  Please hold-off on building until the design can be verified and the software is written.
+> :warning: Design is done but not tested.  Please hold-off on building until the design can be verified and the software is written.
 
 ## Intent
 

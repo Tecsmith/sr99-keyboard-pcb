@@ -145,131 +145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x05"
 			(pin_names
 				(offset 0)
@@ -1703,14 +1578,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 1.27)
-					(name "C"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1739,14 +1614,14 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 1.27)
-					(name "S"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2293,6 +2168,245 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ts-kicad-lib:R_Array04"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Array"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Array04_0_1"
+				(polyline
+					(pts
+						(xy -1.778 0.762) (xy -1.778 -0.762) (xy 1.778 -0.762) (xy 1.778 0.762) (xy -1.778 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Array04_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Array04_2_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Array04_3_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Array04_4_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 139.7 68.58)
@@ -2331,12 +2445,6 @@
 		(uuid "063d8b02-0a48-477e-b193-eee1fb507e81")
 	)
 	(junction
-		(at 53.34 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08f7e0e5-e96f-4ec6-be0e-77290ae0db5c")
-	)
-	(junction
 		(at 63.5 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2365,6 +2473,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d564f9b-1488-4c1d-853a-38b11ddabcc7")
+	)
+	(junction
+		(at 63.5 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9d06f2-b7b9-45a0-97d4-95064eeb085c")
 	)
 	(junction
 		(at 203.2 88.9)
@@ -2577,16 +2691,16 @@
 		(uuid "36376016-82af-46ac-8f87-35faee3e9065")
 	)
 	(junction
+		(at 53.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3685eef2-26ba-44a0-8b5d-b659ec34a545")
+	)
+	(junction
 		(at 228.6 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36cb4b95-ed77-4732-9ead-d524b241416c")
-	)
-	(junction
-		(at 38.1 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36f2b001-31f6-49de-95a2-df0b5ced0029")
 	)
 	(junction
 		(at 205.74 55.88)
@@ -2793,6 +2907,12 @@
 		(uuid "63a991aa-62dc-4fa7-8e87-abd40699e79b")
 	)
 	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a3745c-26c5-4703-af57-7ce351f5a08e")
+	)
+	(junction
 		(at 152.4 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2935,6 +3055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "800a9ad6-4b25-4a2b-ad83-e2efca3299d4")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "820572ed-c077-4b2a-b43d-81d8b79d2bcf")
 	)
 	(junction
 		(at 116.84 96.52)
@@ -3081,6 +3207,12 @@
 		(uuid "a0c64497-5630-4b7c-9c74-dba1c0690a5c")
 	)
 	(junction
+		(at 40.64 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97d3eb6-6c6c-4c12-ad8b-3ab0cd247f0c")
+	)
+	(junction
 		(at 218.44 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3151,12 +3283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4358e87-df27-488d-bac4-dbb6064f9b1b")
-	)
-	(junction
-		(at 63.5 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4d80732-3934-4906-8ff7-7f5feaadda5a")
 	)
 	(junction
 		(at 101.6 88.9)
@@ -3249,12 +3375,6 @@
 		(uuid "ca00d2d7-c159-40f9-964d-15396352f161")
 	)
 	(junction
-		(at 27.94 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb9536bb-36f2-489e-9419-d2d52160e7fa")
-	)
-	(junction
 		(at 66.04 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3289,12 +3409,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d27e1ab3-9136-4119-ab3f-3fdaaa6b95b1")
-	)
-	(junction
-		(at 27.94 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2eb7131-0f92-4ee9-a2a7-5b806b09bf01")
 	)
 	(junction
 		(at 127 68.58)
@@ -3387,6 +3501,12 @@
 		(uuid "eb580e5b-04bf-491a-9a5d-b7f67b03cec4")
 	)
 	(junction
+		(at 27.94 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eccde3ea-4459-4a18-ac61-8a8d0e4732a0")
+	)
+	(junction
 		(at 50.8 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3423,12 +3543,6 @@
 		(uuid "f450f118-4ae2-4a55-b63d-aa5512b61e52")
 	)
 	(junction
-		(at 40.64 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5508016-35ea-4fd5-b60a-549c07f6fcd4")
-	)
-	(junction
 		(at 193.04 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,6 +3571,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fef9752b-5aba-4cf8-9092-bf6c715de886")
+	)
+	(no_connect
+		(at 68.58 160.02)
+		(uuid "121feb32-33d3-4531-8795-4e826fb5883d")
+	)
+	(no_connect
+		(at 68.58 165.1)
+		(uuid "9b107bf9-95e9-45db-be92-2e421613189e")
+	)
+	(no_connect
+		(at 147.32 160.02)
+		(uuid "a28f717e-fd45-468a-a191-13d3bcc46bb7")
+	)
+	(no_connect
+		(at 147.32 165.1)
+		(uuid "d5b02bce-4406-47dd-8ecf-ba6feb8d3455")
 	)
 	(wire
 		(pts
@@ -3700,6 +3830,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 35.56) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb8128d-c218-4e46-ae28-2cc9f7129e71")
+	)
+	(wire
+		(pts
 			(xy 121.92 162.56) (xy 121.92 165.1)
 		)
 		(stroke
@@ -3807,6 +3947,16 @@
 			(type default)
 		)
 		(uuid "125f5591-4dbe-45f2-b4b8-d077b9773a68")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ba577e-c3fd-43f6-a9d4-9e1f5a752e47")
 	)
 	(wire
 		(pts
@@ -4260,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 63.5 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29817ba2-549a-47cb-87f9-a4967983d7b3")
-	)
-	(wire
-		(pts
 			(xy 203.2 152.4) (xy 215.9 152.4)
 		)
 		(stroke
@@ -4450,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 50.8 68.58)
+			(xy 22.86 68.58) (xy 38.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4490,16 +4630,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 35.56) (xy 55.88 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3044c183-da52-477f-9c8c-5138ed97882f")
-	)
-	(wire
-		(pts
 			(xy 142.24 162.56) (xy 142.24 167.64)
 		)
 		(stroke
@@ -4520,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 170.18) (xy 73.66 167.64)
+			(xy 76.2 170.18) (xy 76.2 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4900,16 +5030,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 68.58) (xy 38.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c9553e-c48a-4d4a-935a-f0bd1443ca42")
-	)
-	(wire
-		(pts
 			(xy 180.34 55.88) (xy 180.34 76.2)
 		)
 		(stroke
@@ -4990,16 +5110,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 55.88) (xy 27.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cdc266b-f505-438b-8447-6b2e48eb87ff")
-	)
-	(wire
-		(pts
 			(xy 165.1 68.58) (xy 177.8 68.58)
 		)
 		(stroke
@@ -5070,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 180.34) (xy 152.4 182.88)
+			(xy 154.94 180.34) (xy 154.94 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5087,16 +5197,6 @@
 			(type default)
 		)
 		(uuid "5024eadf-b062-470f-8d7c-4951b3b346fc")
-	)
-	(wire
-		(pts
-			(xy 40.64 22.86) (xy 40.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513c5c1e-79e6-4996-ab61-8539e257f665")
 	)
 	(wire
 		(pts
@@ -5147,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "53ca549f-f508-441b-b221-e9ec30a088d4")
+	)
+	(wire
+		(pts
+			(xy 27.94 55.88) (xy 30.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5449a2fb-da9c-441c-9b0a-597c41a31115")
 	)
 	(wire
 		(pts
@@ -5340,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 167.64) (xy 76.2 167.64)
+			(xy 76.2 167.64) (xy 78.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5410,16 +5520,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 38.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60cf54a3-d70a-4bca-b2f1-0453719883e2")
-	)
-	(wire
-		(pts
 			(xy 114.3 127) (xy 114.3 132.08)
 		)
 		(stroke
@@ -5427,16 +5527,6 @@
 			(type default)
 		)
 		(uuid "6110512d-ef43-4408-8c8c-8cceedb40222")
-	)
-	(wire
-		(pts
-			(xy 27.94 22.86) (xy 27.94 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6164b8c1-03f7-43b9-911a-3721fd88bec0")
 	)
 	(wire
 		(pts
@@ -5527,6 +5617,16 @@
 			(type default)
 		)
 		(uuid "66431eec-db94-4164-b3b7-dccac49cdc00")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6657eaec-2d50-4c67-b9c1-e18d8b5de55a")
 	)
 	(wire
 		(pts
@@ -5630,16 +5730,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 63.5 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df5889c-69ce-40f6-891a-5ce2ecf01d37")
-	)
-	(wire
-		(pts
 			(xy 205.74 119.38) (xy 208.28 119.38)
 		)
 		(stroke
@@ -5660,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 170.18) (xy 152.4 167.64)
+			(xy 154.94 170.18) (xy 154.94 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 182.88) (xy 154.94 182.88)
+			(xy 154.94 182.88) (xy 157.48 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5837,6 +5927,16 @@
 			(type default)
 		)
 		(uuid "7ad7a52a-719f-466f-939c-6cf056d7fd65")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae3fe60-0e3c-4820-b1a2-e5d5c8e3205d")
 	)
 	(wire
 		(pts
@@ -6280,6 +6380,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cc5b54-1051-4471-8146-2ba9116d2144")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c51b75-7c93-4d7f-a8d5-8989f0a19cb9")
+	)
+	(wire
+		(pts
 			(xy 114.3 172.72) (xy 114.3 180.34)
 		)
 		(stroke
@@ -6310,6 +6430,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 35.56) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ac3c0f-02ab-4b3b-b705-1da507559bec")
+	)
+	(wire
+		(pts
 			(xy 22.86 109.22) (xy 38.1 109.22)
 		)
 		(stroke
@@ -6330,16 +6460,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 35.56) (xy 40.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f096fa-75f7-4e67-bc5b-b5313c85f490")
-	)
-	(wire
-		(pts
 			(xy 31.75 172.72) (xy 35.56 172.72)
 		)
 		(stroke
@@ -6347,6 +6467,16 @@
 			(type default)
 		)
 		(uuid "96f59d55-9a4e-45a4-8457-40e8e43aa97b")
+	)
+	(wire
+		(pts
+			(xy 27.94 55.88) (xy 27.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9959b8c5-ff93-463a-8a57-77f0d9bc4728")
 	)
 	(wire
 		(pts
@@ -6410,23 +6540,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 167.64) (xy 154.94 167.64)
+			(xy 154.94 167.64) (xy 157.48 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e08f65f-923e-48be-bc39-9a9c0ba4152c")
-	)
-	(wire
-		(pts
-			(xy 27.94 35.56) (xy 30.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e6a1bc7-2b0c-47bf-bf61-02c0d5fede90")
 	)
 	(wire
 		(pts
@@ -6440,7 +6560,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 175.26) (xy 66.04 175.26)
+			(xy 63.5 175.26) (xy 68.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7050,7 +7170,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 76.2 48.26)
+			(xy 50.8 48.26) (xy 63.5 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 180.34) (xy 73.66 182.88)
+			(xy 76.2 180.34) (xy 76.2 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7207,16 +7327,6 @@
 			(type default)
 		)
 		(uuid "cab3715e-d4a2-4f36-8349-15879cdad20c")
-	)
-	(wire
-		(pts
-			(xy 53.34 35.56) (xy 53.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfdc68f-8f47-4bea-8779-ab1bdc5dd388")
 	)
 	(wire
 		(pts
@@ -7270,16 +7380,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 40.64 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf8d2c14-a0df-40d0-8bcc-4cf9dcb6dcb7")
-	)
-	(wire
-		(pts
 			(xy 243.84 76.2) (xy 246.38 76.2)
 		)
 		(stroke
@@ -7317,6 +7417,16 @@
 			(type default)
 		)
 		(uuid "d114e9d7-49c9-4bb0-80cc-75e836c24633")
+	)
+	(wire
+		(pts
+			(xy 27.94 35.56) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19b0d63-32d5-420b-8b81-8554d7605363")
 	)
 	(wire
 		(pts
@@ -7420,7 +7530,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 182.88) (xy 76.2 182.88)
+			(xy 76.2 182.88) (xy 78.74 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7540,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 175.26) (xy 144.78 175.26)
+			(xy 142.24 175.26) (xy 147.32 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7477,6 +7587,16 @@
 			(type default)
 		)
 		(uuid "d8aa65c3-9a18-4bfe-8947-1f39c1dbafe0")
+	)
+	(wire
+		(pts
+			(xy 40.64 22.86) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b385c4-f8a1-4da3-befc-ea889cb023af")
 	)
 	(wire
 		(pts
@@ -7597,6 +7717,16 @@
 			(type default)
 		)
 		(uuid "dc977ca2-4384-4d35-8f27-2847cc7db108")
+	)
+	(wire
+		(pts
+			(xy 27.94 22.86) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf43e5a-7ebe-4e0e-a45e-4c378a6c6b1b")
 	)
 	(wire
 		(pts
@@ -7780,6 +7910,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 35.56) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dc8e43-6417-48e3-b3b5-f36b4596c2c9")
+	)
+	(wire
+		(pts
 			(xy 205.74 55.88) (xy 205.74 76.2)
 		)
 		(stroke
@@ -7870,6 +8010,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 35.56) (xy 30.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec48272f-8dba-4d04-9b05-fdd66027d3f7")
+	)
+	(wire
+		(pts
 			(xy 274.32 93.98) (xy 274.32 91.44)
 		)
 		(stroke
@@ -7910,16 +8060,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 55.88) (xy 27.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed05170-d9b8-4d0a-bc49-8b3d5c3947d2")
-	)
-	(wire
-		(pts
 			(xy 55.88 162.56) (xy 43.18 162.56)
 		)
 		(stroke
@@ -7927,16 +8067,6 @@
 			(type default)
 		)
 		(uuid "ef3cc596-2ae5-4df9-ab6d-fbf8464214e8")
-	)
-	(wire
-		(pts
-			(xy 27.94 35.56) (xy 27.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef6b418e-85b1-4417-bd63-14457097770a")
 	)
 	(wire
 		(pts
@@ -7957,6 +8087,16 @@
 			(type default)
 		)
 		(uuid "f1ccac33-7db9-47e1-a4ee-906e18febef4")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 53.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e02dad-83f3-4a2a-a186-ab5b787ca30c")
 	)
 	(wire
 		(pts
@@ -8067,16 +8207,6 @@
 			(type default)
 		)
 		(uuid "f74b68f4-1e90-4e83-8eb2-482b2cf0ccfd")
-	)
-	(wire
-		(pts
-			(xy 53.34 22.86) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7da93fb-0033-4018-876f-85591c691e14")
 	)
 	(wire
 		(pts
@@ -8420,7 +8550,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 76.2 182.88 0)
+		(at 78.74 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8430,7 +8560,7 @@
 		)
 		(uuid "36732901-4026-400d-8808-a0692aacf900")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4466 182.88 0)
+			(at 86.9866 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8808,7 @@
 	)
 	(global_label "S18"
 		(shape input)
-		(at 154.94 167.64 0)
+		(at 157.48 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8688,7 +8818,7 @@
 		)
 		(uuid "7ff4a383-f2e9-4074-9dd1-25fd10b9e532")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.5537 167.64 0)
+			(at 164.0937 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8830,7 @@
 	)
 	(global_label "S14"
 		(shape input)
-		(at 76.2 167.64 0)
+		(at 78.74 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8710,7 +8840,7 @@
 		)
 		(uuid "80ca9c39-a525-4cd3-ab91-5cc624d631f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8137 167.64 0)
+			(at 85.3537 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8924,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 154.94 182.88 0)
+		(at 157.48 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8804,7 +8934,7 @@
 		)
 		(uuid "9146893f-dad6-48cd-a99f-33f42f7e91d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1866 182.88 0)
+			(at 165.7266 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01aabb4d-62b8-43fe-baef-f93014389cd3")
-		(property "Reference" "D68"
+		(property "Reference" "D73"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -9248,7 +9378,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D68")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -9263,7 +9393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0215e153-8353-43dd-98c2-3988af3584ce")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 68.58 39.37 0)
 			(effects
 				(font
@@ -9334,7 +9464,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9349,7 +9479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02be577b-1d12-414e-9bf3-2880cd167314")
-		(property "Reference" "SW82"
+		(property "Reference" "SW79"
 			(at 150.114 116.586 0)
 			(effects
 				(font
@@ -9401,74 +9531,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 63.5 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03d45e2f-2bf0-479a-9f5a-9006bab43f1a")
-		(property "Reference" "R4"
-			(at 63.5 170.434 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 60.96 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 63.5 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 63.5 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f24fd96-da15-48cb-a1fe-d8c47353aeb7")
-		)
-		(pin "2"
-			(uuid "5d2b5ea3-7de4-4fcc-a3da-9469709e53e5")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R4")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -9598,10 +9661,10 @@
 		(pin "B"
 			(uuid "6ab6f0de-bb42-4cd3-afb3-bd4781c56115")
 		)
-		(pin "S"
+		(pin "G"
 			(uuid "81613d64-1568-4e7f-a7b0-9f393eb537c9")
 		)
-		(pin "C"
+		(pin "E"
 			(uuid "765f62af-7e25-4ee0-bbac-4191c6a9fc0c")
 		)
 		(pin "A"
@@ -9625,7 +9688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "047114bd-5bba-4f77-a7ef-d01cc2744ab1")
-		(property "Reference" "SW76"
+		(property "Reference" "SW73"
 			(at 73.914 116.586 0)
 			(effects
 				(font
@@ -9677,7 +9740,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW76")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -9692,7 +9755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04e7498f-8f84-48b2-832e-554e57d849c6")
-		(property "Reference" "D98"
+		(property "Reference" "D59"
 			(at 273.05 90.17 0)
 			(effects
 				(font
@@ -9764,7 +9827,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D98")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0510500d-6217-41f5-9f41-a69a4c8e5f65")
-		(property "Reference" "SW77"
+		(property "Reference" "SW74"
 			(at 86.614 116.586 0)
 			(effects
 				(font
@@ -9831,7 +9894,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW77")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -9839,15 +9902,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 71.12 175.26 0)
+		(at 73.66 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "06c18a19-49ce-4ba4-8fb6-05b461cfab06")
-		(property "Reference" "Q1"
-			(at 69.596 172.72 90)
+		(property "Reference" "Q2"
+			(at 72.136 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +9919,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 69.85 177.8 90)
+			(at 72.39 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +9928,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 76.2 177.165 0)
+			(at 78.74 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9939,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 76.2 179.07 0)
+			(at 78.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9949,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 71.12 175.26 0)
+			(at 73.66 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +9969,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9921,7 +9984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07a78c0a-d607-4d85-adba-d1fb717911b8")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -9992,7 +10055,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -10161,7 +10224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09d1bf87-5408-4f08-918d-684c67abdc20")
-		(property "Reference" "D21"
+		(property "Reference" "D22"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -10232,7 +10295,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D21")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -10247,7 +10310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09f2737a-aafd-47f8-a0ba-89d11b693ca0")
-		(property "Reference" "D69"
+		(property "Reference" "D74"
 			(at 208.28 100.33 0)
 			(effects
 				(font
@@ -10318,7 +10381,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D69")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a7fbd95-aea0-437f-a66e-3aef5e5b562e")
-		(property "Reference" "D45"
+		(property "Reference" "D46"
 			(at 132.08 80.01 0)
 			(effects
 				(font
@@ -10404,7 +10467,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D45")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -10412,15 +10475,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 149.86 175.26 0)
+		(at 152.4 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e518db1-14bb-45b0-a05e-85e1c61969e1")
-		(property "Reference" "Q2"
-			(at 148.59 172.466 90)
+		(property "Reference" "Q3"
+			(at 151.13 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10492,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 148.59 177.546 90)
+			(at 151.13 177.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10501,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 154.94 177.165 0)
+			(at 157.48 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10512,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 154.94 179.07 0)
+			(at 157.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +10522,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 149.86 175.26 0)
+			(at 152.4 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,39 +10542,40 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 121.92 167.64 180)
+		(lib_id "ts-kicad-lib:D_45deg")
+		(at 55.88 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1193df52-a20a-49c7-822e-fa545361e1ee")
-		(property "Reference" "R9"
-			(at 121.92 167.894 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 119.38 167.64 90)
+		(uuid "0ff383c2-9194-444b-bf97-a6461026b539")
+		(property "Reference" "D4"
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.92 167.64 0)
+		(property "Value" "1N4148WS"
+			(at 49.53 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 167.64 0)
+			(at 55.88 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,8 +10592,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 121.92 167.64 0)
+		(property "Description" "Diode, rotated by 45°"
+			(at 56.134 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=A 1=K"
+			(at 55.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,15 +10620,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "60d327f8-b1ed-421e-b6dc-5cf2fbee2073")
+			(uuid "a2f5e6d7-34d0-4ceb-bb8d-0d3b538d80bc")
 		)
 		(pin "2"
-			(uuid "64634376-2f2f-4adf-9235-19c476130a6e")
+			(uuid "43106d33-8694-4289-b005-22f934b61c10")
 		)
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10629,7 +10711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12daa7f7-c6bb-4e52-a7b5-36ef719578a3")
-		(property "Reference" "D104"
+		(property "Reference" "D102"
 			(at 195.58 143.51 0)
 			(effects
 				(font
@@ -10700,7 +10782,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D104")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -10715,7 +10797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "145a068e-6988-4660-8701-f2dd12010bb9")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 144.78 39.37 0)
 			(effects
 				(font
@@ -10786,7 +10868,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10801,7 +10883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14cd4830-5b23-4487-b91e-f2d1288f4e68")
-		(property "Reference" "D41"
+		(property "Reference" "D42"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -10872,7 +10954,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D41")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -10955,7 +11037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "150fe1eb-d64a-483b-9af0-c583bd5dce62")
-		(property "Reference" "D107"
+		(property "Reference" "D105"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -11026,7 +11108,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D107")
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -11177,7 +11259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "190101cb-9967-462f-9391-fd80ee5b9fee")
-		(property "Reference" "SW88"
+		(property "Reference" "SW85"
 			(at 226.314 116.586 0)
 			(effects
 				(font
@@ -11229,7 +11311,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW88")
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19adc5a2-0cb8-4e01-bd96-a39098bf52e1")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 111.506 182.88 90)
 			(effects
 				(font
@@ -11296,7 +11378,93 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "C5")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:D_45deg")
+		(at 30.48 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f0db6b-8d44-4ec2-b17d-723a05bebae7")
+		(property "Reference" "D2"
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 24.13 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 30.734 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=A 1=K"
+			(at 30.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147aa744-e2ea-489d-9ca4-5f67d7ce04b5")
+		)
+		(pin "2"
+			(uuid "3e92a142-9865-4cf1-a02b-1170ba5dc7fe")
+		)
+		(instances
+			(project "sr99-stm32f411-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11311,7 +11479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ad5e96a-74f1-43ef-a1f2-11bb091fcd82")
-		(property "Reference" "D63"
+		(property "Reference" "D69"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -11382,7 +11550,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D63")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -11451,178 +11619,6 @@
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:D_45deg")
-		(at 55.88 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ba58be6-ca50-4c0b-b44e-a5475ac36688")
-		(property "Reference" "D3"
-			(at 55.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 49.53 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 56.134 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 55.88 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=A 1=K"
-			(at 55.88 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39c945cb-3b1c-46e6-b6c8-54dc0ef6335c")
-		)
-		(pin "2"
-			(uuid "1e4a21a9-9b95-46e5-9b75-7486bacb80a4")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:D_45deg")
-		(at 30.48 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bb9c49e-4c49-4c29-aa27-fc3c55f1ba8c")
-		(property "Reference" "D1"
-			(at 30.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 24.13 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 30.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 30.734 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 30.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=A 1=K"
-			(at 30.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec59b5ca-9351-448f-b9a3-de22b8f80959")
-		)
-		(pin "2"
-			(uuid "68490f29-43d9-4794-968b-20e82ff2e817")
-		)
-		(instances
-			(project ""
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11842,7 +11838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf83d01-0a4e-48ac-a6c9-e98fd8a768cb")
-		(property "Reference" "SW68"
+		(property "Reference" "SW67"
 			(at 200.667 93.98 0)
 			(effects
 				(font
@@ -11894,7 +11890,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW68")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -11977,7 +11973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ff3763e-4d62-4f69-9934-3a73f719a5ce")
-		(property "Reference" "D91"
+		(property "Reference" "D94"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -12048,7 +12044,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D91")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -12063,7 +12059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "203a58d0-719f-4dae-a94f-205f315843fb")
-		(property "Reference" "D96"
+		(property "Reference" "D58"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12135,8 +12131,95 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D96")
+					(reference "D58")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 63.5 170.18 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "212bded6-0e63-4da3-a57e-57870322a3f8")
+		(property "Reference" "R8"
+			(at 66.04 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 66.04 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.818 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50aa204e-8c38-4f31-930f-f2b7659952d9")
+		)
+		(pin "8"
+			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b175")
+		)
+		(pin "4"
+			(uuid "9211a8b4-df50-46a6-b80e-d0b8cf306611")
+		)
+		(pin "3"
+			(uuid "790660dd-f243-48c3-9b7a-b94e08977beb")
+		)
+		(pin "1"
+			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfb")
+		)
+		(pin "7"
+			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c568")
+		)
+		(pin "6"
+			(uuid "40f47932-cb36-4e51-88ce-84f316efba78")
+		)
+		(pin "5"
+			(uuid "1243e86c-f2c8-4b70-a23a-bf306255592e")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R8")
+					(unit 4)
 				)
 			)
 		)
@@ -12150,7 +12233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21b8b44b-df85-46a5-a2c9-7c6286b1be48")
-		(property "Reference" "D26"
+		(property "Reference" "D27"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -12221,74 +12304,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21e23248-fb81-4527-882e-ec8885210702")
-		(property "Reference" "R7"
-			(at 114.3 167.894 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 111.76 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d65fa9-049a-49a1-9645-38d2f7b6b630")
-		)
-		(pin "2"
-			(uuid "eafff2e9-d067-4e61-a0c2-94201e0d1a9d")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R7")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -12303,7 +12319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "230d56fe-3292-4a1a-9cda-f22fcbdd972e")
-		(property "Reference" "D25"
+		(property "Reference" "D26"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -12374,7 +12390,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2554f2c9-9334-4986-8f2a-ba9c80a38df9")
-		(property "Reference" "D102"
+		(property "Reference" "D100"
 			(at 170.18 143.51 0)
 			(effects
 				(font
@@ -12732,7 +12748,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D102")
+					(reference "D100")
 					(unit 1)
 				)
 			)
@@ -12747,7 +12763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25624d21-0ba3-40cf-820c-9897b56eb578")
-		(property "Reference" "D30"
+		(property "Reference" "D31"
 			(at 170.18 59.69 0)
 			(effects
 				(font
@@ -12818,7 +12834,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -12833,7 +12849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25823550-8ad4-447e-81f5-3e745242817f")
-		(property "Reference" "SW81"
+		(property "Reference" "SW78"
 			(at 137.414 116.586 0)
 			(effects
 				(font
@@ -12885,7 +12901,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW81")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -13104,7 +13120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28f1b2b7-d7c9-4780-b698-1f4b40a4a1d1")
-		(property "Reference" "D90"
+		(property "Reference" "D93"
 			(at 246.38 123.19 0)
 			(effects
 				(font
@@ -13175,7 +13191,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D90")
+					(reference "D93")
 					(unit 1)
 				)
 			)
@@ -13190,7 +13206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2951c8f4-94bd-4330-b0ed-db617825d3e2")
-		(property "Reference" "D79"
+		(property "Reference" "D82"
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -13261,7 +13277,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D79")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -13276,7 +13292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2475d3-eb56-44be-be58-9cd0d5d316f7")
-		(property "Reference" "SW87"
+		(property "Reference" "SW84"
 			(at 213.614 116.586 0)
 			(effects
 				(font
@@ -13328,7 +13344,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW87")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -13343,7 +13359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d5f5856-b95e-45c5-8fc8-baf34c0c81f5")
-		(property "Reference" "D106"
+		(property "Reference" "D104"
 			(at 220.98 143.51 0)
 			(effects
 				(font
@@ -13414,74 +13430,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3186170c-f193-4e20-bfc9-74b5d0f473c9")
-		(property "Reference" "R6"
-			(at 43.18 167.894 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 40.64 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 43.18 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35f2a0db-fec1-4cb7-a673-171569b24b47")
-		)
-		(pin "2"
-			(uuid "435eddea-82da-49ee-8b7a-3510807eb38d")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R6")
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -13562,7 +13511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b6cd04-8de5-46a0-91d4-5567d3971b98")
-		(property "Reference" "SW97"
+		(property "Reference" "SW91"
 			(at 111.767 137.16 0)
 			(effects
 				(font
@@ -13614,7 +13563,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW97")
+					(reference "SW91")
 					(unit 1)
 				)
 			)
@@ -13684,6 +13633,94 @@
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
 					(reference "SW5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 43.18 167.64 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3635d454-866e-4fb1-b872-78bfa71b0fe6")
+		(property "Reference" "R8"
+			(at 45.72 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 45.72 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.498 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 36.83 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50aa204e-8c38-4f31-930f-f2b7659952da")
+		)
+		(pin "8"
+			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b176")
+		)
+		(pin "4"
+			(uuid "9211a8b4-df50-46a6-b80e-d0b8cf306612")
+		)
+		(pin "3"
+			(uuid "790660dd-f243-48c3-9b7a-b94e08977bec")
+		)
+		(pin "1"
+			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfc")
+		)
+		(pin "7"
+			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c569")
+		)
+		(pin "6"
+			(uuid "40f47932-cb36-4e51-88ce-84f316efba79")
+		)
+		(pin "5"
+			(uuid "1243e86c-f2c8-4b70-a23a-bf306255592f")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R8")
+					(unit 2)
 				)
 			)
 		)
@@ -13765,7 +13802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c35c107-f853-48fc-9b2a-6905e4ade40d")
-		(property "Reference" "D34"
+		(property "Reference" "D35"
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -13836,7 +13873,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D34")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -13851,7 +13888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c790bf0-67c2-4182-94f2-7c3fee9494ea")
-		(property "Reference" "D43"
+		(property "Reference" "D44"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -13922,7 +13959,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D43")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -13937,7 +13974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "403a25c4-5621-466b-a350-f742a8921c84")
-		(property "Reference" "D86"
+		(property "Reference" "D89"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -14008,7 +14045,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D86")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -14023,7 +14060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41955d61-571a-4989-a31a-f3dc807d7176")
-		(property "Reference" "D36"
+		(property "Reference" "D37"
 			(at 246.38 59.69 0)
 			(effects
 				(font
@@ -14094,7 +14131,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D36")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -14109,7 +14146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a1cd8f-b5c7-4090-895e-8e31e84b84eb")
-		(property "Reference" "D50"
+		(property "Reference" "D51"
 			(at 195.58 80.01 0)
 			(effects
 				(font
@@ -14180,7 +14217,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D50")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -14255,6 +14292,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 142.24 170.18 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4481aeb6-aef9-46fb-baeb-c9ea32d174ea")
+		(property "Reference" "R9"
+			(at 144.78 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 144.78 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.558 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 135.89 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39032be4-a2c6-4872-8264-3f3f4475023e")
+		)
+		(pin "3"
+			(uuid "22b6899c-ce94-405e-955c-54e6e321e03a")
+		)
+		(pin "5"
+			(uuid "234b3938-02c1-4b65-9588-fe69822bdf18")
+		)
+		(pin "4"
+			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb08")
+		)
+		(pin "2"
+			(uuid "c746df17-ef16-4399-aa16-5ba188293963")
+		)
+		(pin "6"
+			(uuid "14bc58f7-fc54-48d2-b73a-f1e874cfadaa")
+		)
+		(pin "7"
+			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a98")
+		)
+		(pin "8"
+			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871ab")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R9")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-kicad-lib:D")
 		(at 266.7 88.9 90)
 		(unit 1)
@@ -14263,7 +14388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "456c0009-ead8-4623-b8f1-cc0d0f27c959")
-		(property "Reference" "D95"
+		(property "Reference" "D57"
 			(at 267.97 90.17 0)
 			(effects
 				(font
@@ -14335,7 +14460,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D95")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -14351,7 +14476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475413d6-1f05-447b-bbef-bd2eb290bc43")
-		(property "Reference" "ST6"
+		(property "Reference" "ST5"
 			(at 251.46 128.2699 0)
 			(effects
 				(font
@@ -14399,74 +14524,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "ST6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 142.24 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47c70d27-83f4-4dbe-ad25-7bc8a62cdf11")
-		(property "Reference" "R8"
-			(at 142.24 170.434 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 139.7 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 142.24 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da18da8c-4645-4167-a679-2da55f31aa28")
-		)
-		(pin "2"
-			(uuid "08d271fe-bc8b-4e23-a52b-4a5a9e34e26b")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R8")
+					(reference "ST5")
 					(unit 1)
 				)
 			)
@@ -14490,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Tdl"
 			(at 35.567 55.88 0)
 			(effects
 				(font
@@ -14549,7 +14607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d727c1b-44ca-45eb-be91-a7b4bf5de88a")
-		(property "Reference" "D64"
+		(property "Reference" "D70"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -14620,7 +14678,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D64")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -14635,7 +14693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e6879ff-88ca-4bb4-b1c6-7fd5dbe9e9f1")
-		(property "Reference" "SW85"
+		(property "Reference" "SW82"
 			(at 188.214 116.586 0)
 			(effects
 				(font
@@ -14687,7 +14745,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW85")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -14770,7 +14828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e65d16-f6da-474c-b247-3a0b3294b9eb")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -14841,7 +14899,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -14856,7 +14914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52b626a1-c205-470b-bebf-82488b290458")
-		(property "Reference" "D38"
+		(property "Reference" "D39"
 			(at 43.18 80.01 0)
 			(effects
 				(font
@@ -14927,7 +14985,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D38")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -15002,6 +15060,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 147.32 162.56 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534465bf-b75d-46ee-84fa-74d684f3243b")
+		(property "Reference" "R9"
+			(at 149.86 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 149.86 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.638 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39032be4-a2c6-4872-8264-3f3f4475023f")
+		)
+		(pin "3"
+			(uuid "22b6899c-ce94-405e-955c-54e6e321e03b")
+		)
+		(pin "5"
+			(uuid "234b3938-02c1-4b65-9588-fe69822bdf19")
+		)
+		(pin "4"
+			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb09")
+		)
+		(pin "2"
+			(uuid "c746df17-ef16-4399-aa16-5ba188293964")
+		)
+		(pin "6"
+			(uuid "14bc58f7-fc54-48d2-b73a-f1e874cfadab")
+		)
+		(pin "7"
+			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a99")
+		)
+		(pin "8"
+			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871ac")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-kicad-lib:D")
 		(at 264.16 88.9 90)
 		(unit 1)
@@ -15010,7 +15156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53a94f81-f701-4b96-8aae-24e53314e9f4")
-		(property "Reference" "D94"
+		(property "Reference" "D56"
 			(at 265.43 90.17 0)
 			(effects
 				(font
@@ -15082,7 +15228,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D94")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -15097,7 +15243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54806183-ffba-4f18-8dad-a8092699a6c4")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 93.98 39.37 0)
 			(effects
 				(font
@@ -15168,7 +15314,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -15387,7 +15533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5792b4c6-8108-46d7-9c6a-37667d1630e9")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 208.28 59.69 0)
 			(effects
 				(font
@@ -15458,7 +15604,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -15601,6 +15747,182 @@
 		)
 	)
 	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 68.58 162.56 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b0ddfad-6f6b-458b-a33b-c7bf3a9a45f5")
+		(property "Reference" "R8"
+			(at 71.12 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 71.12 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.898 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 62.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50aa204e-8c38-4f31-930f-f2b7659952db")
+		)
+		(pin "8"
+			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b177")
+		)
+		(pin "4"
+			(uuid "9211a8b4-df50-46a6-b80e-d0b8cf306613")
+		)
+		(pin "3"
+			(uuid "790660dd-f243-48c3-9b7a-b94e08977bed")
+		)
+		(pin "1"
+			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfd")
+		)
+		(pin "7"
+			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c56a")
+		)
+		(pin "6"
+			(uuid "40f47932-cb36-4e51-88ce-84f316efba7a")
+		)
+		(pin "5"
+			(uuid "1243e86c-f2c8-4b70-a23a-bf3062555930")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 114.3 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cffde32-aabd-48f6-b924-1a3211b1af93")
+		(property "Reference" "R9"
+			(at 116.84 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 116.84 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.618 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 107.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39032be4-a2c6-4872-8264-3f3f44750240")
+		)
+		(pin "3"
+			(uuid "22b6899c-ce94-405e-955c-54e6e321e03c")
+		)
+		(pin "5"
+			(uuid "234b3938-02c1-4b65-9588-fe69822bdf1a")
+		)
+		(pin "4"
+			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb0a")
+		)
+		(pin "2"
+			(uuid "c746df17-ef16-4399-aa16-5ba188293965")
+		)
+		(pin "6"
+			(uuid "14bc58f7-fc54-48d2-b73a-f1e874cfadac")
+		)
+		(pin "7"
+			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a9a")
+		)
+		(pin "8"
+			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871ad")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-kicad-lib:D_45deg")
 		(at 81.28 55.88 180)
 		(unit 1)
@@ -15609,7 +15931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f02d730-c557-430f-bf96-2239d30aeb38")
-		(property "Reference" "D23"
+		(property "Reference" "D24"
 			(at 81.28 59.69 0)
 			(effects
 				(font
@@ -15680,7 +16002,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D23")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -15696,7 +16018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f40c80e-643d-4920-bb04-2601748c9efe")
-		(property "Reference" "SW107"
+		(property "Reference" "SW97"
 			(at 238.767 137.16 0)
 			(effects
 				(font
@@ -15748,74 +16070,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 35.56 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f79f06e-1950-4f73-ad1a-a0e90a0ccad3")
-		(property "Reference" "R5"
-			(at 35.56 167.894 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 33.02 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0af379a-7715-4824-b68f-41c763652827")
-		)
-		(pin "2"
-			(uuid "62b62f56-969a-47e3-a487-61d21589c51c")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R5")
+					(reference "SW97")
 					(unit 1)
 				)
 			)
@@ -15830,7 +16085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fa8fe2a-d18d-4eb3-a3e1-4a22805b9a95")
-		(property "Reference" "D78"
+		(property "Reference" "D81"
 			(at 93.98 123.19 0)
 			(effects
 				(font
@@ -15901,7 +16156,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D78")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -16052,7 +16307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63f7349a-cbb1-4650-99bd-e09741c16881")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -16123,7 +16378,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -16207,7 +16462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65771267-d66c-45b2-a338-5594e514cbc5")
-		(property "Reference" "ST5"
+		(property "Reference" "ST2"
 			(at 251.46 85.0899 0)
 			(effects
 				(font
@@ -16255,7 +16510,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "ST5")
+					(reference "ST2")
 					(unit 1)
 				)
 			)
@@ -16270,7 +16525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66dbe05d-69bc-4acf-bf97-300b76fed7d0")
-		(property "Reference" "D56"
+		(property "Reference" "D62"
 			(at 43.18 100.33 0)
 			(effects
 				(font
@@ -16341,7 +16596,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D56")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -16356,7 +16611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67595db2-b36c-427c-9798-e8859eb2e024")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 182.88 39.37 0)
 			(effects
 				(font
@@ -16427,7 +16682,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -16510,7 +16765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69502486-8a99-467e-a245-079c802cf675")
-		(property "Reference" "D83"
+		(property "Reference" "D86"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -16581,7 +16836,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D83")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -16732,7 +16987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b25da22-fa16-4842-acc6-c69153e296cd")
-		(property "Reference" "D88"
+		(property "Reference" "D91"
 			(at 220.98 123.19 0)
 			(effects
 				(font
@@ -16803,7 +17058,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D88")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -16886,7 +17141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d1c78c5-78ff-427c-9d4f-40f1e6f144da")
-		(property "Reference" "D58"
+		(property "Reference" "D64"
 			(at 68.58 100.33 0)
 			(effects
 				(font
@@ -16957,7 +17212,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D58")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -16973,7 +17228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc73653-d2ea-415c-8c5a-6ffd9100f781")
-		(property "Reference" "SW92"
+		(property "Reference" "SW89"
 			(at 48.267 137.16 0)
 			(effects
 				(font
@@ -17025,7 +17280,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW92")
+					(reference "SW89")
 					(unit 1)
 				)
 			)
@@ -17176,7 +17431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7047ba00-6f72-47d8-a1d4-926901ffcd3c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 127 196.85 0)
 			(effects
 				(font
@@ -17226,7 +17481,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17241,7 +17496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "734f0cb1-0df7-4d76-bd92-368ab1598cc8")
-		(property "Reference" "D101"
+		(property "Reference" "D99"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -17312,7 +17567,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D101")
+					(reference "D99")
 					(unit 1)
 				)
 			)
@@ -17327,7 +17582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e562d8-458d-4a3a-af7d-4f5fe098747a")
-		(property "Reference" "D71"
+		(property "Reference" "D76"
 			(at 233.68 100.33 0)
 			(effects
 				(font
@@ -17398,7 +17653,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D71")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -17413,7 +17668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74a2e7b1-5f05-461c-8a2e-dd23e0b134fb")
-		(property "Reference" "D49"
+		(property "Reference" "D50"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -17484,7 +17739,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D49")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -17499,7 +17754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "761d5e09-da74-472f-b1f6-030d7a9dfb94")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 246.38 80.01 0)
 			(effects
 				(font
@@ -17570,7 +17825,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -17585,7 +17840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77aa60f2-02ea-4561-b677-ba7ea0f870dc")
-		(property "Reference" "D53"
+		(property "Reference" "D54"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -17656,7 +17911,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D53")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -17671,7 +17926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77ccdd8d-1073-44d9-afe2-d1774c6b902e")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -17742,7 +17997,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -17757,7 +18012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77ff14f0-433b-46b8-8b43-b0d3e039d995")
-		(property "Reference" "D75"
+		(property "Reference" "D78"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -17828,8 +18083,96 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D75")
+					(reference "D78")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 121.92 167.64 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ff5a86-1683-4bca-a686-b167d4b8d484")
+		(property "Reference" "R9"
+			(at 124.46 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 124.46 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.238 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39032be4-a2c6-4872-8264-3f3f44750241")
+		)
+		(pin "3"
+			(uuid "22b6899c-ce94-405e-955c-54e6e321e03d")
+		)
+		(pin "5"
+			(uuid "234b3938-02c1-4b65-9588-fe69822bdf1b")
+		)
+		(pin "4"
+			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb0b")
+		)
+		(pin "2"
+			(uuid "c746df17-ef16-4399-aa16-5ba188293966")
+		)
+		(pin "6"
+			(uuid "14bc58f7-fc54-48d2-b73a-f1e874cfadad")
+		)
+		(pin "7"
+			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a9b")
+		)
+		(pin "8"
+			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871ae")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R9")
+					(unit 2)
 				)
 			)
 		)
@@ -17911,7 +18254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7969021d-6f53-4bb8-b2b3-543e5655c7f0")
-		(property "Reference" "SW80"
+		(property "Reference" "SW77"
 			(at 124.714 116.586 0)
 			(effects
 				(font
@@ -17963,7 +18306,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW80")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -17978,7 +18321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79f66e06-ff2f-46c6-8fb6-88698ad34468")
-		(property "Reference" "D48"
+		(property "Reference" "D49"
 			(at 170.18 80.01 0)
 			(effects
 				(font
@@ -18049,7 +18392,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D48")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -18065,7 +18408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b63fb3a-337d-4b5e-ac3d-db61256a3060")
-		(property "Reference" "SW105"
+		(property "Reference" "SW95"
 			(at 213.367 137.16 0)
 			(effects
 				(font
@@ -18117,7 +18460,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW105")
+					(reference "SW95")
 					(unit 1)
 				)
 			)
@@ -18201,7 +18544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801f5def-dd8c-4581-826a-103c2ae7627e")
-		(property "Reference" "ST2"
+		(property "Reference" "ST3"
 			(at 200.66 105.4099 0)
 			(effects
 				(font
@@ -18249,7 +18592,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "ST2")
+					(reference "ST3")
 					(unit 1)
 				)
 			)
@@ -18265,7 +18608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829b6fb1-831e-4397-94c2-4102a67dca92")
-		(property "Reference" "SW73"
+		(property "Reference" "SW71"
 			(at 35.567 116.84 0)
 			(effects
 				(font
@@ -18317,7 +18660,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW73")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -18332,7 +18675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82dce976-3c4a-4ba4-b96e-d81d5207a29e")
-		(property "Reference" "D51"
+		(property "Reference" "D52"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -18403,7 +18746,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D51")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -18486,7 +18829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8336f591-8720-44c1-b51c-8125c6bd39fc")
-		(property "Reference" "D73"
+		(property "Reference" "D77"
 			(at 30.48 123.19 0)
 			(effects
 				(font
@@ -18557,7 +18900,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D73")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -18633,92 +18976,6 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:D_45deg")
-		(at 43.18 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86d506ae-1d45-4f16-b14c-2b31e74a89cf")
-		(property "Reference" "D2"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 36.83 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 43.434 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 43.18 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=A 1=K"
-			(at 43.18 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27c3ae9f-a379-444f-88fc-54cf02b2d6cf")
-		)
-		(pin "2"
-			(uuid "7d7456bf-1341-4ea2-8730-4b051fd97a35")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:D_45deg")
 		(at 81.28 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18726,7 +18983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "870e4403-7c36-4eb7-b227-5898d125e599")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 81.28 39.37 0)
 			(effects
 				(font
@@ -18797,7 +19054,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18813,7 +19070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f1d4b4-7248-4d06-8553-d1cbb0942837")
-		(property "Reference" "SW106"
+		(property "Reference" "SW96"
 			(at 226.067 137.16 0)
 			(effects
 				(font
@@ -18865,7 +19122,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW106")
+					(reference "SW96")
 					(unit 1)
 				)
 			)
@@ -18880,7 +19137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a481e7a-9f76-4d58-8092-6f4b55abfb76")
-		(property "Reference" "D40"
+		(property "Reference" "D41"
 			(at 68.58 80.01 0)
 			(effects
 				(font
@@ -18951,7 +19208,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D40")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -18967,7 +19224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c785eb1-db17-49df-a1ee-b0bece596890")
-		(property "Reference" "SW104"
+		(property "Reference" "SW94"
 			(at 200.667 137.16 0)
 			(effects
 				(font
@@ -19019,93 +19276,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:D_45deg")
-		(at 30.48 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d2eaa67-7800-43e7-b449-e1904db69151")
-		(property "Reference" "D19"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 24.13 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 30.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, rotated by 45°"
-			(at 30.734 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=A 1=K"
-			(at 30.48 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5fe623d-ab4a-4dd2-a0e2-aff9f879ae96")
-		)
-		(pin "2"
-			(uuid "5a341be7-5bb9-4a09-b72a-9a1b30e2a6db")
-		)
-		(instances
-			(project "sr99-stm32f411-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D19")
+					(reference "SW94")
 					(unit 1)
 				)
 			)
@@ -19120,7 +19291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9041514a-d8bf-4ff2-8c21-531dc47142a5")
-		(property "Reference" "D80"
+		(property "Reference" "D83"
 			(at 119.38 123.19 0)
 			(effects
 				(font
@@ -19191,7 +19362,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D80")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -19206,7 +19377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "926ae244-0188-4190-b37b-b033ac085b29")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 106.68 39.37 0)
 			(effects
 				(font
@@ -19277,7 +19448,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -19292,7 +19463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93170ee8-4263-436b-a7a1-b48bb8773bbd")
-		(property "Reference" "SW75"
+		(property "Reference" "SW72"
 			(at 61.214 116.586 0)
 			(effects
 				(font
@@ -19344,7 +19515,93 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW75")
+					(reference "SW72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:D_45deg")
+		(at 43.18 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "940e752c-5c95-4ab3-84a1-3f3a343237c3")
+		(property "Reference" "D3"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 36.83 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 43.434 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 43.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=A 1=K"
+			(at 43.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d4a956b-d722-4f71-97d4-58d041305363")
+		)
+		(pin "2"
+			(uuid "c37640d4-a937-4fe3-98a5-ed10a570c960")
+		)
+		(instances
+			(project "sr99-stm32f411-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -19360,7 +19617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942758d3-5140-4152-9cf8-2d2ae42802d0")
-		(property "Reference" "SW91"
+		(property "Reference" "SW88"
 			(at 35.567 137.16 0)
 			(effects
 				(font
@@ -19412,7 +19669,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW91")
+					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -19427,7 +19684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95959d6d-7b55-432b-8a1e-cfc8428e8b66")
-		(property "Reference" "D81"
+		(property "Reference" "D84"
 			(at 132.08 123.19 0)
 			(effects
 				(font
@@ -19498,7 +19755,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D81")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -19581,7 +19838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9858cf64-96d6-458d-828e-acbaa372c8bd")
-		(property "Reference" "D99"
+		(property "Reference" "D60"
 			(at 275.59 90.17 0)
 			(effects
 				(font
@@ -19653,7 +19910,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D99")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -19940,7 +20197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dc945be-68bc-478e-9fc8-bb1b5a5f4b8a")
-		(property "Reference" "D61"
+		(property "Reference" "D67"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -20011,7 +20268,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D61")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -20026,7 +20283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f08fa49-0869-42f1-99dd-75fd7ee10ff9")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 246.38 39.37 0)
 			(effects
 				(font
@@ -20097,7 +20354,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -20113,7 +20370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f49e739-b75f-4be9-bed5-9023fbb7f9bc")
-		(property "Reference" "SW103"
+		(property "Reference" "SW93"
 			(at 187.967 137.16 0)
 			(effects
 				(font
@@ -20165,7 +20422,93 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW103")
+					(reference "SW93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:D_45deg")
+		(at 30.48 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f66c322-be73-46ad-8a3b-71e25a54fea2")
+		(property "Reference" "D20"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 24.13 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 30.734 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=A 1=K"
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ba457a3-34f2-4f59-a604-5117a56acfc1")
+		)
+		(pin "2"
+			(uuid "21c40fdb-8355-4813-9b8f-e2b80ae1eec6")
+		)
+		(instances
+			(project "sr99-stm32f411-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -20180,7 +20523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a038da12-ee53-47e8-9e03-d0095f93327b")
-		(property "Reference" "D76"
+		(property "Reference" "D79"
 			(at 68.58 123.19 0)
 			(effects
 				(font
@@ -20251,7 +20594,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D76")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -20334,7 +20677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a27a8dae-62e5-448b-8ed8-3f71333696af")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 48.26 196.85 0)
 			(effects
 				(font
@@ -20384,7 +20727,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -20399,7 +20742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a410495b-4d87-438e-aeff-ae6b300d17bb")
-		(property "Reference" "SW89"
+		(property "Reference" "SW86"
 			(at 239.014 116.586 0)
 			(effects
 				(font
@@ -20451,7 +20794,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW89")
+					(reference "SW86")
 					(unit 1)
 				)
 			)
@@ -20466,7 +20809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5920db2-08c5-486e-bc41-cc2540a97d1a")
-		(property "Reference" "D89"
+		(property "Reference" "D92"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -20537,7 +20880,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D89")
+					(reference "D92")
 					(unit 1)
 				)
 			)
@@ -20621,7 +20964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7491bce-bb61-4ac0-8242-14ba8f69018b")
-		(property "Reference" "ST4"
+		(property "Reference" "ST6"
 			(at 111.76 148.5899 0)
 			(effects
 				(font
@@ -20669,7 +21012,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "ST4")
+					(reference "ST6")
 					(unit 1)
 				)
 			)
@@ -20684,7 +21027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a78c89b7-dc9b-4cd8-b812-850e63805bb4")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 40.386 182.88 90)
 			(effects
 				(font
@@ -20736,7 +21079,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20751,7 +21094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7cc92a5-69db-4275-96fc-ac693b830cf0")
-		(property "Reference" "D105"
+		(property "Reference" "D103"
 			(at 208.28 143.51 0)
 			(effects
 				(font
@@ -20822,7 +21165,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D105")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -20973,7 +21316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abd8789e-facd-42e9-9dbc-0ad5f7d2d9a8")
-		(property "Reference" "SW84"
+		(property "Reference" "SW81"
 			(at 175.514 116.586 0)
 			(effects
 				(font
@@ -21025,7 +21368,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW84")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -21040,7 +21383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad6bf516-4d48-4880-a3a9-9739e5eb2934")
-		(property "Reference" "D55"
+		(property "Reference" "D61"
 			(at 30.48 100.33 0)
 			(effects
 				(font
@@ -21111,7 +21454,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D55")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -21126,7 +21469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aee7e38f-3149-4476-bf9a-099ad5655feb")
-		(property "Reference" "D35"
+		(property "Reference" "D36"
 			(at 233.68 59.69 0)
 			(effects
 				(font
@@ -21197,7 +21540,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D35")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -21280,7 +21623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b034ab57-e49a-47de-b2f8-f7570828fef5")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 119.126 182.88 90)
 			(effects
 				(font
@@ -21332,7 +21675,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -21347,7 +21690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b088ae68-0349-4194-a9e5-313593086160")
-		(property "Reference" "D42"
+		(property "Reference" "D43"
 			(at 93.98 80.01 0)
 			(effects
 				(font
@@ -21418,7 +21761,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D42")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -21433,7 +21776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29e69c6-0de0-4184-96ba-f6d5ce3adce7")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 32.766 182.88 90)
 			(effects
 				(font
@@ -21485,7 +21828,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21500,7 +21843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b35d7459-aff0-47e3-975b-de23e69ad4ff")
-		(property "Reference" "D92"
+		(property "Reference" "D95"
 			(at 43.18 143.51 0)
 			(effects
 				(font
@@ -21571,7 +21914,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D92")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -21586,7 +21929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b42a1c1e-b2ae-460e-a60e-5da3e9745b87")
-		(property "Reference" "D60"
+		(property "Reference" "D66"
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -21657,7 +22000,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D60")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -21672,7 +22015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b43af583-cd12-4238-b6cd-b4812111cf0b")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 132.08 39.37 0)
 			(effects
 				(font
@@ -21743,7 +22086,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -21758,7 +22101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b48bbd99-c3e5-4b21-a6ca-069ef8e3dffa")
-		(property "Reference" "D57"
+		(property "Reference" "D63"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -21829,7 +22172,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D57")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -21844,7 +22187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b550ed0a-09b5-4608-86a3-d4474616c73e")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -21915,7 +22258,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -21931,7 +22274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ca469d-15b8-4fe3-92fd-adb2ee1154a7")
-		(property "Reference" "SW70"
+		(property "Reference" "SW69"
 			(at 226.067 93.98 0)
 			(effects
 				(font
@@ -21983,7 +22326,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW70")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -21998,7 +22341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b73544bb-2cc4-4938-819d-6f76472fc25a")
-		(property "Reference" "SW83"
+		(property "Reference" "SW80"
 			(at 162.814 116.586 0)
 			(effects
 				(font
@@ -22050,7 +22393,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW83")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -22134,7 +22477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba209ccd-cb03-43d7-8010-f8126adef4aa")
-		(property "Reference" "SW101"
+		(property "Reference" "SW92"
 			(at 162.567 137.16 0)
 			(effects
 				(font
@@ -22186,7 +22529,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW101")
+					(reference "SW92")
 					(unit 1)
 				)
 			)
@@ -22201,7 +22544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0bb621b-e6bc-40a8-95de-d427503a0f47")
-		(property "Reference" "D82"
+		(property "Reference" "D85"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -22272,7 +22615,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D82")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -22287,7 +22630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c8390c-a314-4782-8d3c-91db968a4e18")
-		(property "Reference" "D70"
+		(property "Reference" "D75"
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -22358,7 +22701,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D70")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -22373,7 +22716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c11db441-54fc-4a47-9b1d-526b23203f60")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 133.35 163.83 0)
 			(effects
 				(font
@@ -22423,7 +22766,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -22485,10 +22828,10 @@
 		(pin "B"
 			(uuid "038d1a5a-c561-41a6-933b-1f079aa47b6c")
 		)
-		(pin "S"
+		(pin "G"
 			(uuid "74441c6d-5e6b-4321-8008-f74b5837544b")
 		)
-		(pin "C"
+		(pin "E"
 			(uuid "ae375c6c-f8c2-4059-a489-ae6800e5c7b3")
 		)
 		(pin "A"
@@ -22512,7 +22855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c77549-6f56-4040-9322-f90ba9ffa590")
-		(property "Reference" "D87"
+		(property "Reference" "D90"
 			(at 208.28 123.19 0)
 			(effects
 				(font
@@ -22583,7 +22926,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D87")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -22599,7 +22942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7706033-dfb9-4a89-b6e1-dfe2337c4b2f")
-		(property "Reference" "SW71"
+		(property "Reference" "SW70"
 			(at 238.767 93.98 0)
 			(effects
 				(font
@@ -22651,7 +22994,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW71")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -22666,7 +23009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8675d27-f315-4244-aa38-1ef1f5565ebe")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 119.38 80.01 0)
 			(effects
 				(font
@@ -22737,7 +23080,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -22752,7 +23095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8e7c652-4fab-433a-afc6-ffc33c5554b9")
-		(property "Reference" "D29"
+		(property "Reference" "D30"
 			(at 157.48 59.69 0)
 			(effects
 				(font
@@ -22823,7 +23166,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -22906,7 +23249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca48d6e7-9631-4bb6-abba-e9c9822febb8")
-		(property "Reference" "D66"
+		(property "Reference" "D72"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -22977,7 +23320,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D66")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -22992,7 +23335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca731dfa-cccd-4b0e-9dc3-eaa11c03f9e5")
-		(property "Reference" "D52"
+		(property "Reference" "D53"
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -23063,7 +23406,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D52")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -23078,7 +23421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf838dc7-555a-4efc-add4-b596da06d147")
-		(property "Reference" "D59"
+		(property "Reference" "D65"
 			(at 81.28 100.33 0)
 			(effects
 				(font
@@ -23149,7 +23492,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D59")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -23164,7 +23507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d01826b5-8dd7-4e80-ae63-892aa1d6b24e")
-		(property "Reference" "D100"
+		(property "Reference" "D98"
 			(at 144.78 143.51 0)
 			(effects
 				(font
@@ -23235,7 +23578,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D100")
+					(reference "D98")
 					(unit 1)
 				)
 			)
@@ -23386,7 +23729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1f63957-6c4c-4085-95d1-2dc957de60a3")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 43.18 59.69 0)
 			(effects
 				(font
@@ -23457,7 +23800,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -23472,7 +23815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d205770d-3e00-4032-9c4d-24ba76cc38da")
-		(property "Reference" "D62"
+		(property "Reference" "D68"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -23543,7 +23886,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D62")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -23558,7 +23901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d28f9a40-d884-462a-84bb-4b662aea77f2")
-		(property "Reference" "D84"
+		(property "Reference" "D87"
 			(at 170.18 123.19 0)
 			(effects
 				(font
@@ -23629,7 +23972,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D84")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -23644,7 +23987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d33e00a5-69c0-4796-9bb4-01abfa02dc72")
-		(property "Reference" "SW78"
+		(property "Reference" "SW75"
 			(at 99.314 116.586 0)
 			(effects
 				(font
@@ -23696,7 +24039,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW78")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -23847,7 +24190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da924aff-f068-4acd-a8ab-83533cc0af45")
-		(property "Reference" "SW94-5-6-8-9"
+		(property "Reference" "SW94-5-6-8-1"
 			(at 281.94 101.6 0)
 			(effects
 				(font
@@ -23923,7 +24266,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW94-5-6-8-9")
+					(reference "SW94-5-6-8-1")
 					(unit 1)
 				)
 			)
@@ -23938,7 +24281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dab57691-4edf-4481-b56f-a17fbfc07e79")
-		(property "Reference" "D77"
+		(property "Reference" "D80"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -24009,7 +24352,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D77")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -24160,7 +24503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db1c3fa6-5f46-4e2d-ba74-e6d20d1ff601")
-		(property "Reference" "SW79"
+		(property "Reference" "SW76"
 			(at 112.014 116.586 0)
 			(effects
 				(font
@@ -24212,7 +24555,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW79")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -24227,7 +24570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db6f8b08-71ea-45a4-8471-57952936f4c1")
-		(property "Reference" "D93"
+		(property "Reference" "D96"
 			(at 55.88 143.51 0)
 			(effects
 				(font
@@ -24298,7 +24641,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D93")
+					(reference "D96")
 					(unit 1)
 				)
 			)
@@ -24449,7 +24792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc160ec9-a1c1-4f53-89c3-9f34e578cf17")
-		(property "Reference" "D47"
+		(property "Reference" "D48"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -24520,7 +24863,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D47")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -24535,7 +24878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcaeb173-e633-4a47-8d7a-06a15c36e89e")
-		(property "Reference" "SW90"
+		(property "Reference" "SW87"
 			(at 251.714 116.586 0)
 			(effects
 				(font
@@ -24587,7 +24930,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW90")
+					(reference "SW87")
 					(unit 1)
 				)
 			)
@@ -24602,7 +24945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd574d29-10ed-4473-b0fa-af4a9a3f96b5")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 170.18 39.37 0)
 			(effects
 				(font
@@ -24673,7 +25016,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -24689,7 +25032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8662d8-0b06-448a-abfd-73a92701f162")
-		(property "Reference" "SW69"
+		(property "Reference" "SW68"
 			(at 213.367 93.98 0)
 			(effects
 				(font
@@ -24741,7 +25084,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW69")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -24892,7 +25235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e34549d6-6292-4efb-8a40-99ecb6c94a40")
-		(property "Reference" "D37"
+		(property "Reference" "D38"
 			(at 30.48 80.01 0)
 			(effects
 				(font
@@ -24963,7 +25306,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D37")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -24979,7 +25322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6542e17-447f-49bc-9d88-d7afa0993015")
-		(property "Reference" "SW93"
+		(property "Reference" "SW90"
 			(at 60.967 137.16 0)
 			(effects
 				(font
@@ -25031,7 +25374,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW93")
+					(reference "SW90")
 					(unit 1)
 				)
 			)
@@ -25046,7 +25389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6d04cad-4b66-44f7-ba82-c03c273286ae")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -25117,7 +25460,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -25132,7 +25475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e790fdd0-00e8-4b32-9be8-20866c01fc39")
-		(property "Reference" "D22"
+		(property "Reference" "D23"
 			(at 68.58 59.69 0)
 			(effects
 				(font
@@ -25203,7 +25546,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D22")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -25218,7 +25561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e817f0b3-b000-4538-a74a-03880d028e93")
-		(property "Reference" "D85"
+		(property "Reference" "D88"
 			(at 182.88 123.19 0)
 			(effects
 				(font
@@ -25289,7 +25632,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D85")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -25372,7 +25715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e91cbd0e-ca32-40f4-9c2b-d25c862c937d")
-		(property "Reference" "D65"
+		(property "Reference" "D71"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -25443,7 +25786,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D65")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -25526,7 +25869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebbab288-1459-4840-a874-202284bdb53b")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -25597,7 +25940,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -25612,7 +25955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecfa898c-7409-412d-9299-098312a18791")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -25683,7 +26026,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -25698,7 +26041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed9268b4-99a7-421a-b9ac-8dd272dade37")
-		(property "Reference" "SW86"
+		(property "Reference" "SW83"
 			(at 200.914 116.586 0)
 			(effects
 				(font
@@ -25750,7 +26093,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW86")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -25765,7 +26108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef2882d8-65e0-4c67-a309-62f598a1a4fa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -25815,7 +26158,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -25830,7 +26173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efb893c4-c03d-49e5-a95d-dc6fa3706cb9")
-		(property "Reference" "D46"
+		(property "Reference" "D47"
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -25901,7 +26244,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D46")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -25984,7 +26327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f278cf0a-0006-466e-9339-9f57def56af2")
-		(property "Reference" "D24"
+		(property "Reference" "D25"
 			(at 93.98 59.69 0)
 			(effects
 				(font
@@ -26055,7 +26398,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -26070,7 +26413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3c079f6-e247-44ba-a421-91f91b0924fd")
-		(property "Reference" "D103"
+		(property "Reference" "D101"
 			(at 182.88 143.51 0)
 			(effects
 				(font
@@ -26141,7 +26484,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D103")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -26157,7 +26500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f567b4c3-da9b-4099-8c9c-c4c28db7dd62")
-		(property "Reference" "ST3"
+		(property "Reference" "ST4"
 			(at 35.56 128.2699 0)
 			(effects
 				(font
@@ -26205,7 +26548,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "ST3")
+					(reference "ST4")
 					(unit 1)
 				)
 			)
@@ -26280,6 +26623,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 35.56 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b12e09-b621-4639-910b-b6de4b653e7f")
+		(property "Reference" "R8"
+			(at 38.1 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 38.1 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.878 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50aa204e-8c38-4f31-930f-f2b7659952dc")
+		)
+		(pin "8"
+			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b178")
+		)
+		(pin "4"
+			(uuid "9211a8b4-df50-46a6-b80e-d0b8cf306614")
+		)
+		(pin "3"
+			(uuid "790660dd-f243-48c3-9b7a-b94e08977bee")
+		)
+		(pin "1"
+			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfe")
+		)
+		(pin "7"
+			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c56b")
+		)
+		(pin "6"
+			(uuid "40f47932-cb36-4e51-88ce-84f316efba7b")
+		)
+		(pin "5"
+			(uuid "1243e86c-f2c8-4b70-a23a-bf3062555931")
+		)
+		(instances
+			(project ""
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-kicad-lib:D_45deg")
 		(at 132.08 55.88 180)
 		(unit 1)
@@ -26288,7 +26719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8f39da8-1a85-4ae3-ab08-b7471ce064d0")
-		(property "Reference" "D27"
+		(property "Reference" "D28"
 			(at 132.08 59.69 0)
 			(effects
 				(font
@@ -26359,7 +26790,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -26374,7 +26805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffb9aefa-7b13-4c1a-8565-112b1bf58719")
-		(property "Reference" "D39"
+		(property "Reference" "D40"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -26445,7 +26876,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D39")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -26460,7 +26891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc9573d-c9de-4f9b-8f22-73b502306a16")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 195.58 39.37 0)
 			(effects
 				(font
@@ -26531,7 +26962,7 @@
 		(instances
 			(project "sr99-stm32f411-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)

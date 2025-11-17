@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -481,7 +481,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ts-lumissil-lib"
+    ]
   },
   "meta": {
     "filename": "sr99-stm32f411-hotswap.kicad_pro",
@@ -657,7 +659,11 @@
     ],
     [
       "acc4d29e-73f7-4883-839f-e4081a1f83aa",
-      "ARGB"
+      "ARGB Driver"
+    ],
+    [
+      "179ce375-fb2d-41c6-a0d9-592c742d8bb6",
+      "ARGB Matrix"
     ]
   ],
   "text_variables": {}

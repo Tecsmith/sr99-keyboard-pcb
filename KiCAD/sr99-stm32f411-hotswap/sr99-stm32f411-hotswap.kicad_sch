@@ -5,9 +5,9 @@
 	(uuid "e21675ae-fe46-4cba-befb-5225609570c3")
 	(paper "A4")
 	(lib_symbols)
-	(text "ARGB\n↓"
+	(text "ARGB Driver\n↓"
 		(exclude_from_sim no)
-		(at 238.252 87.63 0)
+		(at 178.308 103.124 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -18,7 +18,7 @@
 	)
 	(text "MCU\n↓"
 		(exclude_from_sim no)
-		(at 57.15 87.376 0)
+		(at 54.102 102.87 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -26,6 +26,17 @@
 			)
 		)
 		(uuid "37580858-ebea-4a37-a428-a781278b716c")
+	)
+	(text "ARGB Matrix\n↓"
+		(exclude_from_sim no)
+		(at 240.03 103.378 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+		)
+		(uuid "9f3559c4-c7e8-4ab3-8137-56185b9c8090")
 	)
 	(text "SR99 STM32F411 Hotswap"
 		(exclude_from_sim no)
@@ -40,7 +51,7 @@
 	)
 	(text "Matrix\n↓"
 		(exclude_from_sim no)
-		(at 148.336 87.376 0)
+		(at 115.824 102.87 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -63,7 +74,7 @@
 	)
 	(image
 		(at 145.7869 62.5345)
-		(scale 0.209293)
+		(scale 0.352791)
 		(uuid "355f5cf1-519c-4602-b589-a5c21ae2488b")
 		(data "iVBORw0KGgoAAAANSUhEUgAAEMwAAAXSCAMAAADN7jRHAAABsFBMVEUAAAD7+/vu7u7S0tLMzMyq"
 			"qqr9/f0AAAC8vLyZmZm3t7fKysq1tbWpqam4uLjPz88DAwPd3d0ICAjs7OyJiYkGBgaYmJje3t4K"
@@ -3978,8 +3989,50 @@
 		)
 	)
 	(sheet
-		(at 109.22 93.98)
-		(size 76.2 50.8)
+		(at 210.82 109.22)
+		(size 59.69 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "179ce375-fb2d-41c6-a0d9-592c742d8bb6")
+		(property "Sheetname" "ARGB Matrix"
+			(at 210.82 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sr99-stm32f411-hotswap-argb2.kicad_sch"
+			(at 210.82 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sr99-stm32f411-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 109.22)
+		(size 59.69 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3994,7 +4047,7 @@
 		)
 		(uuid "303ace07-4a37-44e4-b80c-3ccb7c663daf")
 		(property "Sheetname" "Matrix"
-			(at 109.22 93.2684 0)
+			(at 86.36 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4056,7 @@
 			)
 		)
 		(property "Sheetfile" "sr99-stm32f411-hotswap-matrix.kicad_sch"
-			(at 109.22 145.3646 0)
+			(at 86.36 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,8 +4073,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 93.98)
-		(size 76.2 50.8)
+		(at 24.13 109.22)
+		(size 59.69 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4036,7 +4089,7 @@
 		)
 		(uuid "7fe407f0-d791-4698-bdc1-e9063f8cd43a")
 		(property "Sheetname" "MCU and power"
-			(at 20.32 93.2684 0)
+			(at 24.13 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4098,7 @@
 			)
 		)
 		(property "Sheetfile" "sr99-stm32f411-hotswap-common-mcu.kicad_sch"
-			(at 20.32 145.3646 0)
+			(at 24.13 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,8 +4115,8 @@
 		)
 	)
 	(sheet
-		(at 198.12 93.98)
-		(size 76.2 50.8)
+		(at 148.59 109.22)
+		(size 59.69 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4077,8 +4130,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "acc4d29e-73f7-4883-839f-e4081a1f83aa")
-		(property "Sheetname" "ARGB"
-			(at 198.12 93.2684 0)
+		(property "Sheetname" "ARGB Driver"
+			(at 148.59 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,8 +4139,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sr99-stm32f411-hotswap-argb.kicad_sch"
-			(at 198.12 145.3646 0)
+		(property "Sheetfile" "sr99-stm32f411-hotswap-argb1.kicad_sch"
+			(at 148.59 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

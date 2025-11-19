@@ -11,7 +11,11 @@ A 980-layout (99-key) compact near-full size keyboard.
 
 ## Progression
 
-- **15 Nov 2025**: EAGLE design abandoned in favour of KiCAD design
+> :bangbang: This is a "when I'm bored" project - so "significant" progress is not expected.
+
+- **15 Nov 2025**: Re-do!
+  - EAGLE design abandoned in favour of KiCAD design
+  - `STM32F411` discarded for **`STM32G474`**
 - **27 Sep 2024**: Beta 1 done
   - :warning: Not manufactured
   - :warning: Not tested
@@ -50,12 +54,12 @@ A 980-layout (99-key) compact near-full size keyboard.
 ## Planned Features
 
 - [ ] QMK build, with Via/l support
-- [ ] 1x `STM32F411` STM32 CPU *(based on Black Pill design)*
+- [ ] 1x `STM32G474` STM32 CPU *(based on Black Pill design)*
 - [ ] 1x `M95640-DRE` 8K SPI EEPROM Module
 - [ ] 3x `MC74HC589A` SPI Input Shift Registers *- possibly faster scan rates*
-- [ ] SK6812MINI-E ARGB's
+- [ ] 2x `IS31FL3743B` RGB Drivers, with independent LDOs
 - [ ] 2x SKYLOONG rotary encoder/switch positions
-- [ ] UDB Usb-C 
+- [ ] UDB C-Series Usb-C JST-SH
 
 <!--
 #### Addons

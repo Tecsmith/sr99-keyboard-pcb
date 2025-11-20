@@ -16136,7 +16136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ts-keyboard-lib:RGB-156120M"
+		(property "Footprint" "ts-keyboard-lib:RGB-156120M_VIA"
 			(at 354.33 94.234 0)
 			(effects
 				(font
@@ -22268,7 +22268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ts-keyboard-lib:RGB-156120M"
+		(property "Footprint" "ts-keyboard-lib:RGB-156120M_VIA"
 			(at 372.11 94.234 0)
 			(effects
 				(font

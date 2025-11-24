@@ -5889,7 +5889,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MISO"
 		(shape input)
 		(at 91.44 118.11 270)
 		(fields_autoplaced yes)
@@ -6065,7 +6065,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MISO"
 		(shape input)
 		(at 223.52 118.11 270)
 		(fields_autoplaced yes)
@@ -6947,7 +6947,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 266.7 53.34 90)
+		(at 274.32 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6955,7 +6955,7 @@
 		(dnp no)
 		(uuid "07ba94e3-0fd8-4665-b4df-62033bb1761b")
 		(property "Reference" "R32"
-			(at 276.86 52.832 0)
+			(at 276.098 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6964,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 276.86 53.848 0)
+			(at 276.098 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +6973,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 271.018 53.34 0)
+			(at 278.638 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 53.34 0)
+			(at 283.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6991,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 260.35 53.34 0)
+			(at 267.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7178,7 @@
 		(dnp no)
 		(uuid "1069939a-fe9b-48b5-a188-3075a76baf69")
 		(property "Reference" "R29"
-			(at 238.76 52.578 0)
+			(at 237.998 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7187,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 238.76 53.848 0)
+			(at 237.998 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7304,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 254 53.34 90)
+		(at 261.62 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7312,7 +7312,7 @@
 		(dnp no)
 		(uuid "1814a5a6-c04b-471d-ba39-341a6d728bea")
 		(property "Reference" "R31"
-			(at 264.16 52.832 0)
+			(at 263.398 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 264.16 53.848 0)
+			(at 263.398 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7330,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 258.318 53.34 0)
+			(at 265.938 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 53.34 0)
+			(at 270.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7348,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 247.65 53.34 0)
+			(at 255.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7391,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 142.24 53.34 90)
+		(at 134.62 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7400,7 +7400,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e064586-1ef7-4ff0-aebb-5cae0756baf7")
 		(property "Reference" "R26"
-			(at 144.78 52.0699 90)
+			(at 137.16 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7410,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 144.78 54.6099 90)
+			(at 137.16 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 146.558 53.34 0)
+			(at 138.938 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 53.34 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7438,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 135.89 53.34 0)
+			(at 128.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7481,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 274.32 53.34 90)
+		(at 266.7 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7490,7 +7490,7 @@
 		(fields_autoplaced yes)
 		(uuid "206765f7-1dc0-4013-81c9-9ada3929d98f")
 		(property "Reference" "R32"
-			(at 276.86 52.0699 90)
+			(at 269.24 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7500,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 276.86 54.6099 90)
+			(at 269.24 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7510,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 278.638 53.34 0)
+			(at 271.018 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 53.34 0)
+			(at 275.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7528,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 267.97 53.34 0)
+			(at 260.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +7842,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 261.62 53.34 90)
+		(at 254 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7851,7 +7851,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a6fcfaf-d704-4e01-acfc-fb80226dfd2a")
 		(property "Reference" "R31"
-			(at 264.16 52.0699 90)
+			(at 256.54 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +7861,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 264.16 54.6099 90)
+			(at 256.54 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7871,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 265.938 53.34 0)
+			(at 258.318 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 53.34 0)
+			(at 262.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7889,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 255.27 53.34 0)
+			(at 247.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 223.52 53.34 90)
+		(at 220.98 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7941,7 +7941,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f220018-eebe-4c44-bc55-5dcffdae05d4")
 		(property "Reference" "R27"
-			(at 226.06 52.0699 90)
+			(at 223.52 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7951,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 226.06 54.6099 90)
+			(at 223.52 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7961,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 227.838 53.34 0)
+			(at 225.298 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 53.34 0)
+			(at 229.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +7979,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 217.17 53.34 0)
+			(at 214.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8022,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 86.36 53.34 90)
+		(at 93.98 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8030,7 +8030,7 @@
 		(dnp no)
 		(uuid "33e797d4-ce1c-4452-8ce2-54e4b1d2ab61")
 		(property "Reference" "R21"
-			(at 96.52 52.832 0)
+			(at 95.758 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8039,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 96.52 53.848 0)
+			(at 95.758 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 90.678 53.34 0)
+			(at 98.298 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 53.34 0)
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8066,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 80.01 53.34 0)
+			(at 87.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8243,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 241.3 53.34 90)
+		(at 248.92 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8251,7 +8251,7 @@
 		(dnp no)
 		(uuid "3e1a1463-1ec1-49e6-982f-32e329e7ddc9")
 		(property "Reference" "R30"
-			(at 251.46 52.832 0)
+			(at 250.698 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8260,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 251.46 53.848 0)
+			(at 250.698 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8269,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 245.618 53.34 0)
+			(at 253.238 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 53.34 0)
+			(at 257.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8287,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 234.95 53.34 0)
+			(at 242.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,7 +8516,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 271.78 53.34 90)
+		(at 269.24 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8525,7 +8525,7 @@
 		(fields_autoplaced yes)
 		(uuid "4383a091-e1a9-4446-b1d8-c2e76c3a94d5")
 		(property "Reference" "R32"
-			(at 274.32 52.0699 90)
+			(at 271.78 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8535,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 274.32 54.6099 90)
+			(at 271.78 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8545,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 276.098 53.34 0)
+			(at 273.558 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 53.34 0)
+			(at 278.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8563,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 265.43 53.34 0)
+			(at 262.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8673,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 88.9 53.34 90)
+		(at 91.44 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8682,7 +8682,7 @@
 		(fields_autoplaced yes)
 		(uuid "49a91dcb-b0b3-4621-8ff5-6debcd2513ea")
 		(property "Reference" "R21"
-			(at 91.44 52.0699 90)
+			(at 93.98 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8692,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 91.44 54.6099 90)
+			(at 93.98 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8702,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.218 53.34 0)
+			(at 95.758 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 53.34 0)
+			(at 100.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8720,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 82.55 53.34 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8963,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 226.06 53.34 90)
+		(at 218.44 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8972,7 +8972,7 @@
 		(fields_autoplaced yes)
 		(uuid "51cca577-46b9-442c-a61a-74b12303e386")
 		(property "Reference" "R27"
-			(at 228.6 52.0699 90)
+			(at 220.98 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +8982,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 228.6 54.6099 90)
+			(at 220.98 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +8992,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 230.378 53.34 0)
+			(at 222.758 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +9001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 53.34 0)
+			(at 227.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9010,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 219.71 53.34 0)
+			(at 212.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9053,7 +9053,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 109.22 53.34 90)
+		(at 116.84 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9061,7 +9061,7 @@
 		(dnp no)
 		(uuid "5330552c-be3c-4f83-b635-ed7ba296ea75")
 		(property "Reference" "R24"
-			(at 119.38 52.832 0)
+			(at 118.618 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9070,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 119.38 53.848 0)
+			(at 118.618 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +9079,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 113.538 53.34 0)
+			(at 121.158 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 53.34 0)
+			(at 125.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9097,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 102.87 53.34 0)
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,7 +9140,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 93.98 53.34 90)
+		(at 86.36 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9149,7 +9149,7 @@
 		(fields_autoplaced yes)
 		(uuid "555f4640-21d8-42c5-a8b1-3253d1f210b1")
 		(property "Reference" "R21"
-			(at 96.52 52.0699 90)
+			(at 88.9 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9159,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 96.52 54.6099 90)
+			(at 88.9 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +9169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 98.298 53.34 0)
+			(at 90.678 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9178,7 +9178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 53.34 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +9187,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 87.63 53.34 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9230,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 134.62 53.34 90)
+		(at 142.24 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9238,7 +9238,7 @@
 		(dnp no)
 		(uuid "556b1f88-d3e7-497f-8623-144d223beed0")
 		(property "Reference" "R26"
-			(at 144.78 52.832 0)
+			(at 144.018 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9247,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 144.78 53.848 0)
+			(at 144.018 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9256,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 138.938 53.34 0)
+			(at 146.558 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 53.34 0)
+			(at 151.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9274,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 128.27 53.34 0)
+			(at 135.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9317,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 256.54 53.34 90)
+		(at 259.08 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9326,7 +9326,7 @@
 		(fields_autoplaced yes)
 		(uuid "624923d3-6960-401f-8359-5ad82021b952")
 		(property "Reference" "R31"
-			(at 259.08 52.0699 90)
+			(at 261.62 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9336,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 259.08 54.6099 90)
+			(at 261.62 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9346,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 260.858 53.34 0)
+			(at 263.398 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 53.34 0)
+			(at 267.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9364,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 250.19 53.34 0)
+			(at 252.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9561,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 269.24 53.34 90)
+		(at 271.78 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9570,7 +9570,7 @@
 		(fields_autoplaced yes)
 		(uuid "689e2b5c-bea2-4eba-acf6-04992aa805b9")
 		(property "Reference" "R32"
-			(at 271.78 52.0699 90)
+			(at 274.32 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9580,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 271.78 54.6099 90)
+			(at 274.32 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9590,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 273.558 53.34 0)
+			(at 276.098 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 53.34 0)
+			(at 280.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9608,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 262.89 53.34 0)
+			(at 265.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9651,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 246.38 53.34 90)
+		(at 243.84 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9660,7 +9660,7 @@
 		(fields_autoplaced yes)
 		(uuid "70277060-855c-4a5f-a44c-8abc81eb3c00")
 		(property "Reference" "R30"
-			(at 248.92 52.0699 90)
+			(at 246.38 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9670,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 248.92 54.6099 90)
+			(at 246.38 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,7 +9680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 250.698 53.34 0)
+			(at 248.158 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 53.34 0)
+			(at 252.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +9698,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 240.03 53.34 0)
+			(at 237.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9808,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 218.44 53.34 90)
+		(at 226.06 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9816,7 +9816,7 @@
 		(dnp no)
 		(uuid "81fd80e0-b4a9-4730-a108-77406f86dc9f")
 		(property "Reference" "R27"
-			(at 228.6 52.832 0)
+			(at 227.838 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9825,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 228.6 53.848 0)
+			(at 227.838 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 222.758 53.34 0)
+			(at 230.378 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9852,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 212.09 53.34 0)
+			(at 219.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +9964,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 248.92 53.34 90)
+		(at 241.3 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9973,7 +9973,7 @@
 		(fields_autoplaced yes)
 		(uuid "8357d366-c18e-4390-8c2f-b11694877cc2")
 		(property "Reference" "R30"
-			(at 251.46 52.0699 90)
+			(at 243.84 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +9983,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 251.46 54.6099 90)
+			(at 243.84 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +9993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 253.238 53.34 0)
+			(at 245.618 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 53.34 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10011,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 242.57 53.34 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10124,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 91.44 53.34 90)
+		(at 88.9 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10133,7 +10133,7 @@
 		(fields_autoplaced yes)
 		(uuid "889967ba-f981-47d1-86b7-14dbbc8bfa50")
 		(property "Reference" "R21"
-			(at 93.98 52.0699 90)
+			(at 91.44 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10143,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 93.98 54.6099 90)
+			(at 91.44 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10153,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.758 53.34 0)
+			(at 93.218 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10171,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 85.09 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10279,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 124.46 53.34 90)
+		(at 127 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10288,7 +10288,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c1d2ff7-2c00-4ec0-889e-3acff486c863")
 		(property "Reference" "R25"
-			(at 127 52.0699 90)
+			(at 129.54 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10298,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 127 54.6099 90)
+			(at 129.54 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10308,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 128.778 53.34 0)
+			(at 131.318 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 53.34 0)
+			(at 135.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10326,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 118.11 53.34 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +10369,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 116.84 53.34 90)
+		(at 109.22 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10378,7 +10378,7 @@
 		(fields_autoplaced yes)
 		(uuid "91532217-38ef-4115-9e35-14d1c9ffe8af")
 		(property "Reference" "R24"
-			(at 119.38 52.0699 90)
+			(at 111.76 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10388,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 119.38 54.6099 90)
+			(at 111.76 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 121.158 53.34 0)
+			(at 113.538 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10416,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 110.49 53.34 0)
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10990,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 111.76 53.34 90)
+		(at 114.3 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10999,7 +10999,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5601067-7f83-4a22-a486-af3109e5d7b5")
 		(property "Reference" "R24"
-			(at 114.3 52.0699 90)
+			(at 116.84 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +11009,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 114.3 54.6099 90)
+			(at 116.84 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,7 +11019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 116.078 53.34 0)
+			(at 118.618 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 53.34 0)
+			(at 123.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,7 +11037,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 105.41 53.34 0)
+			(at 107.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11166,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 139.7 53.34 90)
+		(at 137.16 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11175,7 +11175,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6f3f82b-de0b-4ab7-8538-d6c5079128cf")
 		(property "Reference" "R26"
-			(at 142.24 52.0699 90)
+			(at 139.7 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11185,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 142.24 54.6099 90)
+			(at 139.7 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +11195,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 144.018 53.34 0)
+			(at 141.478 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 53.34 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +11213,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 133.35 53.34 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +11264,7 @@
 		(dnp no)
 		(uuid "bb5df3de-ddba-4401-8ce4-80e1386daa40")
 		(property "Reference" "R28"
-			(at 233.68 52.578 0)
+			(at 232.918 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11273,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 233.68 53.848 0)
+			(at 232.918 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +11390,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 129.54 53.34 90)
+		(at 121.92 53.34 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11399,7 +11399,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4f32825-6fd9-4bc0-abf0-23d69f765abc")
 		(property "Reference" "R25"
-			(at 132.08 52.0699 90)
+			(at 124.46 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +11409,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 132.08 54.6099 90)
+			(at 124.46 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 133.858 53.34 0)
+			(at 126.238 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 53.34 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11437,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 123.19 53.34 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11756,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 114.3 53.34 90)
+		(at 111.76 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11765,7 +11765,7 @@
 		(fields_autoplaced yes)
 		(uuid "da1152c9-b6d5-413a-8b95-007394bf9e35")
 		(property "Reference" "R24"
-			(at 116.84 52.0699 90)
+			(at 114.3 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11775,7 +11775,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 116.84 54.6099 90)
+			(at 114.3 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,7 +11785,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 118.618 53.34 0)
+			(at 116.078 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 53.34 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11803,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 107.95 53.34 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +11981,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 137.16 53.34 90)
+		(at 139.7 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11990,7 +11990,7 @@
 		(fields_autoplaced yes)
 		(uuid "df08bda7-37b9-4704-b629-e44c865089a3")
 		(property "Reference" "R26"
-			(at 139.7 52.0699 90)
+			(at 142.24 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +12000,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 139.7 54.6099 90)
+			(at 142.24 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +12010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 141.478 53.34 0)
+			(at 144.018 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12019,7 +12019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 53.34 0)
+			(at 148.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12028,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 130.81 53.34 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,7 +12071,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 259.08 53.34 90)
+		(at 256.54 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12080,7 +12080,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7fde91e-8cc3-4e09-9ec7-198cc43d7457")
 		(property "Reference" "R31"
-			(at 261.62 52.0699 90)
+			(at 259.08 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12090,7 +12090,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 261.62 54.6099 90)
+			(at 259.08 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 263.398 53.34 0)
+			(at 260.858 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 53.34 0)
+			(at 265.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12118,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 252.73 53.34 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12161,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 127 53.34 90)
+		(at 124.46 53.34 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12170,7 +12170,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b3e9fb-3d90-4350-a821-7d7dd1378d5a")
 		(property "Reference" "R25"
-			(at 129.54 52.0699 90)
+			(at 127 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12180,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 129.54 54.6099 90)
+			(at 127 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12190,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 131.318 53.34 0)
+			(at 128.778 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 53.34 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12208,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 120.65 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12251,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 121.92 53.34 90)
+		(at 129.54 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12259,7 +12259,7 @@
 		(dnp no)
 		(uuid "e9f6db3d-c90e-464c-9e01-f41c1b1b1462")
 		(property "Reference" "R25"
-			(at 132.08 52.832 0)
+			(at 131.318 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +12268,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 132.08 53.848 0)
+			(at 131.318 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,7 +12277,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 126.238 53.34 0)
+			(at 133.858 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 53.34 0)
+			(at 138.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12295,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 115.57 53.34 0)
+			(at 123.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +12338,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 220.98 53.34 90)
+		(at 223.52 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12347,7 +12347,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec8890dd-8a74-4172-98e5-af5bf92e78fd")
 		(property "Reference" "R27"
-			(at 223.52 52.0699 90)
+			(at 226.06 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12357,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 223.52 54.6099 90)
+			(at 226.06 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12367,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 225.298 53.34 0)
+			(at 227.838 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 53.34 0)
+			(at 232.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12385,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 214.63 53.34 0)
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,7 +12428,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 243.84 53.34 90)
+		(at 246.38 53.34 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12437,7 +12437,7 @@
 		(fields_autoplaced yes)
 		(uuid "faff6586-dcd1-4702-85ca-be24bbb35f95")
 		(property "Reference" "R30"
-			(at 246.38 52.0699 90)
+			(at 248.92 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12447,7 @@
 			)
 		)
 		(property "Value" "20R"
-			(at 246.38 54.6099 90)
+			(at 248.92 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12457,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 248.158 53.34 0)
+			(at 250.698 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12466,7 +12466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 53.34 0)
+			(at 255.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12475,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 237.49 53.34 0)
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

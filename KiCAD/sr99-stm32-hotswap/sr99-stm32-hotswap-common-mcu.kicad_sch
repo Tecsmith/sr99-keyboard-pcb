@@ -12469,7 +12469,7 @@
 			)
 		)
 		(property "Value" "MC74HC589AD"
-			(at 273.304 73.66 0)
+			(at 271.78 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15651,7 +15651,7 @@
 			)
 		)
 		(property "Value" "MC74HC589AD"
-			(at 235.204 73.66 0)
+			(at 233.68 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16832,7 +16832,7 @@
 			)
 		)
 		(property "Value" "MC74HC589AD"
-			(at 197.104 73.66 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)

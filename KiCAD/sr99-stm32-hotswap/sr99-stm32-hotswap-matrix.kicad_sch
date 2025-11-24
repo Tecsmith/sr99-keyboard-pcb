@@ -3155,6 +3155,12 @@
 		(uuid "4ff7dca2-8453-48d0-9845-336833d2bb82")
 	)
 	(junction
+		(at 137.16 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "501149b8-95f9-48c6-91f4-5fd33505642a")
+	)
+	(junction
 		(at 205.74 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3213,6 +3219,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a991aa-62dc-4fa7-8e87-abd40699e79b")
+	)
+	(junction
+		(at 137.16 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6455b27f-cfbe-4dc0-9aba-7c2dd68fb264")
 	)
 	(junction
 		(at 152.4 147.32)
@@ -3317,12 +3329,6 @@
 		(uuid "7d571716-7a7b-4e7e-ba53-7dbd69a78d4f")
 	)
 	(junction
-		(at 116.84 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dce8132-6164-4369-a9e0-105318f8100b")
-	)
-	(junction
 		(at 180.34 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3393,6 +3399,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87deaebc-67a5-44de-8e78-9b9998cd99b5")
+	)
+	(junction
+		(at 116.84 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f0909b-2e93-43d1-88ca-b28e86871dc0")
 	)
 	(junction
 		(at 152.4 83.82)
@@ -3509,12 +3521,6 @@
 		(uuid "9ff6af9c-98eb-45cc-b3d8-230546819034")
 	)
 	(junction
-		(at 137.16 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a009d5c4-462f-4dee-9e2e-4cb3297673d7")
-	)
-	(junction
 		(at 40.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3615,12 +3621,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6908bef-541b-41ea-9ed3-f3d7ef1d9c3d")
-	)
-	(junction
-		(at 137.16 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b785e80f-687b-45a6-b24a-95f84244f793")
 	)
 	(junction
 		(at 190.5 63.5)
@@ -3905,19 +3905,19 @@
 		(uuid "fef9752b-5aba-4cf8-9092-bf6c715de886")
 	)
 	(no_connect
-		(at 29.21 160.02)
+		(at 48.26 182.88)
 		(uuid "3037be2c-520c-43f3-89db-66f3e16fc113")
 	)
 	(no_connect
-		(at 110.49 160.02)
-		(uuid "5ccf0c35-73cb-4b81-aa68-9ddafefc3f53")
+		(at 129.54 182.88)
+		(uuid "3dd0bbcf-1730-4703-b64e-291b31dd0c65")
 	)
 	(no_connect
-		(at 115.57 160.02)
-		(uuid "5f4d1121-7fe5-43ea-a54e-29b8cef83610")
+		(at 129.54 187.96)
+		(uuid "5ee0f133-0c21-41c6-9315-577b260ec6ef")
 	)
 	(no_connect
-		(at 34.29 160.02)
+		(at 48.26 187.96)
 		(uuid "c5e32ce0-8188-44ea-83d9-f15a2cad865a")
 	)
 	(wire
@@ -4112,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 162.56) (xy 109.22 162.56)
+			(xy 109.22 162.56) (xy 116.84 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4169,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "0bb8128d-c218-4e46-ae28-2cc9f7129e71")
-	)
-	(wire
-		(pts
-			(xy 116.84 162.56) (xy 116.84 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bcdf5d6-d85e-46a8-ab87-9de0a1f8c07a")
 	)
 	(wire
 		(pts
@@ -4932,16 +4922,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 170.18) (xy 116.84 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cea9073-dc31-4fe1-95ba-b482295b3eb9")
-	)
-	(wire
-		(pts
 			(xy 203.2 99.06) (xy 203.2 104.14)
 		)
 		(stroke
@@ -5199,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "384463a8-2f33-4dc3-8672-8c4d3396d374")
+	)
+	(wire
+		(pts
+			(xy 116.84 162.56) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e4d36b-5625-44f6-a65c-a6ca6f4a29ef")
 	)
 	(wire
 		(pts
@@ -5652,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 142.24 175.26)
+			(xy 134.62 175.26) (xy 137.16 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5709,16 +5699,6 @@
 			(type default)
 		)
 		(uuid "55d56efc-3c6c-49f0-aabf-436376e5acc1")
-	)
-	(wire
-		(pts
-			(xy 137.16 172.72) (xy 137.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d79928-768d-405d-9c3c-5b54ecb09193")
 	)
 	(wire
 		(pts
@@ -5879,6 +5859,16 @@
 			(type default)
 		)
 		(uuid "5ce26616-71f4-4171-9655-c32d5eee41e0")
+	)
+	(wire
+		(pts
+			(xy 137.16 175.26) (xy 142.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d92ec62-ad89-4209-88e5-58185c8a82fc")
 	)
 	(wire
 		(pts
@@ -6089,6 +6079,16 @@
 			(type default)
 		)
 		(uuid "68ef4a3d-5d96-4aa5-9647-50fef4fc08c7")
+	)
+	(wire
+		(pts
+			(xy 109.22 162.56) (xy 109.22 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699cbcd3-3938-4f2e-a23d-5f701730add1")
 	)
 	(wire
 		(pts
@@ -6452,16 +6452,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 170.18) (xy 109.22 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1177bb-d677-4f43-9d40-a51cfafdddd0")
-	)
-	(wire
-		(pts
 			(xy 154.94 30.48) (xy 154.94 50.8)
 		)
 		(stroke
@@ -6802,16 +6792,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 165.1) (xy 137.16 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a27b3f5-51bc-4a54-abe3-38ec0641b66f")
-	)
-	(wire
-		(pts
 			(xy 114.3 99.06) (xy 114.3 104.14)
 		)
 		(stroke
@@ -6872,16 +6852,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 162.56) (xy 129.54 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d358ee3-6017-4233-9a6b-88f7e18200a4")
-	)
-	(wire
-		(pts
 			(xy 27.94 185.42) (xy 27.94 187.96)
 		)
 		(stroke
@@ -6912,16 +6882,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 175.26) (xy 137.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f473195-d4b9-4a25-ab86-824b04580247")
-	)
-	(wire
-		(pts
 			(xy 228.6 121.92) (xy 228.6 127)
 		)
 		(stroke
@@ -6939,6 +6899,16 @@
 			(type default)
 		)
 		(uuid "8f667af7-de27-412a-835f-fd45686fb1b9")
+	)
+	(wire
+		(pts
+			(xy 137.16 165.1) (xy 137.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f920d9e-a60b-40b1-9336-9db94629814d")
 	)
 	(wire
 		(pts
@@ -7852,6 +7822,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 162.56) (xy 116.84 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a5058c-b1a6-48fe-9be9-f904b715a0b4")
+	)
+	(wire
+		(pts
 			(xy 167.64 114.3) (xy 170.18 114.3)
 		)
 		(stroke
@@ -7942,6 +7922,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 170.18) (xy 109.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f3a191-0428-42b9-94e7-484bbbd41f35")
+	)
+	(wire
+		(pts
 			(xy 165.1 121.92) (xy 165.1 127)
 		)
 		(stroke
@@ -7959,6 +7949,16 @@
 			(type default)
 		)
 		(uuid "cab3715e-d4a2-4f36-8349-15879cdad20c")
+	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 137.16 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd440969-28dd-4ffc-a42e-84585c597642")
 	)
 	(wire
 		(pts
@@ -8762,16 +8762,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 162.56) (xy 109.22 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c5bbfc-8a2b-401e-815f-4d3b696b6266")
-	)
-	(wire
-		(pts
 			(xy 167.64 71.12) (xy 170.18 71.12)
 		)
 		(stroke
@@ -8899,6 +8889,16 @@
 			(type default)
 		)
 		(uuid "fa03eed8-5522-4edf-b4fd-e42e8f6a7486")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.18) (xy 116.84 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0f3b7a-4a0b-4bc8-92b2-82a2bb2a1e93")
 	)
 	(wire
 		(pts
@@ -9473,7 +9473,7 @@
 			)
 		)
 	)
-	(global_label "ENC_C"
+	(global_label "ENC_D"
 		(shape input)
 		(at 104.14 177.8 180)
 		(fields_autoplaced yes)
@@ -11640,7 +11640,7 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Momentary_Switch")
-		(at 200.66 76.2 0)
+		(at 200.66 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11649,7 +11649,7 @@
 		(fields_autoplaced yes)
 		(uuid "14e6a905-ae5c-4aa4-b258-2190beb7189d")
 		(property "Reference" "SW50"
-			(at 200.667 68.58 0)
+			(at 200.653 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11657,7 +11657,7 @@
 			)
 		)
 		(property "Value" "\\"
-			(at 200.667 71.12 0)
+			(at 200.653 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +12896,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 31.75 160.02 180)
+		(at 35.56 167.64 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12904,7 +12904,7 @@
 		(dnp no)
 		(uuid "212bded6-0e63-4da3-a57e-57870322a3f8")
 		(property "Reference" "R17"
-			(at 30.4799 157.48 90)
+			(at 34.29 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +12913,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 33.0199 157.48 90)
+			(at 34.29 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12922,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 31.75 155.702 0)
+			(at 31.242 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +12931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 151.13 0)
+			(at 26.67 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12940,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 31.75 166.37 0)
+			(at 41.91 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bd53139-0cc6-4a98-a49b-99e8cccd8f99")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 147.32 160.02 90)
 			(effects
 				(font
@@ -14190,7 +14190,7 @@
 		(instances
 			(project "sr99-stm32-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -14552,7 +14552,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 35.56 167.64 90)
+		(at 48.26 185.42 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14560,7 +14560,7 @@
 		(dnp no)
 		(uuid "3635d454-866e-4fb1-b872-78bfa71b0fe6")
 		(property "Reference" "R17"
-			(at 36.83 166.37 90)
+			(at 49.53 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,7 +14569,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 37.338 168.91 90)
+			(at 50.038 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +14578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 39.878 167.64 0)
+			(at 52.578 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +14587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 167.64 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14596,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 29.21 167.64 0)
+			(at 41.91 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15199,93 +15199,6 @@
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
 					(reference "SW54")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:R_Array04")
-		(at 137.16 170.18 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4481aeb6-aef9-46fb-baeb-c9ea32d174ea")
-		(property "Reference" "R20"
-			(at 138.43 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 138.43 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 141.478 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor Array"
-			(at 130.81 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39032be4-a2c6-4872-8264-3f3f4475023e")
-		)
-		(pin "3"
-			(uuid "22b6899c-ce94-405e-955c-54e6e321e03a")
-		)
-		(pin "5"
-			(uuid "234b3938-02c1-4b65-9588-fe69822bdf18")
-		)
-		(pin "4"
-			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb08")
-		)
-		(pin "2"
-			(uuid "c746df17-ef16-4399-aa16-5ba188293963")
-		)
-		(pin "6"
-			(uuid "14bc58f7-fc54-48d2-b73a-f1e874cfadaa")
-		)
-		(pin "7"
-			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a98")
-		)
-		(pin "8"
-			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871ab")
-		)
-		(instances
-			(project ""
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R20")
-					(unit 4)
 				)
 			)
 		)
@@ -15950,32 +15863,33 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 113.03 160.02 180)
+		(at 27.94 167.64 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "534465bf-b75d-46ee-84fa-74d684f3243b")
 		(property "Reference" "R17"
-			(at 113.03 154.94 0)
+			(at 26.67 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10K"
-			(at 113.03 157.48 0)
+			(at 26.67 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 113.03 155.702 0)
+			(at 32.258 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,7 +15898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 151.13 0)
+			(at 36.83 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15993,7 +15907,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 113.03 166.37 0)
+			(at 21.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16690,101 +16604,14 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 55.88 170.18 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b0ddfad-6f6b-458b-a33b-c7bf3a9a45f5")
-		(property "Reference" "R20"
-			(at 57.15 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 57.404 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 60.198 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor Array"
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50aa204e-8c38-4f31-930f-f2b7659952db")
-		)
-		(pin "8"
-			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b177")
-		)
-		(pin "4"
-			(uuid "9211a8b4-df50-46a6-b80e-d0b8cf306613")
-		)
-		(pin "3"
-			(uuid "790660dd-f243-48c3-9b7a-b94e08977bed")
-		)
-		(pin "1"
-			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfd")
-		)
-		(pin "7"
-			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c56a")
-		)
-		(pin "6"
-			(uuid "40f47932-cb36-4e51-88ce-84f316efba7a")
-		)
-		(pin "5"
-			(uuid "1243e86c-f2c8-4b70-a23a-bf3062555930")
-		)
-		(instances
-			(project ""
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R20")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-kicad-lib:R_Array04")
 		(at 109.22 167.64 90)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5cffde32-aabd-48f6-b924-1a3211b1af93")
-		(property "Reference" "R20"
+		(uuid "5b847038-e858-4cc9-961f-4325c7b2cf81")
+		(property "Reference" "R19"
 			(at 110.49 166.37 90)
 			(effects
 				(font
@@ -16794,7 +16621,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 110.49 168.91 90)
+			(at 110.744 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,6 +16656,93 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "50aa204e-8c38-4f31-930f-f2b7659952db")
+		)
+		(pin "8"
+			(uuid "6612b53d-d5af-4b82-8c1f-3240b018b177")
+		)
+		(pin "4"
+			(uuid "757f93ae-c31e-460d-b7ae-361292e637cc")
+		)
+		(pin "3"
+			(uuid "790660dd-f243-48c3-9b7a-b94e08977bed")
+		)
+		(pin "1"
+			(uuid "2b5fe719-ad5b-4983-bf87-522ceef7bcfd")
+		)
+		(pin "7"
+			(uuid "22b1ef8b-a401-4419-bdeb-2ff154a5c56a")
+		)
+		(pin "6"
+			(uuid "40f47932-cb36-4e51-88ce-84f316efba7a")
+		)
+		(pin "5"
+			(uuid "bf651f89-5d9c-4822-92cb-c491f4190674")
+		)
+		(instances
+			(project "sr99-stm32-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R19")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 137.16 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cffde32-aabd-48f6-b924-1a3211b1af93")
+		(property "Reference" "R19"
+			(at 138.43 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 138.43 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 141.478 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39032be4-a2c6-4872-8264-3f3f44750240")
 		)
@@ -16856,7 +16770,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -19175,15 +19089,15 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 116.84 167.64 90)
+		(at 129.54 185.42 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "77ff5a86-1683-4bca-a686-b167d4b8d484")
-		(property "Reference" "R20"
-			(at 118.11 166.37 90)
+		(property "Reference" "R19"
+			(at 130.81 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,7 +19106,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 118.11 168.91 90)
+			(at 130.81 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19115,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 121.158 167.64 0)
+			(at 133.858 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +19124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 167.64 0)
+			(at 138.43 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19133,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 110.49 167.64 0)
+			(at 123.19 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19168,7 @@
 		(instances
 			(project ""
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "R20")
+					(reference "R19")
 					(unit 2)
 				)
 			)
@@ -20428,6 +20342,93 @@
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
 					(reference "SW99")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:R_Array04")
+		(at 116.84 167.64 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a0d3b58-6338-492e-b5aa-6cf864b410cc")
+		(property "Reference" "R19"
+			(at 118.11 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 118.364 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 121.158 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Array"
+			(at 110.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39032be4-a2c6-4872-8264-3f3f44750242")
+		)
+		(pin "3"
+			(uuid "b7513bed-01ff-4232-8a57-e9ea7bfe10f3")
+		)
+		(pin "5"
+			(uuid "234b3938-02c1-4b65-9588-fe69822bdf1c")
+		)
+		(pin "4"
+			(uuid "89805a41-4470-4ce7-aca9-a5e1ff1feb0c")
+		)
+		(pin "2"
+			(uuid "c746df17-ef16-4399-aa16-5ba188293967")
+		)
+		(pin "6"
+			(uuid "9022a7b6-ef12-4077-ad1a-2b49f19e778f")
+		)
+		(pin "7"
+			(uuid "df6431be-c1ed-43ce-9b1e-149cc5021a9c")
+		)
+		(pin "8"
+			(uuid "ab1f491e-de09-4e7f-98f7-70ea785871af")
+		)
+		(instances
+			(project "sr99-stm32-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
+					(reference "R19")
+					(unit 3)
 				)
 			)
 		)
@@ -26144,7 +26145,7 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Momentary_Switch")
-		(at 200.66 35.56 0)
+		(at 200.66 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26153,7 +26154,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbe5df49-d51f-49cd-be97-954f5d16c3bb")
 		(property "Reference" "SW14"
-			(at 200.667 27.94 0)
+			(at 200.653 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26161,7 +26162,7 @@
 			)
 		)
 		(property "Value" "F13"
-			(at 200.667 30.48 0)
+			(at 200.653 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28116,7 +28117,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:R_Array04")
-		(at 27.94 167.64 90)
+		(at 55.88 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28124,7 +28125,7 @@
 		(dnp no)
 		(uuid "f8b12e09-b621-4639-910b-b6de4b653e7f")
 		(property "Reference" "R17"
-			(at 29.21 166.37 90)
+			(at 57.15 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28133,7 +28134,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 29.464 168.91 90)
+			(at 57.404 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28142,7 +28143,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 32.258 167.64 0)
+			(at 60.198 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,7 +28152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 167.64 0)
+			(at 64.77 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28160,7 +28161,7 @@
 			)
 		)
 		(property "Description" "Resistor Array"
-			(at 21.59 167.64 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

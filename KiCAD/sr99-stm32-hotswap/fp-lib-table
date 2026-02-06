@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "st99-stm32-hotswap-footprints")(type "KiCad")(uri "${KIPRJMOD}/st99-stm32-hotswap-footprints.pretty")(options "")(descr ""))
+)

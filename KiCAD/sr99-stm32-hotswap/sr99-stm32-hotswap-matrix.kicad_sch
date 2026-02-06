@@ -2963,6 +2963,12 @@
 		(uuid "2f4bc55d-0bfa-435e-9486-0ef54b38f218")
 	)
 	(junction
+		(at 231.14 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f53f02b-3070-49e9-aaeb-7a1f75d4ea43")
+	)
+	(junction
 		(at 50.8 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3195,12 +3201,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5951cd46-4f99-46e9-8095-039fbc473b8d")
-	)
-	(junction
-		(at 231.14 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6001c885-2cac-440f-8919-80b02765c49b")
 	)
 	(junction
 		(at 203.2 63.5)
@@ -4109,6 +4109,16 @@
 			(type default)
 		)
 		(uuid "09f8b637-c053-4b02-b730-dafd5e2e6f50")
+	)
+	(wire
+		(pts
+			(xy 228.6 162.56) (xy 231.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0aafca-1eb9-415a-8d0a-c6ba23f91472")
 	)
 	(wire
 		(pts
@@ -5872,16 +5882,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 157.48) (xy 223.52 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da3a221-a883-45eb-8e9f-d03daf7d2a7c")
-	)
-	(wire
-		(pts
 			(xy 55.88 165.1) (xy 55.88 162.56)
 		)
 		(stroke
@@ -6149,6 +6149,16 @@
 			(type default)
 		)
 		(uuid "6af8a5d8-f1eb-4d63-a3db-6cea2433f063")
+	)
+	(wire
+		(pts
+			(xy 220.98 157.48) (xy 223.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6eac08-55ef-4433-a9e6-04cfc8bfb96b")
 	)
 	(wire
 		(pts
@@ -8449,16 +8459,6 @@
 			(type default)
 		)
 		(uuid "e588cac9-8434-4dc6-a0c9-7ea91c4f8d4f")
-	)
-	(wire
-		(pts
-			(xy 228.6 162.56) (xy 231.14 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e664b363-0b0d-41b4-91a9-363cc06a6bd5")
 	)
 	(wire
 		(pts
@@ -12020,7 +12020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.22 182.88 0)
 			(effects
 				(font
@@ -14154,7 +14154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 165.1 0)
 			(effects
 				(font
@@ -17944,7 +17944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -19530,7 +19530,7 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Momentary_Switch")
-		(at 226.06 160.02 0)
+		(at 226.06 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19539,7 +19539,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e421829-10b3-477f-a8b7-ed135f506c5d")
 		(property "Reference" "SW103"
-			(at 226.067 152.4 0)
+			(at 226.053 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19547,7 +19547,7 @@
 			)
 		)
 		(property "Value" "Alt-Fn2"
-			(at 226.067 154.94 0)
+			(at 226.053 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22627,7 +22627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 182.88 0)
 			(effects
 				(font
@@ -23223,7 +23223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.84 182.88 0)
 			(effects
 				(font
@@ -23376,7 +23376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 182.88 0)
 			(effects
 				(font

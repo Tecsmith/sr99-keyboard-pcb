@@ -13,12 +13,14 @@ A 980-layout (99-key) compact near-full size keyboard.
 
 > :bangbang: This is a "when I'm bored" project - so "significant" progress is not expected.
 
-- **15 Nov 2025**: Re-do!
+- **12 Jun 2026**
+  - KiCAD 10 re-do done, but not built
+- **15 Nov 2025**: Re-do begins!
   - EAGLE design abandoned in favour of KiCAD design
   - `STM32F411` discarded for **`STM32G474`**
-- **27 Sep 2024**: Beta 1 done
-  - :warning: Not manufactured
-  - :warning: Not tested
+- ~~**27 Sep 2024**: Beta 1 done~~
+  - ~~:warning: Not manufactured~~
+  - ~~:warning: Not tested~~
 - See [CHANGELOG.md](CHANGELOG.md)
 
 <!--
@@ -29,12 +31,12 @@ A 980-layout (99-key) compact near-full size keyboard.
  - EAGLE SCH *(Schematic)* [here](EAGLE/sr99/sr99-revXXX.sch)
 -->
 
-<!--
 ### Beta PCB renders
 
 #### Top
 ![](docs/sr99-pcb-top.png)
 
+<!--
 #### Bottom *(Component side)*
 ![](docs/sr99-pcb-btm.png)
 -->

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "5b748e11-dcf1-413e-b7bb-6ce0091b0a72")
 	(paper "A3")
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "W"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,6 +23,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,29 +33,35 @@
 			)
 			(property "Footprint" "ts-keyboard-lib:RGB-3528"
 				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 				(at 0 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 				(at 0.254 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Comm_Anode_RGB4_1_1"
@@ -187,24 +199,6 @@
 						(justify left)
 					)
 				)
-				(pin power_in line
-					(at -5.08 2.54 0)
-					(length 1.27)
-					(name "+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 1.27)
@@ -252,6 +246,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 2.54 0)
+					(length 1.27)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13974,7 +13986,7 @@
 		(uuid "ffe0768c-c09b-40f1-93b5-7e3839d16877")
 	)
 	(global_label "RED2"
-		(shape input)
+		(shape output)
 		(at 40.64 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13985,18 +13997,20 @@
 		)
 		(uuid "02e91533-19eb-4643-a5d4-7de65385b31d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 96.52 0)
+			(at 33.5048 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN6"
-		(shape input)
+		(shape output)
 		(at 40.64 193.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14007,13 +14021,15 @@
 		)
 		(uuid "06349171-834b-428c-94b7-71537668e3c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 193.04 0)
+			(at 33.5048 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14030,12 +14046,14 @@
 		(uuid "09175a6d-db83-4996-aa51-5d14b109f3f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.28 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14052,12 +14070,14 @@
 		(uuid "0f06199a-0201-4019-9e68-7b709d3ccb40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.86 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14074,17 +14094,19 @@
 		(uuid "1f488a32-91a6-4073-b32c-3ca94c3d8278")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN3"
-		(shape input)
+		(shape output)
 		(at 40.64 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14095,18 +14117,20 @@
 		)
 		(uuid "212311f9-16c8-4ce6-ab19-6f4371e4da07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 124.46 0)
+			(at 33.5048 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN12"
-		(shape input)
+		(shape output)
 		(at 218.44 193.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14117,13 +14141,15 @@
 		)
 		(uuid "24f04fc4-9e02-4780-8855-cf4caee8c1cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1653 193.04 0)
+			(at 210.2117 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14140,12 +14166,14 @@
 		(uuid "25ce27b3-3abf-4451-85b6-98f24170888f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 330.2 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14162,12 +14190,14 @@
 		(uuid "2d3b5355-2b6c-4a73-b176-23e15ae8d0cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.08 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14184,12 +14214,14 @@
 		(uuid "2d6d82da-93a2-4723-a39d-f2fac06e7aea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.06 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14206,17 +14238,19 @@
 		(uuid "380d9947-61e7-4430-8882-c2adcc07a391")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.5 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU12"
-		(shape input)
+		(shape output)
 		(at 218.44 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14227,18 +14261,20 @@
 		)
 		(uuid "3def0ae6-e532-4726-9ad4-18563a6a2291")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4072 195.58 0)
+			(at 210.2117 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU3"
-		(shape input)
+		(shape output)
 		(at 40.64 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14249,18 +14285,20 @@
 		)
 		(uuid "3f8be5e5-b5f4-4ceb-8a34-3f257f27fa66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 127 0)
+			(at 33.5048 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU5"
-		(shape input)
+		(shape output)
 		(at 40.64 172.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14271,18 +14309,20 @@
 		)
 		(uuid "42835945-bbf1-4216-a8ac-54caacf3b840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 172.72 0)
+			(at 33.5048 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED10"
-		(shape input)
+		(shape output)
 		(at 218.44 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14293,13 +14333,15 @@
 		)
 		(uuid "4762d8a2-251d-4903-932e-33abf29bdf27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3468 144.78 0)
+			(at 210.2117 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14316,17 +14358,19 @@
 		(uuid "4c7f2918-a27b-4c45-b15b-4fd5160dfcfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.52 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN9"
-		(shape input)
+		(shape output)
 		(at 218.44 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14337,18 +14381,20 @@
 		)
 		(uuid "4c94b8ee-2b12-4c5f-951d-f2f4e50c6e30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.3748 124.46 0)
+			(at 211.3048 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN11"
-		(shape input)
+		(shape output)
 		(at 218.44 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14359,18 +14405,20 @@
 		)
 		(uuid "55e000ba-fddb-4384-a9c3-d8ac23715593")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1653 170.18 0)
+			(at 210.2117 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN7"
-		(shape input)
+		(shape output)
 		(at 218.44 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14381,13 +14429,15 @@
 		)
 		(uuid "5d7c79fa-a99a-40cf-a396-f9afe3dc7402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.3748 76.2 0)
+			(at 211.3048 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14404,17 +14454,19 @@
 		(uuid "5e3b528f-7e5c-41fa-8709-8eed2efd22f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9 204.5087 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED11"
-		(shape input)
+		(shape output)
 		(at 218.44 167.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14425,18 +14477,20 @@
 		)
 		(uuid "5e4f27ef-5fd9-4989-b39e-0a20f131f9a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3468 167.64 0)
+			(at 210.2117 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU4"
-		(shape input)
+		(shape output)
 		(at 40.64 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14447,18 +14501,20 @@
 		)
 		(uuid "620b9e2f-06a5-4a5b-a1c2-a3cc3a441d08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 149.86 0)
+			(at 33.5048 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED1"
-		(shape input)
+		(shape output)
 		(at 40.64 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14469,18 +14525,20 @@
 		)
 		(uuid "6e036143-8932-4f28-af9b-f3b37a9da637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 73.66 0)
+			(at 33.5048 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "RED5"
-		(shape input)
+	(global_label "RED10"
+		(shape output)
 		(at 248.92 223.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14491,18 +14549,20 @@
 		)
 		(uuid "76288683-9c9f-4b2e-804e-22b72c9071ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8037 223.52 0)
+			(at 257.1483 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "GRN4"
-		(shape input)
+	(global_label "GRN9"
+		(shape output)
 		(at 223.52 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14513,18 +14573,20 @@
 		)
 		(uuid "77bea694-4512-4505-9e99-508e9fc65a7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.5852 226.06 0)
+			(at 230.6552 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "RED4"
-		(shape input)
+	(global_label "RED9"
+		(shape output)
 		(at 223.52 223.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14535,18 +14597,20 @@
 		)
 		(uuid "79b86301-c79e-4742-8bf6-fba6a20341e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4037 223.52 0)
+			(at 230.6552 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU7"
-		(shape input)
+		(shape output)
 		(at 218.44 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14557,18 +14621,20 @@
 		)
 		(uuid "7ba8436d-31a9-4a2b-b098-314f4e2f6360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 78.74 0)
+			(at 211.3048 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED8"
-		(shape input)
+		(shape output)
 		(at 218.44 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14579,18 +14645,20 @@
 		)
 		(uuid "7d11f81f-809d-4b67-9537-08f4638dbe31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5563 99.06 0)
+			(at 211.3048 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "RED3"
-		(shape input)
+	(global_label "RED8"
+		(shape output)
 		(at 198.12 223.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14601,18 +14669,20 @@
 		)
 		(uuid "8024efde-b34b-4e7b-8984-d462c6a51c2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0037 223.52 0)
+			(at 205.2552 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU10"
-		(shape input)
+		(shape output)
 		(at 218.44 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14623,18 +14693,20 @@
 		)
 		(uuid "846838f9-7956-4992-9b68-7eef8702d225")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4072 149.86 0)
+			(at 210.2117 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED7"
-		(shape input)
+		(shape output)
 		(at 218.44 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14645,13 +14717,15 @@
 		)
 		(uuid "865ada6c-fdc3-468b-86e9-7c307e9b364b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5563 73.66 0)
+			(at 211.3048 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14668,17 +14742,19 @@
 		(uuid "888328e0-5c05-4612-8fc4-14fb57a9218c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU11"
-		(shape input)
+		(shape output)
 		(at 218.44 172.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14689,18 +14765,20 @@
 		)
 		(uuid "8912ab5e-130c-4c6d-ae20-164a689ecac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4072 172.72 0)
+			(at 210.2117 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED9"
-		(shape input)
+		(shape output)
 		(at 218.44 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14711,18 +14789,20 @@
 		)
 		(uuid "8acb28bd-14cf-4f29-aeb2-b918103f1e4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5563 121.92 0)
+			(at 211.3048 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN8"
-		(shape input)
+		(shape output)
 		(at 218.44 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14733,13 +14813,15 @@
 		)
 		(uuid "8d3d90f9-a7d6-474f-8526-148ff82bca98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.3748 101.6 0)
+			(at 211.3048 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14756,17 +14838,19 @@
 		(uuid "8d8c7ee6-b744-48c3-ad28-3bb34dc0ab11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.98 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "GRN5"
-		(shape input)
+	(global_label "GRN10"
+		(shape output)
 		(at 248.92 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14777,13 +14861,15 @@
 		)
 		(uuid "8ef1c670-a53b-41c1-8517-7eb8ed5e1a0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.9852 226.06 0)
+			(at 257.1483 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14800,12 +14886,14 @@
 		(uuid "90d094f7-c832-4539-b898-a0fdc27fe628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 365.76 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14822,17 +14910,19 @@
 		(uuid "9f93ebdf-7792-43be-9040-9ee36c0947dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.18 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED12"
-		(shape input)
+		(shape output)
 		(at 218.44 190.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14843,18 +14933,20 @@
 		)
 		(uuid "9fa6cd79-b523-4da0-9fba-b028b0349941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3468 190.5 0)
+			(at 210.2117 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED5"
-		(shape input)
+		(shape output)
 		(at 40.64 167.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14865,18 +14957,20 @@
 		)
 		(uuid "9fe13045-547a-42d7-adf7-f3427aac3998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 167.64 0)
+			(at 33.5048 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED4"
-		(shape input)
+		(shape output)
 		(at 40.64 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14887,18 +14981,20 @@
 		)
 		(uuid "a0bede41-5dfd-471a-b996-141eb2cb856d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 144.78 0)
+			(at 33.5048 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU8"
-		(shape input)
+		(shape output)
 		(at 218.44 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14909,13 +15005,15 @@
 		)
 		(uuid "a1a53340-28ee-4995-a053-2cb01e85bd7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 104.14 0)
+			(at 211.3048 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14932,17 +15030,19 @@
 		(uuid "a7119429-d5b7-4672-a3f2-d05da1b70e74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.96 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU6"
-		(shape input)
+		(shape output)
 		(at 40.64 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14953,18 +15053,20 @@
 		)
 		(uuid "a8b79484-b484-470f-bf78-4ad020af1186")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 195.58 0)
+			(at 33.5048 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "BLU4"
-		(shape input)
+	(global_label "BLU9"
+		(shape output)
 		(at 223.52 228.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14975,18 +15077,20 @@
 		)
 		(uuid "aa03d9b2-4363-4bf9-bc6f-b1858ac61cd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.3433 228.6 0)
+			(at 230.6552 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN2"
-		(shape input)
+		(shape output)
 		(at 40.64 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14997,18 +15101,20 @@
 		)
 		(uuid "accb9333-c88e-43fb-a82a-3ef07bddd86a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 99.06 0)
+			(at 33.5048 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU9"
-		(shape input)
+		(shape output)
 		(at 218.44 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15019,18 +15125,20 @@
 		)
 		(uuid "b334b4ca-c3cc-43eb-af7d-b84294b23857")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 127 0)
+			(at 211.3048 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN4"
-		(shape input)
+		(shape output)
 		(at 40.64 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15041,18 +15149,20 @@
 		)
 		(uuid "bcd6ce15-6b4f-45c9-ba62-40108de9431d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 147.32 0)
+			(at 33.5048 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN5"
-		(shape input)
+		(shape output)
 		(at 40.64 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15063,18 +15173,20 @@
 		)
 		(uuid "c24533e6-d14b-40c6-97aa-f7af41e7aef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 170.18 0)
+			(at 33.5048 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU2"
-		(shape input)
+		(shape output)
 		(at 40.64 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15085,13 +15197,15 @@
 		)
 		(uuid "c5990422-5bd6-40a3-984a-4b51ae089f74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 101.6 0)
+			(at 33.5048 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15108,12 +15222,14 @@
 		(uuid "c658e8d4-b664-4b4b-a371-9edfa991e666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.72 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15130,17 +15246,19 @@
 		(uuid "c9e7ebbf-d8e7-4401-b43c-7fcdcaee9eb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.3 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN10"
-		(shape input)
+		(shape output)
 		(at 218.44 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15151,18 +15269,20 @@
 		)
 		(uuid "d218a86f-b4b7-4d7e-a094-207da13834d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1653 147.32 0)
+			(at 210.2117 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED6"
-		(shape input)
+		(shape output)
 		(at 40.64 190.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15173,13 +15293,15 @@
 		)
 		(uuid "d83e3506-1709-4acb-ac46-52154ff1b5a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 190.5 0)
+			(at 33.5048 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15196,17 +15318,19 @@
 		(uuid "defe29e2-fb85-4994-a048-bb546a50ed91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 294.64 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "RED3"
-		(shape input)
+		(shape output)
 		(at 40.64 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15217,18 +15341,20 @@
 		)
 		(uuid "e04b53f4-7afb-4663-b36a-36fd3b2227a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7563 121.92 0)
+			(at 33.5048 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "BLU3"
-		(shape input)
+	(global_label "BLU8"
+		(shape output)
 		(at 198.12 228.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15239,18 +15365,20 @@
 		)
 		(uuid "e49e0a2b-03b2-484c-b85d-7dc501415ba9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.9433 228.6 0)
+			(at 205.2552 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "BLU5"
-		(shape input)
+	(global_label "BLU10"
+		(shape output)
 		(at 248.92 228.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15261,13 +15389,15 @@
 		)
 		(uuid "e628da3e-2674-4e54-b3d0-d969cdb61b63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.7433 228.6 0)
+			(at 257.1483 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15284,12 +15414,14 @@
 		(uuid "e985aa66-8adf-4507-971a-310da9eaad3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.4 44.4282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15306,17 +15438,19 @@
 		(uuid "f1a256cc-65ed-4cdf-83bd-e5308ff46eb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 312.42 43.2187 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "GRN3"
-		(shape input)
+	(global_label "GRN8"
+		(shape output)
 		(at 198.12 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15327,18 +15461,20 @@
 		)
 		(uuid "f9eb1550-e2b5-4c22-a65e-524e84687046")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.1852 226.06 0)
+			(at 205.2552 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GRN1"
-		(shape input)
+		(shape output)
 		(at 40.64 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15349,18 +15485,20 @@
 		)
 		(uuid "fcfe5a08-c0fe-4012-8ba2-618da5d3e619")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 76.2 0)
+			(at 33.5048 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "BLU1"
-		(shape input)
+		(shape output)
 		(at 40.64 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15371,13 +15509,15 @@
 		)
 		(uuid "fd726e6e-3fa9-48fd-be21-0fe5b88ba1a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 78.74 0)
+			(at 33.5048 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15385,13 +15525,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0106a86b-c55c-4c99-8a48-2b36418e6a5b")
 		(property "Reference" "W62"
 			(at 194.31 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15400,6 +15544,8 @@
 		)
 		(property "Value" "K"
 			(at 194.31 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,29 +15554,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15458,13 +15610,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "01a07f43-88ab-4d08-a0cc-03c8f525ec92")
 		(property "Reference" "W43"
 			(at 158.75 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15473,6 +15629,8 @@
 		)
 		(property "Value" "Y"
 			(at 158.75 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,29 +15639,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15531,13 +15695,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 372.11 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "07515f21-023b-40b5-9d5b-8553160a7a8f")
 		(property "Reference" "W70"
 			(at 372.11 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,6 +15714,8 @@
 		)
 		(property "Value" "Add"
 			(at 372.11 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,29 +15724,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 372.11 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 372.11 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 372.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15604,13 +15780,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 241.3 226.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ae82299-c53e-4fec-bc65-be748037d83a")
 		(property "Reference" "W106"
 			(at 241.3 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,6 +15799,8 @@
 		)
 		(property "Value" "Status3"
 			(at 241.3 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15627,29 +15809,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 241.3 232.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 241.3 234.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 241.3 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15677,13 +15865,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 372.11 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e875595-946b-43ef-9429-0f8501980355")
 		(property "Reference" "W103"
 			(at 372.11 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,6 +15884,8 @@
 		)
 		(property "Value" "Return"
 			(at 372.11 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15700,29 +15894,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 372.11 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 372.11 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 372.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15750,13 +15950,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f7da726-d25e-4ccf-8c43-2241fcbfe177")
 		(property "Reference" "W52"
 			(at 354.33 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15765,6 +15969,8 @@
 		)
 		(property "Value" "N8"
 			(at 354.33 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,29 +15979,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15823,13 +16035,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 283.21 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "10120b5b-f366-4584-8eb3-99ebb0b852e7")
 		(property "Reference" "W31"
 			(at 283.21 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,6 +16054,8 @@
 		)
 		(property "Value" "PLS"
 			(at 283.21 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15846,29 +16064,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 283.21 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 283.21 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 283.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15896,13 +16120,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 318.77 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "15cea9e5-fb54-43fc-b7ae-7b954494e264")
 		(property "Reference" "W84"
 			(at 318.77 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15911,6 +16139,8 @@
 		)
 		(property "Value" "N1"
 			(at 318.77 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,29 +16149,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 318.77 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 318.77 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 318.77 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15969,13 +16205,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 283.21 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1768417f-6866-4d55-87a4-d5e46e2eb6a4")
 		(property "Reference" "W82"
 			(at 283.21 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,6 +16224,8 @@
 		)
 		(property "Value" "RShft"
 			(at 283.21 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15992,29 +16234,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 283.21 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 283.21 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 283.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16042,13 +16290,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "17ce324a-8760-49f2-a4c7-7229245fdb4d")
 		(property "Reference" "W1"
 			(at 52.07 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,6 +16309,8 @@
 		)
 		(property "Value" "Esc"
 			(at 52.07 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16065,29 +16319,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16103,7 +16363,7 @@
 			(uuid "f378b142-3ae2-4716-8173-65e858da79bf")
 		)
 		(instances
-			(project ""
+			(project "sr99-stm32-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/179ce375-fb2d-41c6-a0d9-592c742d8bb6"
 					(reference "W1")
 					(unit 1)
@@ -16115,13 +16375,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1977a8b7-b4ff-4149-8b16-af4580250246")
 		(property "Reference" "W35"
 			(at 354.33 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16130,6 +16394,8 @@
 		)
 		(property "Value" "Mul"
 			(at 354.33 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16138,29 +16404,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16188,13 +16460,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a39fd69-de9b-4db8-a8c0-009c8f5c6f9f")
 		(property "Reference" "W78"
 			(at 194.31 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16203,6 +16479,8 @@
 		)
 		(property "Value" "M"
 			(at 194.31 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16211,29 +16489,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16261,13 +16545,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b49d366-d82b-4a8d-a50b-407c6606afd2")
 		(property "Reference" "W34"
 			(at 336.55 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,6 +16564,8 @@
 		)
 		(property "Value" "Div"
 			(at 336.55 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16284,29 +16574,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16334,13 +16630,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c8bddbb-7a81-4cb3-a7b8-86e5aaef35d4")
 		(property "Reference" "W25"
 			(at 158.75 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16349,6 +16649,8 @@
 		)
 		(property "Value" "6"
 			(at 158.75 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16357,29 +16659,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16407,13 +16715,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d8c33d9-79f1-46e6-b456-35fb0c34b587")
 		(property "Reference" "W51"
 			(at 336.55 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16422,6 +16734,8 @@
 		)
 		(property "Value" "N7"
 			(at 336.55 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,29 +16744,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16480,13 +16800,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2119cb7f-8d05-4962-bb81-4f7749f047e0")
 		(property "Reference" "W80"
 			(at 247.65 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16495,6 +16819,8 @@
 		)
 		(property "Value" ">"
 			(at 247.65 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16503,29 +16829,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16553,13 +16885,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "24958692-29ed-4822-81e4-4a52459ff703")
 		(property "Reference" "W9"
 			(at 194.31 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16568,6 +16904,8 @@
 		)
 		(property "Value" "F8"
 			(at 194.31 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,29 +16914,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16626,13 +16970,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "262a8f95-91d9-463e-869d-d1575d1fc112")
 		(property "Reference" "W77"
 			(at 176.53 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,6 +16989,8 @@
 		)
 		(property "Value" "N"
 			(at 176.53 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16649,29 +16999,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16699,13 +17055,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 105.41 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "29a2cb8a-806f-4911-9b7a-cb8cc78622ed")
 		(property "Reference" "W40"
 			(at 105.41 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,6 +17074,8 @@
 		)
 		(property "Value" "E"
 			(at 105.41 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16722,29 +17084,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 105.41 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 105.41 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 105.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16772,13 +17140,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c2e950c-045f-4795-aa21-106161f4259a")
 		(property "Reference" "W95"
 			(at 229.87 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16787,6 +17159,8 @@
 		)
 		(property "Value" "Menu"
 			(at 229.87 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,29 +17169,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16845,13 +17225,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c8a0fd2-9c5f-41dc-9b24-52cd8214ce6e")
 		(property "Reference" "W101"
 			(at 336.55 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16860,6 +17244,8 @@
 		)
 		(property "Value" "N0"
 			(at 336.55 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,29 +17254,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16918,13 +17310,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d267570-3951-4f55-82cc-6c3938fc9926")
 		(property "Reference" "W16"
 			(at 336.55 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16933,6 +17329,8 @@
 		)
 		(property "Value" "F15"
 			(at 336.55 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16941,29 +17339,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16991,13 +17395,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f0ef0ea-e95f-4b93-9198-34add9fe0691")
 		(property "Reference" "W42"
 			(at 140.97 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17006,6 +17414,8 @@
 		)
 		(property "Value" "T"
 			(at 140.97 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17014,29 +17424,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17064,13 +17480,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3048bbd4-1980-430a-9fa4-0051b8d670d7")
 		(property "Reference" "W24"
 			(at 140.97 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17079,6 +17499,8 @@
 		)
 		(property "Value" "5"
 			(at 140.97 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17087,29 +17509,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17137,13 +17565,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "30bdab15-8cbd-44d3-ba1e-dcd40923a3a8")
 		(property "Reference" "W63"
 			(at 229.87 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17152,6 +17584,8 @@
 		)
 		(property "Value" "L"
 			(at 229.87 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17160,29 +17594,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17210,13 +17650,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "33627f41-0efd-45cf-8721-8cff5e935146")
 		(property "Reference" "W60"
 			(at 158.75 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17225,6 +17669,8 @@
 		)
 		(property "Value" "H"
 			(at 158.75 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17233,29 +17679,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17283,13 +17735,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 300.99 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "34791423-a9d0-4956-8f34-18dd5f0f9b5a")
 		(property "Reference" "W14"
 			(at 300.99 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17298,6 +17754,8 @@
 		)
 		(property "Value" "F13"
 			(at 300.99 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,29 +17764,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17356,13 +17820,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 105.41 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "365564ce-db9c-4f99-b2fb-de0286426313")
 		(property "Reference" "W4"
 			(at 105.41 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17371,6 +17839,8 @@
 		)
 		(property "Value" "F3"
 			(at 105.41 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17379,29 +17849,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 105.41 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 105.41 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 105.41 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17429,13 +17905,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d37a839-8d15-4d25-93a7-9a0adb205b74")
 		(property "Reference" "W47"
 			(at 247.65 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17444,6 +17924,8 @@
 		)
 		(property "Value" "P"
 			(at 247.65 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,29 +17934,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17502,13 +17990,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eb2da4e-c561-4753-884c-d375467d28ea")
 		(property "Reference" "W46"
 			(at 229.87 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17517,6 +18009,8 @@
 		)
 		(property "Value" "O"
 			(at 229.87 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,29 +18019,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17575,13 +18075,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "406f8ace-645c-4ddd-824d-68d6b6e321be")
 		(property "Reference" "W6"
 			(at 140.97 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17590,6 +18094,8 @@
 		)
 		(property "Value" "F5"
 			(at 140.97 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,29 +18104,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17648,13 +18160,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 69.85 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "40decb09-22c1-44ee-adfd-dcb4d82960cb")
 		(property "Reference" "W55"
 			(at 69.85 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17663,6 +18179,8 @@
 		)
 		(property "Value" "A"
 			(at 69.85 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,29 +18189,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 69.85 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 69.85 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 69.85 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17721,13 +18245,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4185ab82-db9b-46d9-a7ff-d55d26982251")
 		(property "Reference" "W30"
 			(at 265.43 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17736,6 +18264,8 @@
 		)
 		(property "Value" "MIN"
 			(at 265.43 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,29 +18274,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17794,13 +18330,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "41ce8686-7072-462e-be9d-0e2550ef1502")
 		(property "Reference" "W94"
 			(at 194.31 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17809,6 +18349,8 @@
 		)
 		(property "Value" "Spc >>"
 			(at 194.31 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,29 +18359,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17867,13 +18415,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 123.19 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4617c874-c96e-410e-ae72-01f7a9d58b44")
 		(property "Reference" "W5"
 			(at 123.19 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,6 +18434,8 @@
 		)
 		(property "Value" "F4"
 			(at 123.19 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17890,29 +18444,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 123.19 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 123.19 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 123.19 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17940,13 +18500,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 69.85 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "46206723-9d4a-407d-a2f6-90f6d5f91066")
 		(property "Reference" "W38"
 			(at 69.85 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17955,6 +18519,8 @@
 		)
 		(property "Value" "Q"
 			(at 69.85 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17963,29 +18529,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 69.85 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 69.85 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 69.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18013,13 +18585,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "47deb101-7fa9-4745-8bfc-72d4e4bd4e79")
 		(property "Reference" "W48"
 			(at 265.43 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,6 +18604,8 @@
 		)
 		(property "Value" "["
 			(at 265.43 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18036,29 +18614,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18086,13 +18670,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 69.85 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "47e11c1e-a305-477a-984b-bb47f177180a")
 		(property "Reference" "W88"
 			(at 69.85 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18101,6 +18689,8 @@
 		)
 		(property "Value" "Opt"
 			(at 69.85 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,29 +18699,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 69.85 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 69.85 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 69.85 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18157,15 +18753,104 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
-		(at 300.99 88.9 0)
+		(at 123.19 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47fd7853-ccfb-44ab-b19a-dd71b3f57f2b")
+		(property "Reference" "W90"
+			(at 123.19 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "<< Spc"
+			(at 123.19 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts-keyboard-lib:RGB-3528"
+			(at 123.19 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
+			(at 123.19 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
+			(at 123.19 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c393089-ffd0-49db-97a0-f037de760d7e")
+		)
+		(pin "3"
+			(uuid "2a90bb17-0742-4375-a7d5-2968958495e9")
+		)
+		(pin "4"
+			(uuid "900a24e8-bf21-4ec3-bcbe-a6e6a7f1e327")
+		)
+		(pin "1"
+			(uuid "08cc913f-be84-471d-9c14-9b20d2bf0aa6")
+		)
+		(instances
+			(project "sr99-stm32-hotswap"
+				(path "/e21675ae-fe46-4cba-befb-5225609570c3/179ce375-fb2d-41c6-a0d9-592c742d8bb6"
+					(reference "W90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
+		(at 300.99 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "488e74c9-17b0-4c7a-a0b7-9d3a601a7ff9")
 		(property "Reference" "W32"
 			(at 300.99 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18174,6 +18859,8 @@
 		)
 		(property "Value" "Bspc"
 			(at 300.99 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18182,29 +18869,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18232,13 +18925,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4925a3c5-25ae-4453-af3e-5cbf5928ccc6")
 		(property "Reference" "W59"
 			(at 140.97 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18247,6 +18944,8 @@
 		)
 		(property "Value" "G"
 			(at 140.97 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,29 +18954,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18305,13 +19010,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "545ef0ec-9831-43c4-9bc9-5526a20fcbe7")
 		(property "Reference" "W19"
 			(at 52.07 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18320,6 +19029,8 @@
 		)
 		(property "Value" "Tdl"
 			(at 52.07 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,29 +19039,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18378,13 +19095,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "571ff369-a99e-4c93-80ba-134ded802464")
 		(property "Reference" "W29"
 			(at 247.65 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18393,6 +19114,8 @@
 		)
 		(property "Value" "0"
 			(at 247.65 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18401,29 +19124,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18451,13 +19180,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "58965cd2-927a-4374-ad40-b803e3ad766f")
 		(property "Reference" "W7"
 			(at 158.75 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18466,6 +19199,8 @@
 		)
 		(property "Value" "F6"
 			(at 158.75 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18474,29 +19209,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18524,13 +19265,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 372.11 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a2c1334-5e1e-4d3a-b5f2-66f298dcdf21")
 		(property "Reference" "W53"
 			(at 372.11 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18539,6 +19284,8 @@
 		)
 		(property "Value" "N9"
 			(at 372.11 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18547,29 +19294,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 372.11 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 372.11 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 372.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18597,13 +19350,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b3f9f12-65ca-45e3-85c4-1b2e5c1c1e96")
 		(property "Reference" "W3"
 			(at 87.63 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18612,6 +19369,8 @@
 		)
 		(property "Value" "F2"
 			(at 87.63 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18620,29 +19379,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18670,13 +19435,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 190.5 226.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b917574-fde5-40eb-a744-36e251416da4")
 		(property "Reference" "W104"
 			(at 190.5 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18685,6 +19454,8 @@
 		)
 		(property "Value" "Status1"
 			(at 190.5 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,29 +19464,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 190.5 232.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 190.5 234.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 190.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18743,13 +19520,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 300.99 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "62b61266-54aa-4e99-977e-a835db1fc5cd")
 		(property "Reference" "W50"
 			(at 300.99 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18758,6 +19539,8 @@
 		)
 		(property "Value" "\\"
 			(at 300.99 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18766,29 +19549,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18816,13 +19605,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "65cb402b-26a1-47a2-8e03-664813577de0")
 		(property "Reference" "W21"
 			(at 87.63 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18831,6 +19624,8 @@
 		)
 		(property "Value" "2"
 			(at 87.63 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18839,29 +19634,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18889,13 +19690,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 300.99 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "67fda1f8-233e-4def-a88c-2f3d9e3dc672")
 		(property "Reference" "W66"
 			(at 300.99 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18904,6 +19709,8 @@
 		)
 		(property "Value" "Ent"
 			(at 300.99 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,29 +19719,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18962,13 +19775,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 69.85 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6efc77b6-473f-43f2-9fd5-078e85621cf4")
 		(property "Reference" "W2"
 			(at 69.85 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18977,6 +19794,8 @@
 		)
 		(property "Value" "F1"
 			(at 69.85 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18985,29 +19804,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 69.85 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 69.85 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19035,13 +19860,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "74bc0f6f-f454-4041-a88d-f3c52361e628")
 		(property "Reference" "W39"
 			(at 87.63 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19050,6 +19879,8 @@
 		)
 		(property "Value" "W"
 			(at 87.63 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19058,29 +19889,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19108,13 +19945,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ef6f05-ef87-4fa4-9e54-5792176679ae")
 		(property "Reference" "W10"
 			(at 229.87 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,6 +19964,8 @@
 		)
 		(property "Value" "F9"
 			(at 229.87 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19131,29 +19974,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19181,13 +20030,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "78d262a3-a67b-4b6a-850d-e686cd13faea")
 		(property "Reference" "W28"
 			(at 229.87 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19196,6 +20049,8 @@
 		)
 		(property "Value" "9"
 			(at 229.87 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19204,29 +20059,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19254,13 +20115,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b14a45c-870f-4f3f-a35d-96aacc1e9c07")
 		(property "Reference" "W61"
 			(at 176.53 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19269,6 +20134,8 @@
 		)
 		(property "Value" "J"
 			(at 176.53 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19277,29 +20144,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19327,13 +20200,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c1f590b-13b3-474b-b8fe-800a57ee3a03")
 		(property "Reference" "W44"
 			(at 176.53 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19342,6 +20219,8 @@
 		)
 		(property "Value" "U"
 			(at 176.53 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19350,29 +20229,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19400,13 +20285,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d4085ba-d0d3-4bd6-ad92-6dc5ba285ec0")
 		(property "Reference" "W68"
 			(at 336.55 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19415,6 +20304,8 @@
 		)
 		(property "Value" "N5"
 			(at 336.55 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19423,29 +20314,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19473,13 +20370,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8172ced2-d2d0-451d-b1f0-8f9a6d48c9c1")
 		(property "Reference" "W71"
 			(at 52.07 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19488,6 +20389,8 @@
 		)
 		(property "Value" "LShft"
 			(at 52.07 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19496,29 +20399,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19546,13 +20455,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 283.21 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "85dcd76e-df24-41bc-ae52-0bc7d9002ffe")
 		(property "Reference" "W49"
 			(at 283.21 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19561,6 +20474,8 @@
 		)
 		(property "Value" "]"
 			(at 283.21 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19569,29 +20484,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 283.21 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 283.21 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 283.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19619,13 +20540,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 123.19 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "861a9eb2-6c7e-4628-bb39-20cca103fbc4")
 		(property "Reference" "W23"
 			(at 123.19 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19634,6 +20559,8 @@
 		)
 		(property "Value" "4"
 			(at 123.19 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19642,29 +20569,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 123.19 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 123.19 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 123.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19692,13 +20625,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 283.21 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dacda32-ec55-4480-9e83-77fa68af896c")
 		(property "Reference" "W98"
 			(at 283.21 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,6 +20644,8 @@
 		)
 		(property "Value" "Left"
 			(at 283.21 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19715,29 +20654,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 283.21 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 283.21 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 283.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19765,13 +20710,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc866c2-9896-4000-bb80-f2a868d30e76")
 		(property "Reference" "W27"
 			(at 194.31 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19780,6 +20729,8 @@
 		)
 		(property "Value" "8"
 			(at 194.31 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19788,29 +20739,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19838,13 +20795,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ec103b2-a7ec-4093-9388-b4ade14d7130")
 		(property "Reference" "W17"
 			(at 354.33 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19853,6 +20814,8 @@
 		)
 		(property "Value" "F16"
 			(at 354.33 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19861,29 +20824,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19911,13 +20880,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f4f70fd-ebcf-46a2-a967-272db0f5b68a")
 		(property "Reference" "W37"
 			(at 52.07 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19926,6 +20899,8 @@
 		)
 		(property "Value" "Tab"
 			(at 52.07 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19934,29 +20909,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19984,13 +20965,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "916f9c00-9b74-4d3e-9d69-397a9f0b4fdf")
 		(property "Reference" "W91"
 			(at 140.97 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19999,6 +20984,8 @@
 		)
 		(property "Value" "< Spc"
 			(at 140.97 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20007,29 +20994,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20057,13 +21050,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 105.41 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "94034552-3bfe-449b-9763-0e2bb1f8f964")
 		(property "Reference" "W57"
 			(at 105.41 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20072,6 +21069,8 @@
 		)
 		(property "Value" "D"
 			(at 105.41 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,29 +21079,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 105.41 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 105.41 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 105.41 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20130,13 +21135,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 215.9 226.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9454c4ef-1aec-4e6c-a237-1608e4ce7c7b")
 		(property "Reference" "W105"
 			(at 215.9 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20145,6 +21154,8 @@
 		)
 		(property "Value" "Status2"
 			(at 215.9 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20153,29 +21164,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 215.9 232.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 215.9 234.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 215.9 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20203,13 +21220,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 105.41 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "95cbe2db-f56e-4e35-9977-86f7e3dbd0e4")
 		(property "Reference" "W73"
 			(at 105.41 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20218,6 +21239,8 @@
 		)
 		(property "Value" "X"
 			(at 105.41 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20226,29 +21249,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 105.41 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 105.41 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 105.41 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20276,13 +21305,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "97dd581f-a9f1-4756-9e23-15b85c775390")
 		(property "Reference" "W81"
 			(at 265.43 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20291,6 +21324,8 @@
 		)
 		(property "Value" "?"
 			(at 265.43 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20299,29 +21334,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20349,13 +21390,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 336.55 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d99dd02-3556-4306-9d75-0e90afcccf4c")
 		(property "Reference" "W85"
 			(at 336.55 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20364,6 +21409,8 @@
 		)
 		(property "Value" "N2"
 			(at 336.55 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20372,29 +21419,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 336.55 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 336.55 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 336.55 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20422,13 +21475,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fa4b655-ffc1-4dae-9266-49ad0b37d441")
 		(property "Reference" "W76"
 			(at 158.75 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20437,6 +21494,8 @@
 		)
 		(property "Value" "B"
 			(at 158.75 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,29 +21504,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20495,13 +21560,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 318.77 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5e61a4b-c280-4255-a0ce-324f175d9372")
 		(property "Reference" "W100"
 			(at 318.77 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20510,6 +21579,8 @@
 		)
 		(property "Value" "Right"
 			(at 318.77 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20518,29 +21589,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 318.77 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 318.77 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 318.77 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20568,13 +21645,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 318.77 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a75938be-3e0a-40e8-9525-0c222fa895d0")
 		(property "Reference" "W15"
 			(at 318.77 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20583,6 +21664,8 @@
 		)
 		(property "Value" "F14"
 			(at 318.77 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20591,29 +21674,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 318.77 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 318.77 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 318.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20641,13 +21730,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 318.77 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a85f5110-a0ee-4133-a9f4-92a9f36068d3")
 		(property "Reference" "W67"
 			(at 318.77 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,6 +21749,8 @@
 		)
 		(property "Value" "N4"
 			(at 318.77 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20664,29 +21759,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 318.77 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 318.77 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 318.77 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20714,13 +21815,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "abbf518f-bc53-4c09-832e-6a5c7c1b281e")
 		(property "Reference" "W86"
 			(at 354.33 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20729,6 +21834,8 @@
 		)
 		(property "Value" "N3"
 			(at 354.33 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20737,29 +21844,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20787,13 +21900,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 69.85 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "acad51d4-41ca-439c-b8c0-ee4658c9b8de")
 		(property "Reference" "W20"
 			(at 69.85 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,6 +21919,8 @@
 		)
 		(property "Value" "1"
 			(at 69.85 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20810,29 +21929,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 69.85 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 69.85 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20860,13 +21985,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "aedc6298-ba15-45b9-84dd-580b059f39c8")
 		(property "Reference" "W56"
 			(at 87.63 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20875,6 +22004,8 @@
 		)
 		(property "Value" "S"
 			(at 87.63 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20883,29 +22014,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20933,13 +22070,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 372.11 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0280fe1-8653-417d-a0f9-cd2598fbc0e9")
 		(property "Reference" "W18"
 			(at 372.11 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,6 +22089,8 @@
 		)
 		(property "Value" "F17"
 			(at 372.11 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20956,29 +22099,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 372.11 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 372.11 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 372.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21006,13 +22155,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1deab6f-0a4b-4aa0-8c49-2ac22f90a868")
 		(property "Reference" "W87"
 			(at 52.07 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21021,6 +22174,8 @@
 		)
 		(property "Value" "Ctrl"
 			(at 52.07 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21029,29 +22184,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21079,13 +22240,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b32ad15c-7f8d-4461-a5af-db1516a5cb5c")
 		(property "Reference" "W8"
 			(at 176.53 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21094,6 +22259,8 @@
 		)
 		(property "Value" "F7"
 			(at 176.53 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21102,29 +22269,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21152,13 +22325,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 229.87 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4d427f6-a4e2-4e5d-a8d8-76f94570b973")
 		(property "Reference" "W79"
 			(at 230.124 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21167,6 +22344,8 @@
 		)
 		(property "Value" "<"
 			(at 229.87 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21175,29 +22354,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 229.87 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 229.87 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 229.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21225,13 +22410,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 123.19 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b615a954-42b4-448c-b031-af75d7503ffd")
 		(property "Reference" "W74"
 			(at 123.19 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21240,6 +22429,8 @@
 		)
 		(property "Value" "C"
 			(at 123.19 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21248,29 +22439,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 123.19 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 123.19 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 123.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21298,13 +22495,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8d8e57e-af7e-4966-b5c9-7a5fb3b4b0a6")
 		(property "Reference" "W12"
 			(at 265.43 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21313,6 +22514,8 @@
 		)
 		(property "Value" "F11"
 			(at 265.43 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21321,29 +22524,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21371,13 +22580,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 158.75 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c07bf7ac-51f0-47be-b509-31d58f8ad9d0")
 		(property "Reference" "W92"
 			(at 158.75 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21386,6 +22599,8 @@
 		)
 		(property "Value" "Space"
 			(at 158.75 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21394,29 +22609,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 158.75 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 158.75 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 158.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21444,13 +22665,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 283.21 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c35842f3-ad43-476d-9e16-b25df9f79e3d")
 		(property "Reference" "W13"
 			(at 283.21 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21459,6 +22684,8 @@
 		)
 		(property "Value" "F12"
 			(at 283.21 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21467,29 +22694,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 283.21 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 283.21 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 283.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21517,13 +22750,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6c151a6-b9d6-4b37-8493-160218f26ef2")
 		(property "Reference" "W65"
 			(at 265.43 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21532,6 +22769,8 @@
 		)
 		(property "Value" "\""
 			(at 265.43 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,29 +22779,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21590,13 +22835,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 300.99 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c734ca2e-77ae-4009-b9af-fab66a4613d3")
 		(property "Reference" "W99"
 			(at 300.99 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21605,6 +22854,8 @@
 		)
 		(property "Value" "Down"
 			(at 300.99 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21613,29 +22864,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21663,13 +22920,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 52.07 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc0caca8-8bfb-4694-bef3-d323f4430a6c")
 		(property "Reference" "W54"
 			(at 52.07 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21678,6 +22939,8 @@
 		)
 		(property "Value" "CapsL"
 			(at 52.07 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21686,29 +22949,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 52.07 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 52.07 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 52.07 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21736,13 +23005,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d506ceaa-6012-4217-b49d-58efbb3228f6")
 		(property "Reference" "W72"
 			(at 87.63 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21751,6 +23024,8 @@
 		)
 		(property "Value" "Z"
 			(at 87.63 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21759,29 +23034,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21809,13 +23090,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 318.77 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "da7868fa-ccb3-4aaa-b1ba-0c0993d3806f")
 		(property "Reference" "W33"
 			(at 318.77 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21824,6 +23109,8 @@
 		)
 		(property "Value" "NumL"
 			(at 318.77 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21832,29 +23119,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 318.77 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 318.77 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 318.77 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21882,13 +23175,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 105.41 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc2f8716-3591-4d4c-8934-eae23196a754")
 		(property "Reference" "W22"
 			(at 105.41 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21897,6 +23194,8 @@
 		)
 		(property "Value" "3"
 			(at 105.41 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21905,29 +23204,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 105.41 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 105.41 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21955,13 +23260,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "df17f987-cc1f-4052-8eae-1eb1dceaf0f8")
 		(property "Reference" "W11"
 			(at 247.65 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21970,6 +23279,8 @@
 		)
 		(property "Value" "F10"
 			(at 247.65 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21978,29 +23289,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22028,13 +23345,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "df76ac20-f5dc-4d25-8e3a-b3ec2dcf64fe")
 		(property "Reference" "W64"
 			(at 247.65 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22043,6 +23364,8 @@
 		)
 		(property "Value" ":"
 			(at 247.65 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22051,29 +23374,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22101,13 +23430,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 194.31 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfb17796-12c8-4993-8bca-902c691b3fb4")
 		(property "Reference" "W45"
 			(at 194.31 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22116,6 +23449,8 @@
 		)
 		(property "Value" "I"
 			(at 194.31 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22124,29 +23459,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 194.31 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 194.31 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22174,13 +23515,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 247.65 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dff952cd-92fb-43af-baeb-b973f8c7f00b")
 		(property "Reference" "W96"
 			(at 247.65 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22189,6 +23534,8 @@
 		)
 		(property "Value" "Fn1"
 			(at 247.65 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22197,29 +23544,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 247.65 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 247.65 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 247.65 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22247,13 +23600,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 372.11 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3b10615-780c-407d-aa14-b66e39507c0e")
 		(property "Reference" "W36"
 			(at 372.11 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22262,6 +23619,8 @@
 		)
 		(property "Value" "Sub"
 			(at 372.11 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22270,29 +23629,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 372.11 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 372.11 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 372.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22320,13 +23685,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3fa3cd0-1992-44a9-bf6c-ac1394be3baa")
 		(property "Reference" "W93"
 			(at 176.53 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22335,6 +23704,8 @@
 		)
 		(property "Value" "Spc >"
 			(at 176.53 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22343,29 +23714,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22393,13 +23770,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 123.19 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6476ce1-4fa2-4545-92a2-5dbf57a54dfe")
 		(property "Reference" "W41"
 			(at 123.19 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22408,6 +23789,8 @@
 		)
 		(property "Value" "R"
 			(at 123.19 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22416,29 +23799,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 123.19 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 123.19 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 123.19 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22466,13 +23855,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f18a3f86-1538-407a-a36d-f23f4a077858")
 		(property "Reference" "W102"
 			(at 354.33 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22481,6 +23874,8 @@
 		)
 		(property "Value" "Dot"
 			(at 354.33 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22489,29 +23884,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22539,13 +23940,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 87.63 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1c5f5aa-3920-41e8-a9e6-2bc6bd7d5fa0")
 		(property "Reference" "W89"
 			(at 87.63 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,6 +23959,8 @@
 		)
 		(property "Value" "Cmd"
 			(at 87.63 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22562,29 +23969,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 87.63 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 87.63 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 87.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22612,13 +24025,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 265.43 184.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f93ac6-e4e2-44e5-b0c5-f095db2cce9b")
 		(property "Reference" "W97"
 			(at 265.43 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22627,6 +24044,8 @@
 		)
 		(property "Value" "Fn2"
 			(at 265.43 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22635,29 +24054,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 265.43 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 265.43 192.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 265.43 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22685,13 +24110,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 300.99 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5cef73e-0a64-4884-a6ad-7c93e8dce179")
 		(property "Reference" "W83"
 			(at 300.99 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22700,6 +24129,8 @@
 		)
 		(property "Value" "Up"
 			(at 300.99 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22708,29 +24139,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 300.99 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 300.99 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 300.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22758,13 +24195,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 123.19 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9df8469-f13b-4b82-9a6a-d063f8eba6b5")
 		(property "Reference" "W58"
 			(at 123.19 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22773,6 +24214,8 @@
 		)
 		(property "Value" "F"
 			(at 123.19 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22781,29 +24224,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 123.19 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 123.19 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 123.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22831,13 +24280,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 176.53 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa6fe71b-bee2-4e37-879b-127c84d8d4f4")
 		(property "Reference" "W26"
 			(at 176.53 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22846,6 +24299,8 @@
 		)
 		(property "Value" "7"
 			(at 176.53 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22854,29 +24309,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 176.53 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 176.53 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 176.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22902,88 +24363,19 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
-		(at 123.19 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb7bedbc-749d-47d1-8290-41840ef2e902")
-		(property "Reference" "W90"
-			(at 123.19 177.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "<< Spc"
-			(at 123.19 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ts-keyboard-lib:RGB-3528"
-			(at 123.19 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
-			(at 123.19 192.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
-			(at 123.19 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbe1fd6f-2ce9-420d-8e51-208ca0365de7")
-		)
-		(pin "3"
-			(uuid "7b495a4e-5358-428a-b253-071888e7b5e0")
-		)
-		(pin "4"
-			(uuid "fd64f0cd-1661-4a5f-a0c9-b8d46207c7cb")
-		)
-		(pin "1"
-			(uuid "785b0114-2b51-48aa-9e86-bb880430be7c")
-		)
-		(instances
-			(project "sr99-stm32-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/179ce375-fb2d-41c6-a0d9-592c742d8bb6"
-					(reference "W90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 140.97 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdfc284f-f1ae-4d3a-b85d-5b3b7dc8aca1")
 		(property "Reference" "W75"
 			(at 140.97 153.162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22992,6 +24384,8 @@
 		)
 		(property "Value" "V"
 			(at 140.97 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23000,29 +24394,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 140.97 166.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 140.97 168.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 140.97 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23050,13 +24450,17 @@
 		(lib_id "ts-keyboard-lib:Comm_Anode_RGB4")
 		(at 354.33 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe836bf5-fba0-4237-9eb5-675d6f23fea5")
 		(property "Reference" "W69"
 			(at 354.33 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23065,6 +24469,8 @@
 		)
 		(property "Value" "N6"
 			(at 354.33 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23073,29 +24479,35 @@
 		)
 		(property "Footprint" "ts-keyboard-lib:RGB-3528"
 			(at 354.33 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://github.com/Tecsmith/ts-kicad-lib/blob/main/docs/RGB3528-4P-C183826.pdf.pdf"
 			(at 354.33 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "EVERLIGHT 67-23-RSHGRBYC-M050505-ET1-CS Common Anode RGB LED"
 			(at 354.33 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

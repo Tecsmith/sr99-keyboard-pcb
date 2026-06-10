@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e21675ae-fe46-4cba-befb-5225609570c3")
 	(paper "A4")
 	(lib_symbols)
@@ -4001,11 +4001,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "179ce375-fb2d-41c6-a0d9-592c742d8bb6")
 		(property "Sheetname" "ARGB Matrix"
 			(at 210.82 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,6 +4017,8 @@
 		)
 		(property "Sheetfile" "sr99-stm32-hotswap-argb2.kicad_sch"
 			(at 210.82 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,11 +4047,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "303ace07-4a37-44e4-b80c-3ccb7c663daf")
 		(property "Sheetname" "Matrix"
 			(at 86.36 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,6 +4063,8 @@
 		)
 		(property "Sheetfile" "sr99-stm32-hotswap-matrix.kicad_sch"
 			(at 86.36 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,11 +4093,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7fe407f0-d791-4698-bdc1-e9063f8cd43a")
 		(property "Sheetname" "MCU and power"
 			(at 24.13 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,6 +4109,8 @@
 		)
 		(property "Sheetfile" "sr99-stm32-hotswap-common-mcu.kicad_sch"
 			(at 24.13 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,11 +4139,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "acc4d29e-73f7-4883-839f-e4081a1f83aa")
 		(property "Sheetname" "ARGB Driver"
 			(at 148.59 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,6 +4155,8 @@
 		)
 		(property "Sheetfile" "sr99-stm32-hotswap-argb1.kicad_sch"
 			(at 148.59 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

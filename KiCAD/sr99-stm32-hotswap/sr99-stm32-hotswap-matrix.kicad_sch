@@ -3106,12 +3106,6 @@
 		(uuid "23f56664-6c7b-4885-b68b-c62f9c1e3dd8")
 	)
 	(junction
-		(at 33.02 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "248a30d5-65b5-49da-90d0-09ad35c74b78")
-	)
-	(junction
 		(at 180.34 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3164,12 +3158,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31522059-87a7-438f-ae1b-bf40b2d44d78")
-	)
-	(junction
-		(at 172.72 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31800283-d47a-49d4-b6ad-bca161651eea")
 	)
 	(junction
 		(at 116.84 162.56)
@@ -3872,12 +3860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be8ff8b4-eb9b-4784-810d-075babbadb6a")
-	)
-	(junction
-		(at 147.32 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf45ab90-e80d-4200-9c7d-016d6eb48dfc")
 	)
 	(junction
 		(at 38.1 127)
@@ -4611,16 +4593,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 96.52) (xy 30.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae4ff11-5b42-4569-9eb4-4616f7843dfe")
-	)
-	(wire
-		(pts
 			(xy 104.14 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -4981,16 +4953,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 162.56) (xy 198.12 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29338861-9614-48be-81ec-f7ff7ec8a95d")
-	)
-	(wire
-		(pts
 			(xy 78.74 114.3) (xy 81.28 114.3)
 		)
 		(stroke
@@ -5318,16 +5280,6 @@
 			(type default)
 		)
 		(uuid "37558fec-b8f5-422e-9013-e97bf3f69e66")
-	)
-	(wire
-		(pts
-			(xy 172.72 137.16) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384463a8-2f33-4dc3-8672-8c4d3396d374")
 	)
 	(wire
 		(pts
@@ -6581,16 +6533,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 157.48) (xy 190.5 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b049ed8-2b51-47af-b53a-307a675f6f77")
-	)
-	(wire
-		(pts
 			(xy 218.44 71.12) (xy 220.98 71.12)
 		)
 		(stroke
@@ -7008,16 +6950,6 @@
 			(type default)
 		)
 		(uuid "8ca80ea7-bc8d-43b8-a8eb-694ff3fc6ca7")
-	)
-	(wire
-		(pts
-			(xy 144.78 139.7) (xy 144.78 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d017eb0-c43d-4dc2-ac3d-53db0d4b534c")
 	)
 	(wire
 		(pts
@@ -8211,16 +8143,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 33.02 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2151b94-cab8-435b-bda2-a02f956b0f30")
-	)
-	(wire
-		(pts
 			(xy 76.2 58.42) (xy 76.2 63.5)
 		)
 		(stroke
@@ -8668,16 +8590,6 @@
 			(type default)
 		)
 		(uuid "e9edb224-1151-4c57-93fc-91e9ff137a1e")
-	)
-	(wire
-		(pts
-			(xy 147.32 137.16) (xy 144.78 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f4ff45-e4c9-4554-9dba-f96fef9d76ef")
 	)
 	(wire
 		(pts
@@ -9333,30 +9245,6 @@
 			)
 		)
 	)
-	(global_label "XFn2"
-		(shape input)
-		(at 172.72 149.86 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a45020d-5f88-4aa9-9b66-98ba871f5176")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 157.5018 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "COL12"
 		(shape output)
 		(at 180.34 22.86 90)
@@ -9513,30 +9401,6 @@
 			)
 		)
 	)
-	(global_label "XMn"
-		(shape input)
-		(at 144.78 149.86 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71222e99-e7fa-460d-8a83-94f0c5354ecb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 156.6551 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ENC_D"
 		(shape input)
 		(at 104.14 177.8 180)
@@ -9687,31 +9551,6 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 198.12 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "8420dfe6-468e-4357-a818-d434c1a3ac09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.3666 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
 		(at 22.86 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9809,30 +9648,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "XCLk"
-		(shape input)
-		(at 25.4 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92696b2d-420f-4667-b602-df4efe12d5ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9985,30 +9800,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "XCLk"
-		(shape output)
-		(at 187.96 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2ef83bd-7d13-4835-ab72-8a4fb9f3b678")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.8248 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13979,7 +13770,7 @@
 	)
 	(symbol
 		(lib_id "ts-keyboard-lib:Momentary_Switch")
-		(at 35.56 96.52 0)
+		(at 35.56 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13990,7 +13781,7 @@
 		(fields_autoplaced yes)
 		(uuid "24ce0454-a1a9-458a-867d-6ac6dc26f917")
 		(property "Reference" "SW55"
-			(at 35.567 88.9 0)
+			(at 35.553 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14000,7 +13791,7 @@
 			)
 		)
 		(property "Value" "CapsL"
-			(at 35.567 91.44 0)
+			(at 35.553 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22484,86 +22275,6 @@
 			(project "sr99-stm32-hotswap"
 				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
 					(reference "SW97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ts-keyboard-lib:Momentary_Switch")
-		(at 193.04 160.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8caf63dc-4ee8-4a8e-aac8-a1a692cf424e")
-		(property "Reference" "SW101"
-			(at 193.033 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Alt-CapsL"
-			(at 193.033 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ts-keyboard-lib:SW_MX_HotSwap"
-			(at 193.04 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbcbb868-4948-49a2-8320-391181d037a8")
-		)
-		(pin "2"
-			(uuid "fb3c4d83-baa0-46e5-ab65-14b8388329e0")
-		)
-		(instances
-			(project "sr99-stm32-hotswap"
-				(path "/e21675ae-fe46-4cba-befb-5225609570c3/303ace07-4a37-44e4-b80c-3ccb7c663daf"
-					(reference "SW101")
 					(unit 1)
 				)
 			)

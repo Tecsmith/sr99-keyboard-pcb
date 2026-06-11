@@ -6,15 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased] - Ongoing
+## [Rev.B](#Unreleased) - Ongoing
 
 ### Changed
 
 - KiCAD design *(Complete re-do!)*
+- `STM32G474` STM32 CPU
 - Beta 2
+  - :warning: **WARNING:** Not manufactured
+  - :warning: **WARNING:** Not tested
+◊
 
-
-## [v0.1] - 2024-09-27
+## [Rev.A] - 2024-09-27
 
 ### Added
 
@@ -27,4 +30,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 [Unreleased]: https://github.com/Tecsmith/sr99-keyboard-pcb
-[v0.1]: https://github.com/Tecsmith/sr99-keyboard-pcb/tree/v0.1
+[Rev.A]: https://github.com/Tecsmith/sr99-keyboard-pcb/tree/v0.1

@@ -36,11 +36,9 @@ A 980-layout (99-key) compact near-full size keyboard.
 #### Top
 ![](docs/sr99-pcb-top.png)
 
-<!--
 #### Bottom *(Component side)*
 ![](docs/sr99-pcb-btm.png)
--->
-
+◊
 ### Layout ideation renders
 
 #### Render
@@ -56,15 +54,15 @@ A 980-layout (99-key) compact near-full size keyboard.
 ## Planned Features
 
 - [ ] QMK build, with Via/l support
-- [ ] 1x `STM32G474` STM32 CPU *(based on Black Pill design)*
-- [ ] 1x `M95640-DRE` 8K SPI EEPROM Module
-- [ ] 3x `MC74HC589A` SPI Input Shift Registers *- possibly faster scan rates*
-- [ ] 2x `IS31FL3743B` RGB Drivers, with independent LDOs
+- [x] 1x `STM32G474` STM32 CPU *(based on Black Pill design)*
+- [x] 1x `M95640-DRE` 8K SPI EEPROM Module
+- [x] 3x `MC74HC589A` SPI Input Shift Registers *- possibly faster scan rates*
+- [x] 2x `IS31FL3743B` RGB Drivers, with independent LDOs
 - [ ] 2x SKYLOONG rotary encoder/switch positions
-- [ ] UDB C-Series Usb-C JST-SH
+- [x] UDB C-Series Usb-C JST-SH
 
 <!--
-#### Addons
+#### Addons / Wishlist
 
 - [ ] DIP Switch daughter board *(4-position)*
 - [ ] ~~Case slide switch daughter board *(Win/Mac 2-state, + USB+BT+2.4GHz 3-state)*~~ *(To do)*
